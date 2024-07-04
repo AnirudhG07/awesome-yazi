@@ -1,16 +1,44 @@
 # awesome-yazi
+
 Yazi - ⚡️ Blazing Fast Terminal File Manager
 
 ## Contents
 
-## Official 
+- [awesome-yazi](#awesome-yazi)
+  - [Contents](#contents)
+  - [Official](#official)
+  - [Plugins](#plugins)
+    - [Functional Enhancements](#functional-enhancements)
+      - [Previewers](#previewers)
+      - [Jumping](#jumping)
+      - [Bookmarks](#bookmarks)
+      - [File Actions](#file-actions)
+      - [Filter Enhancements](#filter-enhancements)
+      - [Enter Enhancements](#enter-enhancements)
+      - [General command enhancements](#general-command-enhancements)
+    - [UI enhancements:](#ui-enhancements)
+    - [Preloaders](#preloaders)
+      - [Images](#images)
+    - [Fetchers](#fetchers)
+    - [NeoVim](#neovim)
+      - [Nvim](#nvim)
+      - [Vim](#vim)
+    - [Shell plugins](#shell-plugins)
+    - [Utilities](#utilities)
+  - [Flavors](#flavors)
+  - [Themes](#themes)
+  - [Community](#community)
+
+## Official
 
 - [Website](https://yazi-rs.github.io)
 - [Documentation](https://yazi-rs.github.io/docs/installation)
 - [Repository](https://github.com/sxyazi/yazi)
 
 ## Plugins
+
 ### Functional Enhancements
+
 #### Previewers
 
 - [glow.yazi](https://github.com/Reledia/glow.yazi) - Preview markdown files using [glow](https://github.com/charmbracelet/glow).
@@ -20,8 +48,9 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 - [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An archive previewer plugin for Yazi, using [ouch](https://github.com/ouch-org/ouch).
 - [torrent-preview.yazi](https://github.com/kirasok/torrent-preview.yazi) - Preview "\*.torrent" files using [transmission-cli](https://github.com/transmission/transmission)
 - [eza-preview.yazi](https://github.com/sharklasers996/eza-preview.yazi) - yazi plugin to preview directories using eza, list and tree modes
-  
-#### Jumping 
+
+#### Jumping
+
 - [relative-motions.yazi](https://github.com/dedukun/relative-motions.yazi) - A Yazi plugin based about vim motions.
 - [keyjump.yazi](https://github.com/DreamMaoMao/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
 - [searchjump.yazi](https://github.com/DreamMaoMao/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
@@ -29,16 +58,19 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 - [fg.yazi](https://github.com/DreamMaoMao/fg.yazi) - A Yazi plugin that supports file searching with an fzf preview.
 
 #### Bookmarks
+
 - [bookmarks.yazi](https://github.com/dedukun/bookmarks.yazi) - A Yazi plugin that adds the basic functionality of Vi-like marks.
 - [bookmarks-persistence.yazi](https://github.com/DreamMaoMao/bookmarks-persistence.yazi) - A Yazi plugin that supports persistent bookmark management.No bookmarks are lost after you close yazi.
 - [yamb.yazi](https://github.com/h-hg/yamb.yazi) - Yet another bookmarks plugins. It supports persistence, jumping by a key, jumping by [fzf](https://github.com/junegunn/fzf).
 
 #### File Actions
+
 - [chmod.yazi](https://github.com/yazi-rs/plugins/tree/main/chmod.yazi) - Execute `chmod` on the selected files to change their mode.
 - [diff.yazi](https://github.com/yazi-rs/plugins/tree/main/diff.yazi) - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
 - [archive.yazi](https://github.com/KKV9/archive.yazi) - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 
 #### Filter Enhancements
+
 - [smart-filter.yazi](https://github.com/yazi-rs/plugins/tree/main/smart-filter.yazi) - Makes filters smarter: continuous filtering, automatically enter unique directory, open file on submitting.
 
 #### Enter Enhancements
@@ -63,14 +95,17 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
 
 ### Preloaders
+
 #### Images
+
 - [allmytoes.yazi](https://github.com/Sonico98/allmytoes.yazi) - Preview freedesktop-compatible thumbnails using [allmytoes](https://gitlab.com/allmytoes/allmytoes).
 
 ### Fetchers
 
 - [mime.yazi](https://github.com/DreamMaoMao/mime.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
 
-### NeoVim 
+### NeoVim
+
 #### Nvim
 
 - [tfm.nvim](https://github.com/Rolv-Apneseth/tfm.nvim) - Neovim plugin for terminal file manager integration.
@@ -82,7 +117,7 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 
 - [yazi.vim](https://github.com/chriszarate/yazi.vim) - Vim plugin for Yazi.
 
-### Shell plugins 
+### Shell plugins
 
 - [yazi-prompt.sh](https://github.com/Sonico98/yazi-prompt.sh) - Display an indicator in your prompt when running inside a yazi subshell.
 - [custom-shell.yazi](https://github.com/AnirudhG07/custom-shell.yazi) - Set your custom-shell as your default yazi Shell.
@@ -93,6 +128,7 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 - [icons-brew.yazi](https://github.com/lpnh/icons-brew.yazi) - Make a hot `theme.toml` for your Yazi icons with your favorite color palette.
 
 ## Flavors
+
 - [catppuccin-mocha.yazi](./catppuccin-mocha.yazi)
 - [catppuccin-latte.yazi](./catppuccin-latte.yazi)
 - [catppuccin-frappe.yazi](./catppuccin-frappe.yazi)
@@ -110,4 +146,5 @@ Yazi - ⚡️ Blazing Fast Terminal File Manager
 - [LS_COLORS](https://github.com/Mellbourn/ls-colors.yazi) - Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
 
 ## Community
+
 - [discord](https://discord.com/channels/1136203602898194542/1257848636650553374)
