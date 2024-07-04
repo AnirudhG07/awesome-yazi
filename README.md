@@ -1,6 +1,10 @@
 # awesome-yazi
 
-Yazi - ⚡️ Blazing Fast Terminal File Manager
+<div align="center">
+  <img src="assets/logo.png" alt="Yazi logo" width="20%">
+</div>
+
+## Yazi - ⚡️ Blazing Fast Terminal File Manager
 
 ## Contents
 
