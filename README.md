@@ -150,4 +150,5 @@
 
 ## Community
 
-- [discord](https://discord.com/channels/1136203602898194542/1257848636650553374)
+- [discord(English mainly)](https://discord.gg/qfADduSdJu)
+- [Telegram(Chinese mainly)](https://t.me/yazi_rs)
