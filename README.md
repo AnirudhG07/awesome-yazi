@@ -52,6 +52,7 @@
 - [torrent-preview.yazi](https://github.com/kirasok/torrent-preview.yazi) - Preview "\*.torrent" files using [transmission-cli](https://github.com/transmission/transmission)
 - [eza-preview.yazi](https://github.com/sharklasers996/eza-preview.yazi) - yazi plugin to preview directories using eza, list and tree modes
 - [lsar.yazi](https://github.com/yazi-rs/plugins/tree/main/lsar.yazi) - Previewing archive contents with lsar
+- [nbpreview.yazi](https://github.com/AnirudhG07/nbpreview.yazi) - Preview jupyter notebooks(\*.ipynb) files using [nbpreview](https://github.com/paw-lu/nbpreview)
 
 #### Jumping
 
