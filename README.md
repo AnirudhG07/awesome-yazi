@@ -75,6 +75,7 @@
 - [archive.yazi](https://github.com/KKV9/archive.yazi) - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 - [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An [ouch](https://github.com/ouch-org/ouch) plugin for Yazi, supporting preview and compression.
 - [archivemount.yazi](https://github.com/AnirudhG07/archivemount.yazi) - Mounting and unmounting archives in yazi using [archivemount](https://github.com/cybernoid/archivemount).
+- [reflink.yazi](https://github.com/Ape/reflink.yazi) - Create reflinks to files.
 
 #### Filter Enhancements
 
@@ -100,6 +101,8 @@
 - [git-status.yazi](https://github.com/DreamMaoMao/git-status.yazi) - git prompt plugin for Yazi.
 - [current-size.yazi](https://github.com/DreamMaoMao/current-size.yazi) - show current folder size plugin for Yazi
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
+- [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
+- [open-with-cmd.yazi](https://github.com/Ape/open-with-cmd.yazi) - Open files using a prompted command.
 
 ### Preloaders
 
