@@ -102,6 +102,7 @@
 - [current-size.yazi](https://github.com/DreamMaoMao/current-size.yazi) - show current folder size plugin for Yazi
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
 - [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
+- [yaziline.yazi](https://github.com/llanosrocas/yaziline.yazi) - simple lualine-like status line.
 - [open-with-cmd.yazi](https://github.com/Ape/open-with-cmd.yazi) - Open files using a prompted command.
 
 ### Preloaders
