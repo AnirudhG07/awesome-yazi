@@ -99,6 +99,7 @@
 - [starship.yazi](https://github.com/Rolv-Apneseth/starship.yazi) - Starship prompt plugin for Yazi.
 - [omp.yazi](https://github.com/saumyajyoti/omp.yazi) - oh-my-posh prompt plugin for Yazi.
 - [git-status.yazi](https://github.com/DreamMaoMao/git-status.yazi) - git prompt plugin for Yazi.
+- [githead.yazi](https://github.com/llanosrocas/githead.yazi) - git status header inspired by powerlevel10k.
 - [current-size.yazi](https://github.com/DreamMaoMao/current-size.yazi) - show current folder size plugin for Yazi
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
 - [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
