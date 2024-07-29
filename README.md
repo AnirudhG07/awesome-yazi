@@ -48,6 +48,7 @@
 - [miller.yazi](https://github.com/Reledia/miller.yazi) - Preview CSV files (and other supported formats) using [miller](https://github.com/johnkerl/miller).
 - [hexyl.yazi](https://github.com/Reledia/hexyl.yazi) - Using [hexyl](https://github.com/sharkdp/hexyl) as the fallback previewer for files.
 - [exifaudio.yazi](https://github.com/Sonico98/exifaudio.yazi) - Preview audio metadata and cover using [exiftool](https://exiftool.org/).
+- [mediainfo.yazi](https://github.com/Ape/mediainfo.yazi)- Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
 - [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An archive previewer plugin for Yazi, using [ouch](https://github.com/ouch-org/ouch).
 - [torrent-preview.yazi](https://github.com/kirasok/torrent-preview.yazi) - Preview "\*.torrent" files using [transmission-cli](https://github.com/transmission/transmission)
 - [eza-preview.yazi](https://github.com/sharklasers996/eza-preview.yazi) - yazi plugin to preview directories using eza, list and tree modes
