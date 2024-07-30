@@ -58,15 +58,15 @@
 #### Jumping
 
 - [relative-motions.yazi](https://github.com/dedukun/relative-motions.yazi) - A Yazi plugin based about vim motions.
-- [keyjump.yazi](https://github.com/DreamMaoMao/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
-- [searchjump.yazi](https://github.com/DreamMaoMao/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+- [keyjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
+- [searchjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
 - [jump-to-char.yazi](https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi) - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
-- [fg.yazi](https://github.com/DreamMaoMao/fg.yazi) - A Yazi plugin that supports file searching with an fzf preview.
+- [fg.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - A Yazi plugin that supports file searching with an fzf preview.
 
 #### Bookmarks
 
 - [bookmarks.yazi](https://github.com/dedukun/bookmarks.yazi) - A Yazi plugin that adds the basic functionality of Vi-like marks.
-- [bookmarks-persistence.yazi](https://github.com/DreamMaoMao/bookmarks-persistence.yazi) - A Yazi plugin that supports persistent bookmark management.No bookmarks are lost after you close yazi.
+- [bookmarks-persistence.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi) - A Yazi plugin that supports persistent bookmark management.No bookmarks are lost after you close yazi.
 - [yamb.yazi](https://github.com/h-hg/yamb.yazi) - Yet another bookmarks plugins. It supports persistence, jumping by a key, jumping by [fzf](https://github.com/junegunn/fzf).
 
 #### File Actions
@@ -99,9 +99,8 @@
 - [hide-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi) - Switch the preview pane between hidden and shown.
 - [starship.yazi](https://github.com/Rolv-Apneseth/starship.yazi) - Starship prompt plugin for Yazi.
 - [omp.yazi](https://github.com/saumyajyoti/omp.yazi) - oh-my-posh prompt plugin for Yazi.
-- [git-status.yazi](https://github.com/DreamMaoMao/git-status.yazi) - git prompt plugin for Yazi.
+- [git-status.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi) - git prompt plugin for Yazi.
 - [githead.yazi](https://github.com/llanosrocas/githead.yazi) - git status header inspired by powerlevel10k.
-- [current-size.yazi](https://github.com/DreamMaoMao/current-size.yazi) - show current folder size plugin for Yazi
 - [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
 - [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
 - [yaziline.yazi](https://github.com/llanosrocas/yaziline.yazi) - simple lualine-like status line.
@@ -115,14 +114,13 @@
 
 ### Fetchers
 
-- [mime.yazi](https://github.com/DreamMaoMao/mime.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
+- [mime.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
 
 ### NeoVim
 
 #### Nvim
 
 - [tfm.nvim](https://github.com/Rolv-Apneseth/tfm.nvim) - Neovim plugin for terminal file manager integration.
-- [DreamMaoMao/yazi.nvim](https://github.com/DreamMaoMao/yazi.nvim) - A Neovim Plugin for yazi terminal file browser.
 - [mikavilpas/yazi.nvim](https://github.com/mikavilpas/yazi.nvim) - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
 - [fm-nvim](https://github.com/Eric-Song-Nop/fm-nvim) - Neovim plugin that lets you use your favorite terminal file managers.
 
