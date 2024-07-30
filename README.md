@@ -6,6 +6,8 @@
 
 ## Yazi - ⚡️ Blazing Fast Terminal File Manager
 
+This branch contains the links to DreamMaoMao's plugin links which are not there anymore. The new main branch contains links to present archive containing them at [yazi-plugins](https://github.com/redbeardymcgee/yazi-plugins).
+
 ## Contents
 
 - [Contents](#contents)
