@@ -28,6 +28,7 @@
     - [Vim](#vim)
   - [Shell plugins](#shell-plugins)
   - [Utilities](#utilities)
+- [DreamMaoMao Gitee](#dreammaomao-gitee)
 - [Flavors](#flavors)
 - [Themes](#themes)
 - [Community](#community)
@@ -137,6 +138,18 @@
 ### Utilities
 
 - [icons-brew.yazi](https://github.com/lpnh/icons-brew.yazi) - Make a hot `theme.toml` for your Yazi icons with your favorite color palette.
+
+## DreamMaoMao Gitee
+
+- [git.yazi](https://gitee.com/DreamMaoMao/git.yazi) - git message prompt plugin for Yazi.
+- [mime-ext.yazi](https://gitee.com/DreamMaoMao/mime-ext.yazi) - A Yazi plugin that quickly get mimetype to improved theme rendering speed.
+- [mime-preview.yazi](https://gitee.com/DreamMaoMao/mime-preview.yazi) - Enables the preview folder on the right pane of yazi to render theme colors. very quickly with almost no performance loss.
+- [searchjump.yazi](https://gitee.com/DreamMaoMao/searchjump.yazi) - A Yazi plugin which the behavior consistent with flash.nvim in Neovim, allow search str to generate lable to jump.
+- [bookmarks.yazi](https://gitee.com/DreamMaoMao/bookmarks.yazi) - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
+- [easyjump.yazi](https://gitee.com/DreamMaoMao/easyjump.yazi) - easymotion file jump like hop.nvim.
+- [current-size.yazi](https://gitee.com/DreamMaoMao/current-size.yazi) - get current path size in header bar for yazi plugin.
+- [epub.yazi](https://gitee.com/DreamMaoMao/epub.yazi) - epub file cover preview for yazi plugin.
+- [fg.yazi](https://gitee.com/DreamMaoMao/fg.yazi) - yazi plugin for rg search with fzf file preview.
 
 ## Flavors
 
