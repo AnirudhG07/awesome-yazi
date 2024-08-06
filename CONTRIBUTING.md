@@ -16,7 +16,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Make sure each list item is useful before adding it.
 - Create individual pull requests/issues for each suggestion.
 - Use [title-casing](http://titlecapitalization.com) (AP style) in the following format: `[List Name](link)`
-- Link additions should be added in alphabetical order in the relevant category.
+- Link additions should be added in _alphabetical order_ in the relevant category.
 - New categories or changes to the existing categorization are welcome.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
