@@ -38,3 +38,7 @@ If you would like to add a plugin, flavor, etc. of yazi to the list, here is how
 
 If you are asked to edit your PR due to spelling errors or because your PR didn't match the awesome-yazi list guidelines, please make suitable changes in your fork.
 This will automatically be reflected in the PR for further checking.
+
+## Note
+
+The plugin added will be reviewed before adding before any possible malicious additions in your and will also be frequently checked upon. This is to prevent any milicious plugin from reaching to the yazi community through awesome-yazi. Please cooperate with us. Thank you!
