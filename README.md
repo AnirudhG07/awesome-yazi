@@ -5,7 +5,9 @@
 </div>
 
 ## Yazi - ⚡️ Blazing Fast Terminal File Manager
+> A curated list of amazing plugins, flavors and themes of [Yazi](https://github.com/sxyazi/yazi).
 
+Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 ## Contents
 
 - [Contents](#contents)
