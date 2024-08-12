@@ -10,29 +10,31 @@
 Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 ## Contents
 
-- [Contents](#contents)
-- [Official](#official)
-- [Plugins](#plugins)
-  - [Functional Enhancements](#functional-enhancements)
-    - [Previewers](#previewers)
-    - [Jumping](#jumping)
-    - [Bookmarks](#bookmarks)
-    - [File Actions](#file-actions)
-    - [Filter Enhancements](#filter-enhancements)
-    - [Enter Enhancements](#enter-enhancements)
-    - [General command enhancements](#general-command-enhancements)
-  - [UI enhancements:](#ui-enhancements)
-  - [Preloaders](#preloaders)
-    - [Images](#images)
-  - [Fetchers](#fetchers)
-  - [NeoVim](#neovim)
-    - [Nvim](#nvim)
-    - [Vim](#vim)
-  - [Shell plugins](#shell-plugins)
-  - [Utilities](#utilities)
-- [Flavors](#flavors)
-- [Themes](#themes)
-- [Community](#community)
+- [awesome-yazi](#awesome-yazi)
+  - [Yazi - ⚡️ Blazing Fast Terminal File Manager](#yazi---️-blazing-fast-terminal-file-manager)
+  - [Contents](#contents)
+  - [Official](#official)
+  - [Plugins](#plugins)
+    - [Functional Enhancements](#functional-enhancements)
+      - [Previewers](#previewers)
+      - [Jumping](#jumping)
+      - [Bookmarks](#bookmarks)
+      - [File Actions](#file-actions)
+      - [Filter Enhancements](#filter-enhancements)
+      - [Enter Enhancements](#enter-enhancements)
+      - [General command enhancements](#general-command-enhancements)
+    - [UI enhancements:](#ui-enhancements)
+    - [Preloaders](#preloaders)
+      - [Images](#images)
+    - [Fetchers](#fetchers)
+    - [NeoVim](#neovim)
+      - [Nvim](#nvim)
+      - [Vim](#vim)
+    - [Shell plugins](#shell-plugins)
+    - [Utilities](#utilities)
+  - [Flavors](#flavors)
+  - [Themes](#themes)
+  - [Community](#community)
 
 ## Official
 
@@ -60,11 +62,11 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 
 #### Jumping
 
-- [fg.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - A Yazi plugin that supports file searching with an fzf preview.
+- [fg.yazi](https://gitee.com/DreamMaoMao/fg.yazi) - A Yazi plugin that supports file searching with an fzf preview.
 - [jump-to-char.yazi](https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi) - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
-- [keyjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
+- [keyjump.yazi](https://github.com/leihaojun/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
 - [relative-motions.yazi](https://github.com/dedukun/relative-motions.yazi) - A Yazi plugin based about vim motions.
-- [searchjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+- [searchjump.yazi](https://gitee.com/DreamMaoMao/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
 
 #### Bookmarks
 
@@ -100,7 +102,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 
 - [full-border.yazi](https://github.com/yazi-rs/plugins/tree/main/full-border.yazi) - Add a full border to Yazi to make it look fancier.
 - [githead.yazi](https://github.com/llanosrocas/githead.yazi) - git status header inspired by powerlevel10k.
-- [git-status.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi) - git prompt plugin for Yazi.
+- [git.yazi](https://gitee.com/DreamMaoMao/git.yazi) - git prompt plugin for Yazi.
 - [hide-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi) - Switch the preview pane between hidden and shown.
 - [max-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi) - Maximize or restore the preview pane.
 - [omp.yazi](https://github.com/saumyajyoti/omp.yazi) - oh-my-posh prompt plugin for Yazi.
@@ -118,7 +120,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 
 ### Fetchers
 
-- [mime.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
+- [mime-ext.yazi](https://gitee.com/DreamMaoMao/mime-ext.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
 
 ### NeoVim
 
