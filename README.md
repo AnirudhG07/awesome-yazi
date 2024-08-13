@@ -70,6 +70,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 
 - [bookmarks.yazi](https://github.com/dedukun/bookmarks.yazi) - A Yazi plugin that adds the basic functionality of Vi-like marks.
 - [bookmarks-persistence.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi) - A Yazi plugin that supports persistent bookmark management.No bookmarks are lost after you close yazi.
+- [projects.yazi](https://github.com/MasouShizuka/projects.yazi) - A Yazi plugin that adds the functionality to save and load projects.
 - [yamb.yazi](https://github.com/h-hg/yamb.yazi) - Yet another bookmarks plugins. It supports persistence, jumping by a key, jumping by [fzf](https://github.com/junegunn/fzf).
 
 #### File Actions
