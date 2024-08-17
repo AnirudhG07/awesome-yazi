@@ -95,7 +95,8 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 #### General command enhancements
 
 - [augment-command.yazi](https://github.com/hankertrix/augment-command.yazi) - Enhances a few Yazi commands with better handling of the choice between selected items and the hovered item. It also auto-extracts archives and has bidirectional skipping of directories with a single sub-directory, while also including quite a few of the plugins on the [tips page](/docs/tips) like `smart-enter`, `smart-paste`, `parent-arrow` and more.
-- [sudo.yazi](https://github.com/TD-Sky/sudo.yazi) - Call `sudo` in yazi
+- [sudo.yazi](https://github.com/TD-Sky/sudo.yazi) - Call `sudo` in yazi.
+- [system-clipboard.yazi](https://github.com/orhnk/system-clipboard.yazi) - Cross-platform system clipboard support for yazi.
 
 ### UI enhancements:
 
