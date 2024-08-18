@@ -5,9 +5,11 @@
 </div>
 
 ## Yazi - ⚡️ Blazing Fast Terminal File Manager
+
 > A curated list of amazing plugins, flavors and themes of [Yazi](https://github.com/sxyazi/yazi).
 
 Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+
 ## Contents
 
 - [Contents](#contents)
@@ -79,6 +81,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - [archivemount.yazi](https://github.com/AnirudhG07/archivemount.yazi) - Mounting and unmounting archives in yazi using [archivemount](https://github.com/cybernoid/archivemount).
 - [chmod.yazi](https://github.com/yazi-rs/plugins/tree/main/chmod.yazi) - Execute `chmod` on the selected files to change their mode.
 - [diff.yazi](https://github.com/yazi-rs/plugins/tree/main/diff.yazi) - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
+- [mkdir.yazi](https://github.com/Sonico98/mkdir.yazi) - Create directories without typing a trailing a slash.
 - [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An [ouch](https://github.com/ouch-org/ouch) plugin for Yazi, supporting preview and compression.
 - [reflink.yazi](https://github.com/Ape/reflink.yazi) - Create reflinks to files.
 - [rsync.yazi](https://github.com/GianniBYoung/rsync.yazi) - Simple rsyncing locally and remotely.
