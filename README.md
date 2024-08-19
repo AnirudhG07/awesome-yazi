@@ -162,100 +162,545 @@ ya pack -a kirasok/torrent-preview
 
 #### Jumping
 
-- [fg.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - A Yazi plugin that supports file searching with an fzf preview.
-- [jump-to-char.yazi](https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi) - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
-- [keyjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/keyjump.yazi) - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
-- [relative-motions.yazi](https://github.com/dedukun/relative-motions.yazi) - A Yazi plugin based about vim motions.
-- [searchjump.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi) - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/mime
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi">jump-to-char.yazi</a> - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/jump-to-char
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/keyjump.yazi">keyjump.yazi</a> - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/keyjump
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/dedukun/relative-motions.yazi">relative-motions.yazi</a> - A Yazi plugin based on vim motions.
+</summary>
+  
+```bash
+ya pack -a dedukun/relative-motions
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi">searchjump.yazi</a> - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/searchjump
+```
+</details>
 
 #### Bookmarks
 
-- [bookmarks.yazi](https://github.com/dedukun/bookmarks.yazi) - A Yazi plugin that adds the basic functionality of Vi-like marks.
-- [bookmarks-persistence.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi) - A Yazi plugin that supports persistent bookmark management.No bookmarks are lost after you close yazi.
-- [projects.yazi](https://github.com/MasouShizuka/projects.yazi) - A Yazi plugin that adds the functionality to save and load projects.
-- [yamb.yazi](https://github.com/h-hg/yamb.yazi) - Yet another bookmarks plugins. It supports persistence, jumping by a key, jumping by [fzf](https://github.com/junegunn/fzf).
+<details>
+<summary>
+<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+</summary>
+  
+```bash
+ya pack -a dedukun/bookmarks
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi">bookmarks-persistence.yazi</a> - A Yazi plugin that supports persistent bookmark management. No bookmarks are lost after you close yazi.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/bookmarks-persistence
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/MasouShizuka/projects.yazi">projects.yazi</a> - A Yazi plugin that adds the functionality to save and load projects.
+</summary>
+  
+```bash
+ya pack -a MasouShizuka/projects
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/h-hg/yamb.yazi">yamb.yazi</a> - Yet another bookmarks plugin. It supports persistence, jumping by a key, and jumping by <a href="https://github.com/junegunn/fzf">fzf</a>.
+</summary>
+  
+```bash
+ya pack -a h-hg/yamb
+```
+</details>
 
 #### File Actions
 
-- [archive.yazi](https://github.com/KKV9/archive.yazi) - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
-- [archivemount.yazi](https://github.com/AnirudhG07/archivemount.yazi) - Mounting and unmounting archives in yazi using [archivemount](https://github.com/cybernoid/archivemount).
-- [chmod.yazi](https://github.com/yazi-rs/plugins/tree/main/chmod.yazi) - Execute `chmod` on the selected files to change their mode.
-- [diff.yazi](https://github.com/yazi-rs/plugins/tree/main/diff.yazi) - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
-- [file-actions.yazi](https://github.com/BBOOXX/file-actions.yazi) - A Yazi plugin that allows users to perform actions on selected files using custom scripts.
-- [lazygit.yazi](https://github.com/Lil-Dank/lazygit.yazi) - Manage Git directories with [lazygit](https://github.com/jesseduffield/lazygit) through a quick shortcut.
-- [mkdir.yazi](https://github.com/Sonico98/mkdir.yazi) - Create directories without typing a trailing a slash.
-- [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An [ouch](https://github.com/ouch-org/ouch) plugin for Yazi, supporting preview and compression.
-- [reflink.yazi](https://github.com/Ape/reflink.yazi) - Create reflinks to files.
-- [rsync.yazi](https://github.com/GianniBYoung/rsync.yazi) - Simple rsyncing locally and remotely.
-- [what-size.yazi](https://github.com/pirafrank/what-size.yazi) - Calculate total size of current selection or of current working directory.
+<details>
+<summary>
+<a href="https://github.com/KKV9/archive.yazi">archive.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
+</summary>
+  
+```bash
+ya pack -a KKV9/archive
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AnirudhG07/archivemount.yazi">archivemount.yazi</a> - Mounting and unmounting archives in yazi using <a href="https://github.com/cybernoid/archivemount">archivemount</a>.
+</summary>
+  
+```bash
+ya pack -a AnirudhG07/archivemount
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/chmod.yazi">chmod.yazi</a> - Execute `chmod` on the selected files to change their mode.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/chmod
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/diff.yazi">diff.yazi</a> - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/diff
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/BBOOXX/file-actions.yazi">file-actions.yazi</a> - A Yazi plugin that allows users to perform actions on selected files using custom scripts.
+</summary>
+  
+```bash
+ya pack -a BBOOXX/file-actions
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
+</summary>
+  
+```bash
+ya pack -a Lil-Dank/lazygit
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Sonico98/mkdir.yazi">mkdir.yazi</a> - Create directories without typing a trailing slash.
+</summary>
+  
+```bash
+ya pack -a Sonico98/mkdir
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An <a href="https://github.com/ouch-org/ouch">ouch</a> plugin for Yazi, supporting preview and compression.
+</summary>
+  
+```bash
+ya pack -a ndtoan96/ouch
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Ape/reflink.yazi">reflink.yazi</a> - Create reflinks to files.
+</summary>
+  
+```bash
+ya pack -a Ape/reflink
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/GianniBYoung/rsync.yazi">rsync.yazi</a> - Simple rsyncing locally and remotely.
+</summary>
+  
+```bash
+ya pack -a GianniBYoung/rsync
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/pirafrank/what-size.yazi">what-size.yazi</a> - Calculate the total size of the current selection or of the current working directory.
+</summary>
+  
+```bash
+ya pack -a pirafrank/what-size
+```
+</details>
 
 #### Filter Enhancements
 
-- [smart-filter.yazi](https://github.com/yazi-rs/plugins/tree/main/smart-filter.yazi) - Makes filters smarter: continuous filtering, automatically enter unique directory, open file on submitting.
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/smart-filter.yazi">smart-filter.yazi</a> - Makes filters smarter: continuous filtering, automatically enter unique directory, open file on submitting.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/smart-filter
+```
+</details>
 
 #### Enter Enhancements
 
-- [bypass.yazi](https://github.com/Rolv-Apneseth/bypass.yazi) - Yazi plugin for skipping directories with only a single sub-directory.
-- [fast-enter.yazi](https://github.com/ourongxing/fast-enter.yazi) - Auto-decompress archives and enter them, or enter the deepest directory until it's not the only subdirectory.
+<details>
+<summary>
+<a href="https://github.com/Rolv-Apneseth/bypass.yazi">bypass.yazi</a> - Yazi plugin for skipping directories with only a single sub-directory.
+</summary>
+  
+```bash
+ya pack -a Rolv-Apneseth/bypass
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/ourongxing/fast-enter.yazi">fast-enter.yazi</a> - Auto-decompress archives and enter them, or enter the deepest directory until it's not the only subdirectory.
+</summary>
+  
+```bash
+ya pack -a ourongxing/fast-enter
+```
+</details>
 
 #### General command enhancements
 
-- [augment-command.yazi](https://github.com/hankertrix/augment-command.yazi) - Enhances a few Yazi commands with better handling of the choice between selected items and the hovered item. It also auto-extracts archives and has bidirectional skipping of directories with a single sub-directory, while also including quite a few of the plugins on the [tips page](/docs/tips) like `smart-enter`, `smart-paste`, `parent-arrow` and more.
-- [sudo.yazi](https://github.com/TD-Sky/sudo.yazi) - Call `sudo` in yazi.
-- [system-clipboard.yazi](https://github.com/orhnk/system-clipboard.yazi) - Cross-platform system clipboard support for yazi.
+<details>
+<summary>
+<a href="https://github.com/hankertrix/augment-command.yazi">augment-command.yazi</a> - Enhances a few Yazi commands with better handling of the choice between selected items and the hovered item. It also auto-extracts archives and includes features like bidirectional skipping of directories with a single sub-directory, along with plugins from the <a href="/docs/tips">tips page</a> such as `smart-enter`, `smart-paste`, `parent-arrow`, and more.
+</summary>
+  
+```bash
+ya pack -a hankertrix/augment-command
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/TD-Sky/sudo.yazi">sudo.yazi</a> - Call `sudo` in yazi.
+</summary>
+  
+```bash
+ya pack -a TD-Sky/sudo
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/orhnk/system-clipboard.yazi">system-clipboard.yazi</a> - Cross-platform system clipboard support for yazi.
+</summary>
+  
+```bash
+ya pack -a orhnk/system-clipboard
+```
+</details>
 
 ### UI enhancements:
 
-- [full-border.yazi](https://github.com/yazi-rs/plugins/tree/main/full-border.yazi) - Add a full border to Yazi to make it look fancier.
-- [githead.yazi](https://github.com/llanosrocas/githead.yazi) - git status header inspired by powerlevel10k.
-- [git-status.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi) - git prompt plugin for Yazi.
-- [hide-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi) - Switch the preview pane between hidden and shown.
-- [max-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi) - Maximize or restore the preview pane.
-- [omp.yazi](https://github.com/saumyajyoti/omp.yazi) - oh-my-posh prompt plugin for Yazi.
-- [open-with-cmd.yazi](https://github.com/Ape/open-with-cmd.yazi) - Open files using a prompted command.
-- [simple-status.yazi](https://github.com/Ape/simple-status.yazi) - Minimalistic status line with useful file attribute information.
-- [starship.yazi](https://github.com/Rolv-Apneseth/starship.yazi) - Starship prompt plugin for Yazi.
-- [yatline.yazi](https://github.com/imsi32/yatline.yazi) - plugin for customizing both header-line and status-line.
-- [yaziline.yazi](https://github.com/llanosrocas/yaziline.yazi) - simple lualine-like status line.
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/full-border
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/llanosrocas/githead.yazi">githead.yazi</a> - git status header inspired by powerlevel10k.
+</summary>
+  
+```bash
+ya pack -a llanosrocas/githead
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi">git-status.yazi</a> - git prompt plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/git-status
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi">hide-preview.yazi</a> - Switch the preview pane between hidden and shown.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/hide-preview
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi">max-preview.yazi</a> - Maximize or restore the preview pane.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/max-preview
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/saumyajyoti/omp.yazi">omp.yazi</a> - oh-my-posh prompt plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a saumyajyoti/omp
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Ape/open-with-cmd.yazi">open-with-cmd.yazi</a> - Open files using a prompted command.
+</summary>
+  
+```bash
+ya pack -a Ape/open-with-cmd
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Ape/simple-status.yazi">simple-status.yazi</a> - Minimalistic status line with useful file attribute information.
+</summary>
+  
+```bash
+ya pack -a Ape/simple-status
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Rolv-Apneseth/starship.yazi">starship.yazi</a> - Starship prompt plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a Rolv-Apneseth/starship
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/imsi32/yatline.yazi">yatline.yazi</a> - Plugin for customizing both header-line and status-line.
+</summary>
+  
+```bash
+ya pack -a imsi32/yatline
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/llanosrocas/yaziline.yazi">yaziline.yazi</a> - Simple lualine-like status line.
+</summary>
+  
+```bash
+ya pack -a llanosrocas/yaziline
+```
+</details>
 
 ### Preloaders
 
 #### Images
 
-- [allmytoes.yazi](https://github.com/Sonico98/allmytoes.yazi) - Preview freedesktop-compatible thumbnails using [allmytoes](https://gitlab.com/allmytoes/allmytoes).
+<details>
+<summary>
+<a href="https://github.com/Sonico98/allmytoes.yazi">allmytoes.yazi</a> - Preview freedesktop-compatible thumbnails using <a href="https://gitlab.com/allmytoes/allmytoes">allmytoes</a>.
+</summary>
+  
+```bash
+ya pack -a Sonico98/allmytoes
+```
+</details>
 
 ### Fetchers
 
-- [mime.yazi](https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi) - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">mime.yazi</a> - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/mime
+```
+</details>
 
 ### NeoVim
 
 #### Nvim
 
-- [fm-nvim](https://github.com/Eric-Song-Nop/fm-nvim) - Neovim plugin that lets you use your favorite terminal file managers.
-- [mikavilpas/yazi.nvim](https://github.com/mikavilpas/yazi.nvim) - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
-- [tfm.nvim](https://github.com/Rolv-Apneseth/tfm.nvim) - Neovim plugin for terminal file manager integration.
+<details>
+<summary>
+<a href="https://github.com/Eric-Song-Nop/fm-nvim">fm-nvim</a> - Neovim plugin that lets you use your favorite terminal file managers.
+</summary>
+  
+```bash
+ya pack -a Eric-Song-Nop/fm-nvim
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/mikavilpas/yazi.nvim">mikavilpas/yazi.nvim</a> - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
+</summary>
+  
+```bash
+ya pack -a mikavilpas/yazi.nvim
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Rolv-Apneseth/tfm.nvim">tfm.nvim</a> - Neovim plugin for terminal file manager integration.
+</summary>
+  
+```bash
+ya pack -a Rolv-Apneseth/tfm.nvim
+```
+</details>
 
 #### Vim
 
-- [yazi.vim](https://github.com/chriszarate/yazi.vim) - Vim plugin for Yazi.
+<details>
+<summary>
+<a href="https://github.com/chriszarate/yazi.vim">yazi.vim</a> - Vim plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a chriszarate/yazi.vim
+```
+</details>
 
 ### Shell plugins
 
-- [command.yazi](https://github.com/KKV9/command.yazi) - Display a prompt for executing yazi commands.
-- [custom-shell.yazi](https://github.com/AnirudhG07/custom-shell.yazi) - Set your custom-shell as your default yazi Shell.
-- [yazi-prompt.sh](https://github.com/Sonico98/yazi-prompt.sh) - Display an indicator in your prompt when running inside a yazi subshell.
+<details>
+<summary>
+<a href="https://github.com/KKV9/command.yazi">command.yazi</a> - Display a prompt for executing yazi commands.
+</summary>
+  
+```bash
+ya pack -a KKV9/command
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AnirudhG07/custom-shell.yazi">custom-shell.yazi</a> - Set your custom-shell as your default yazi Shell.
+</summary>
+  
+```bash
+ya pack -a AnirudhG07/custom-shell
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Sonico98/yazi-prompt.sh">yazi-prompt.sh</a> - Display an indicator in your prompt when running inside a yazi subshell.
+</summary>
+  
+```bash
+ya pack -a Sonico98/yazi-prompt
+```
+</details>
 
 ### Utilities
 
-- [icons-brew.yazi](https://github.com/lpnh/icons-brew.yazi) - Make a hot `theme.toml` for your Yazi icons with your favorite color palette.
+<details>
+<summary>
+<a href="https://github.com/lpnh/icons-brew.yazi">icons-brew.yazi</a> - Make a hot `theme.toml` for your Yazi icons with your favorite color palette.
+</summary>
+  
+```bash
+ya pack -a lpnh/icons-brew
+```
+</details>
 
 ## Flavors
 
-- [catppuccin-frappe.yazi](./catppuccin-frappe.yazi)
-- [catppuccin-latte.yazi](./catppuccin-latte.yazi)
-- [catppuccin-macchiato.yazi](./catppuccin-macchiato.yazi)
-- [catppuccin-mocha.yazi](./catppuccin-mocha.yazi)
+<details>
+<summary>
+<a href="./catppuccin-frappe.yazi">catppuccin-frappe.yazi</a>
+</summary>
+  
+```bash
+ya pack -a catppuccin-frappe
+```
+</details>
+
+<details>
+<summary>
+<a href="./catppuccin-latte.yazi">catppuccin-latte.yazi</a>
+</summary>
+  
+```bash
+ya pack -a catppuccin-latte
+```
+</details>
+
+<details>
+<summary>
+<a href="./catppuccin-macchiato.yazi">catppuccin-macchiato.yazi</a>
+</summary>
+  
+```bash
+ya pack -a catppuccin-macchiato
+```
+</details>
+
+<details>
+<summary>
+<a href="./catppuccin-mocha.yazi">catppuccin-mocha.yazi</a>
+</summary>
+  
+```bash
+ya pack -a catppuccin-mocha
+```
+</details>
 
 <details>
 <summary>
@@ -268,17 +713,87 @@ ya pack -a dangooddd/kanagawa
 
 </details>
 
-- [onedark.yazi](https://github.com/BennyOe/onedark.yazi)
-- [tokyo-night.yazi](https://github.com/BennyOe/tokyo-night.yazi)
+<details>
+<summary>
+<a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a>
+</summary>
+  
+```bash
+ya pack -a BennyOe/onedark
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a>
+</summary>
+  
+```bash
+ya pack -a BennyOe/tokyo-night
+```
+</details>
 
 ## Themes
 
-- [Catppuccin](https://github.com/catppuccin/yazi)
-- [Crystal](https://github.com/sachinsenal0x64/crystal-theme.yazi)
-- [Gruvbox Dark](https://github.com/poperigby/gruvbox-dark-yazi)
-- [Flexoki](https://github.com/Reledia/flexoki.yazi)
-- [LS_COLORS](https://github.com/Mellbourn/ls-colors.yazi) - Adds over 300 different colors for filetypes (converted from [the LS_COLORS collection](https://github.com/trapd00r/LS_COLORS) using [lsColorsToToml](https://github.com/Mellbourn/lsColorsToToml))
-- [Rosé Pine](https://github.com/Msouza91/rose-pine.yazi)
+<details>
+<summary>
+<a href="https://github.com/catppuccin/yazi">Catppuccin</a>
+</summary>
+  
+```bash
+ya pack -a catppuccin/yazi
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a>
+</summary>
+  
+```bash
+ya pack -a sachinsenal0x64/crystal-theme
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a>
+</summary>
+  
+```bash
+ya pack -a poperigby/gruvbox-dark
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a>
+</summary>
+  
+```bash
+ya pack -a Reledia/flexoki
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Mellbourn/ls-colors.yazi">LS_COLORS</a> - Adds over 300 different colors for filetypes (converted from <a href="https://github.com/trapd00r/LS_COLORS">the LS_COLORS collection</a> using <a href="https://github.com/Mellbourn/lsColorsToToml">lsColorsToToml</a>)
+</summary>
+  
+```bash
+ya pack -a Mellbourn/ls-colors
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a>
+</summary>
+  
+```bash
+ya pack -a Msouza91/rose-pine
+```
+</details>
 
 ## Community
 
