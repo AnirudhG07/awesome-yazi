@@ -159,7 +159,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 
 <details>
 <summary>
-<a href="https://github.com/dangooddd/kanagawa.yazi"> - dangooddd/kanagawa.yazi</a>
+<a href="https://github.com/dangooddd/kanagawa.yazi">dangooddd/kanagawa.yazi</a>
 </summary>
 
 ```bash
