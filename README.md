@@ -156,6 +156,18 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - [catppuccin-latte.yazi](./catppuccin-latte.yazi)
 - [catppuccin-macchiato.yazi](./catppuccin-macchiato.yazi)
 - [catppuccin-mocha.yazi](./catppuccin-mocha.yazi)
+
+<details>
+<summary>
+<a href="https://github.com/dangooddd/kanagawa.yazi"> - dangooddd/kanagawa.yazi</a>
+</summary>
+
+```bash
+ya pack -a dangooddd/kanagawa
+```
+
+</details>
+
 - [onedark.yazi](https://github.com/BennyOe/onedark.yazi)
 - [tokyo-night.yazi](https://github.com/BennyOe/tokyo-night.yazi)
 
