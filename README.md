@@ -82,11 +82,11 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - [chmod.yazi](https://github.com/yazi-rs/plugins/tree/main/chmod.yazi) - Execute `chmod` on the selected files to change their mode.
 - [diff.yazi](https://github.com/yazi-rs/plugins/tree/main/diff.yazi) - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
 - [file-actions.yazi](https://github.com/BBOOXX/file-actions.yazi) - A Yazi plugin that allows users to perform actions on selected files using custom scripts.
+- [lazygit.yazi](https://github.com/Lil-Dank/lazygit.yazi) - Manage Git directories with [lazygit](https://github.com/jesseduffield/lazygit) through a quick shortcut.
 - [mkdir.yazi](https://github.com/Sonico98/mkdir.yazi) - Create directories without typing a trailing a slash.
 - [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An [ouch](https://github.com/ouch-org/ouch) plugin for Yazi, supporting preview and compression.
 - [reflink.yazi](https://github.com/Ape/reflink.yazi) - Create reflinks to files.
 - [rsync.yazi](https://github.com/GianniBYoung/rsync.yazi) - Simple rsyncing locally and remotely.
-- [lazygit.yazi](https://github.com/Lil-Dank/lazygit.yazi) - Manage Git directories with [lazygit](https://github.com/jesseduffield/lazygit) through a quick shortcut.
 
 #### Filter Enhancements
 
