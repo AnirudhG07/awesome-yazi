@@ -10,7 +10,7 @@
 
 Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
-Each plugin info contains the installation instruction using `ya pack`.
+Each plugin info contains the installation instruction using `ya pack`. Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
 ## Contents
 
