@@ -52,7 +52,7 @@ Each plugin info contains the installation instruction using `ya pack`.
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">sharklasers996/eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
 </summary>
   
 ```bash
@@ -62,7 +62,7 @@ ya pack -a sharklasers996/eza-preview
 
 <details>
 <summary>
-<a href="https://github.com/Sonico98/exifaudio.yazi">Sonico98/exifaudio.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://github.com/Sonico98/exifaudio.yazi">exifaudio.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
 </summary>
   
 ```bash
@@ -72,7 +72,7 @@ ya pack -a Sonico98/exifaudio
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/glow.yazi">Reledia/glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
+<a href="https://github.com/Reledia/glow.yazi">glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
 </summary>
   
 ```bash
@@ -82,7 +82,7 @@ ya pack -a Reledia/glow
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/hexyl.yazi">Reledia/hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
+<a href="https://github.com/Reledia/hexyl.yazi">hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
 </summary>
   
 ```bash
@@ -92,7 +92,7 @@ ya pack -a Reledia/hexyl
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">yazi-rs/lsar.yazi</a> - Previewing archive contents with lsar.
+<a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">lsar.yazi</a> - Previewing archive contents with lsar.
 </summary>
   
 ```bash
@@ -102,7 +102,7 @@ ya pack -a yazi-rs/lsar
 
 <details>
 <summary>
-<a href="https://github.com/Ape/mediainfo.yazi">Ape/mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
+<a href="https://github.com/Ape/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
 </summary>
   
 ```bash
@@ -112,7 +112,7 @@ ya pack -a Ape/mediainfo
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/miller.yazi">Reledia/miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
+<a href="https://github.com/Reledia/miller.yazi">miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
 </summary>
   
 ```bash
@@ -122,7 +122,7 @@ ya pack -a Reledia/miller
 
 <details>
 <summary>
-<a href="https://github.com/AnirudhG07/nbpreview.yazi">AnirudhG07/nbpreview.yazi</a> - Preview jupyter notebooks (\*.ipynb) files using <a href="https://github.com/paw-lu/nbpreview">nbpreview</a>.
+<a href="https://github.com/AnirudhG07/nbpreview.yazi">nbpreview.yazi</a> - Preview jupyter notebooks (\*.ipynb) files using <a href="https://github.com/paw-lu/nbpreview">nbpreview</a>.
 </summary>
   
 ```bash
@@ -132,7 +132,7 @@ ya pack -a AnirudhG07/nbpreview
 
 <details>
 <summary>
-<a href="https://github.com/ndtoan96/ouch.yazi">ndtoan96/ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
+<a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
 </summary>
   
 ```bash
@@ -142,7 +142,7 @@ ya pack -a ndtoan96/ouch
 
 <details>
 <summary>
-<a href="https://github.com/AnirudhG07/rich-preview.yazi">AnirudhG07/rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
+<a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
   
 ```bash
@@ -152,7 +152,7 @@ ya pack -a AnirudhG07/rich-preview
 
 <details>
 <summary>
-<a href="https://github.com/kirasok/torrent-preview.yazi">kirasok/torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
+<a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
   
 ```bash
@@ -259,7 +259,7 @@ ya pack -a kirasok/torrent-preview
 
 <details>
 <summary>
-<a href="https://github.com/dangooddd/kanagawa.yazi">dangooddd/kanagawa.yazi</a>
+<a href="https://github.com/dangooddd/kanagawa.yazi">kanagawa.yazi</a>
 </summary>
 
 ```bash

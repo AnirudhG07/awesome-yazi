@@ -3,7 +3,7 @@ Please add your package in the following format to allow users to access your pl
 
 <details>
 <summary>
-<a href="https://github.com/author_name/package.yazi">author_name/package.yazi</a> - A brief description about your package.
+<a href="https://github.com/author_name/package.yazi">package.yazi</a> - A brief description about your package.
 </summary>
 
 ```bash
