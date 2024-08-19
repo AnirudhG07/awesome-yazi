@@ -10,6 +10,8 @@
 
 Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
+Each plugin info contains the installation instruction using `ya pack`.
+
 ## Contents
 
 - [Contents](#contents)
@@ -45,10 +47,18 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 ## Plugins
 
 ### Functional Enhancements
-
 #### Previewers
 
-- [eza-preview.yazi](https://github.com/sharklasers996/eza-preview.yazi) - yazi plugin to preview directories using eza, list and tree modes
+<details>
+<summary>
+<a href="https://github.com/sharklasers996/eza-preview.yazi">sharklasers996/eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+</summary>
+  
+```bash
+ya pack -a sharklasers996/eza-preview
+```
+</details>
+
 - [exifaudio.yazi](https://github.com/Sonico98/exifaudio.yazi) - Preview audio metadata and cover using [exiftool](https://exiftool.org/).
 - [glow.yazi](https://github.com/Reledia/glow.yazi) - Preview markdown files using [glow](https://github.com/charmbracelet/glow).
 - [hexyl.yazi](https://github.com/Reledia/hexyl.yazi) - Using [hexyl](https://github.com/sharkdp/hexyl) as the fallback previewer for files.
