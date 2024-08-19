@@ -1,0 +1,26 @@
+name: Format PR Content
+
+on:
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Convert PR content to details/summary format
+        run: |
+          # Install jq and gh CLI for processing PR content
+          sudo apt-get install -y jq
+          gh pr view ${{ github.event.pull_request.number }} --json body -q .body > pr_body.json
+
+          # Extract PR body content
+          PR_CONTENT=$(jq -r '. | tostring' pr_body.json)
+
+          # Define the pattern to search for (using bash regex or sed)
+          CONVERTED_CONTENT=$(echo "$PR_CONTENT" | sed -E 's/\- \[(.*)\]\((.*)\) \- (.*)/<details>\n<summary><a href="\2">\1<\/a> - \3<\/summary>\n<\/details>/g')
+
+          # Update the PR content using GitHub CLI
+          gh pr edit ${{ github.event.pull_request.number }} --body "$CONVERTED_CONTENT"
