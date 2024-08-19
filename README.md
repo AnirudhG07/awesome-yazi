@@ -189,6 +189,7 @@ ya pack -a yazi-rs/plugins:jump-to-char
   
 ```bash
 ya pack -a redbeardymcgee/yazi-plugins:keyjump
+# Only for Yazi v0.2.5 or lesser
 ```
 </details>
 
@@ -229,8 +230,8 @@ ya pack -a dedukun/bookmarks
 <a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi">bookmarks-persistence.yazi</a> - A Yazi plugin that supports persistent bookmark management. No bookmarks are lost after you close yazi.
 </summary>
   
-```bash
-ya pack -a redbeardymcgee/yazi-plugins:bookmarks-persistence
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -461,6 +462,7 @@ ya pack -a llanosrocas/githead
   
 ```bash
 ya pack -a redbeardymcgee/yazi-plugins:git-status
+# Only for Yazi v0.2.5 or lesser
 ```
 </details>
 
@@ -668,7 +670,7 @@ ya pack -a lpnh/icons-brew
 </summary>
   
 ```bash
-ya pack -a catppuccin-frappe
+ya pack -a yazi-rs/flavors:catppuccin-mocha
 ```
 </details>
 
@@ -678,7 +680,7 @@ ya pack -a catppuccin-frappe
 </summary>
   
 ```bash
-ya pack -a catppuccin-latte
+ya pack -a yazi-rs/flavors:catppuccin-latte
 ```
 </details>
 
@@ -688,7 +690,7 @@ ya pack -a catppuccin-latte
 </summary>
   
 ```bash
-ya pack -a catppuccin-macchiato
+ya pack -a yazi-rs/flavors:catppuccin-macchiato
 ```
 </details>
 
@@ -698,7 +700,7 @@ ya pack -a catppuccin-macchiato
 </summary>
   
 ```bash
-ya pack -a catppuccin-mocha
+ya pack -a yazi-rs/flavors:catppuccin-mocha
 ```
 </details>
 
