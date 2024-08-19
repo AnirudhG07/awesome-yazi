@@ -47,6 +47,7 @@ Each plugin info contains the installation instruction using `ya pack`.
 ## Plugins
 
 ### Functional Enhancements
+
 #### Previewers
 
 <details>
@@ -59,16 +60,105 @@ ya pack -a sharklasers996/eza-preview
 ```
 </details>
 
-- [exifaudio.yazi](https://github.com/Sonico98/exifaudio.yazi) - Preview audio metadata and cover using [exiftool](https://exiftool.org/).
-- [glow.yazi](https://github.com/Reledia/glow.yazi) - Preview markdown files using [glow](https://github.com/charmbracelet/glow).
-- [hexyl.yazi](https://github.com/Reledia/hexyl.yazi) - Using [hexyl](https://github.com/sharkdp/hexyl) as the fallback previewer for files.
-- [lsar.yazi](https://github.com/yazi-rs/plugins/tree/main/lsar.yazi) - Previewing archive contents with lsar
-- [mediainfo.yazi](https://github.com/Ape/mediainfo.yazi)- Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
-- [miller.yazi](https://github.com/Reledia/miller.yazi) - Preview CSV files (and other supported formats) using [miller](https://github.com/johnkerl/miller).
-- [nbpreview.yazi](https://github.com/AnirudhG07/nbpreview.yazi) - Preview jupyter notebooks(\*.ipynb) files using [nbpreview](https://github.com/paw-lu/nbpreview)
-- [ouch.yazi](https://github.com/ndtoan96/ouch.yazi) - An archive previewer plugin for Yazi, using [ouch](https://github.com/ouch-org/ouch).
-- [rich-preview](https://github.com/AnirudhG07/rich-preview.yazi) - Preview Markdown, JSON, CSV, etc. using [rich-cli](https://github.com/textualize/rich-cli)
-- [torrent-preview.yazi](https://github.com/kirasok/torrent-preview.yazi) - Preview "\*.torrent" files using [transmission-cli](https://github.com/transmission/transmission)
+<details>
+<summary>
+<a href="https://github.com/Sonico98/exifaudio.yazi">Sonico98/exifaudio.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+</summary>
+  
+```bash
+ya pack -a Sonico98/exifaudio
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Reledia/glow.yazi">Reledia/glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
+</summary>
+  
+```bash
+ya pack -a Reledia/glow
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Reledia/hexyl.yazi">Reledia/hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
+</summary>
+  
+```bash
+ya pack -a Reledia/hexyl
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">yazi-rs/lsar.yazi</a> - Previewing archive contents with lsar.
+</summary>
+  
+```bash
+ya pack -a yazi-rs/lsar
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Ape/mediainfo.yazi">Ape/mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
+</summary>
+  
+```bash
+ya pack -a Ape/mediainfo
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Reledia/miller.yazi">Reledia/miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
+</summary>
+  
+```bash
+ya pack -a Reledia/miller
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AnirudhG07/nbpreview.yazi">AnirudhG07/nbpreview.yazi</a> - Preview jupyter notebooks (\*.ipynb) files using <a href="https://github.com/paw-lu/nbpreview">nbpreview</a>.
+</summary>
+  
+```bash
+ya pack -a AnirudhG07/nbpreview
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/ndtoan96/ouch.yazi">ndtoan96/ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
+</summary>
+  
+```bash
+ya pack -a ndtoan96/ouch
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AnirudhG07/rich-preview.yazi">AnirudhG07/rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
+</summary>
+  
+```bash
+ya pack -a AnirudhG07/rich-preview
+```
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/kirasok/torrent-preview.yazi">kirasok/torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
+</summary>
+  
+```bash
+ya pack -a kirasok/torrent-preview
+```
+</details>
 
 #### Jumping
 
