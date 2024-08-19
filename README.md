@@ -96,7 +96,7 @@ ya pack -a Reledia/hexyl
 </summary>
   
 ```bash
-ya pack -a yazi-rs/lsar
+ya pack -a yazi-rs/plugins:lsar
 ```
 </details>
 
@@ -164,11 +164,11 @@ ya pack -a kirasok/torrent-preview
 
 <details>
 <summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/mime
+ya pack -a redbeardymcgee/yazi-plugins:fg
 ```
 </details>
 
@@ -178,7 +178,7 @@ ya pack -a redbeardymcgee/mime
 </summary>
   
 ```bash
-ya pack -a yazi-rs/jump-to-char
+ya pack -a yazi-rs/plugins:jump-to-char
 ```
 </details>
 
@@ -188,7 +188,7 @@ ya pack -a yazi-rs/jump-to-char
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/keyjump
+ya pack -a redbeardymcgee/yazi-plugins:keyjump
 ```
 </details>
 
@@ -208,7 +208,7 @@ ya pack -a dedukun/relative-motions
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/searchjump
+ya pack -a redbeardymcgee/yazi-plugins:searchjump
 ```
 </details>
 
@@ -230,7 +230,7 @@ ya pack -a dedukun/bookmarks
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/bookmarks-persistence
+ya pack -a redbeardymcgee/yazi-plugins:bookmarks-persistence
 ```
 </details>
 
@@ -282,7 +282,7 @@ ya pack -a AnirudhG07/archivemount
 </summary>
   
 ```bash
-ya pack -a yazi-rs/chmod
+ya pack -a yazi-rs/plugins:chmod
 ```
 </details>
 
@@ -292,7 +292,7 @@ ya pack -a yazi-rs/chmod
 </summary>
   
 ```bash
-ya pack -a yazi-rs/diff
+ya pack -a yazi-rs/plugins:diff
 ```
 </details>
 
@@ -374,7 +374,7 @@ ya pack -a pirafrank/what-size
 </summary>
   
 ```bash
-ya pack -a yazi-rs/smart-filter
+ya pack -a yazi-rs/plugins:smart-filter
 ```
 </details>
 
@@ -440,7 +440,7 @@ ya pack -a orhnk/system-clipboard
 </summary>
   
 ```bash
-ya pack -a yazi-rs/full-border
+ya pack -a yazi-rs/plugins:full-border
 ```
 </details>
 
@@ -460,7 +460,7 @@ ya pack -a llanosrocas/githead
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/git-status
+ya pack -a redbeardymcgee/yazi-plugins:git-status
 ```
 </details>
 
@@ -470,7 +470,7 @@ ya pack -a redbeardymcgee/git-status
 </summary>
   
 ```bash
-ya pack -a yazi-rs/hide-preview
+ya pack -a yazi-rs/plugins:hide-preview
 ```
 </details>
 
@@ -480,7 +480,7 @@ ya pack -a yazi-rs/hide-preview
 </summary>
   
 ```bash
-ya pack -a yazi-rs/max-preview
+ya pack -a yazi-rs/plugins:max-preview
 ```
 </details>
 
@@ -566,7 +566,7 @@ ya pack -a Sonico98/allmytoes
 </summary>
   
 ```bash
-ya pack -a redbeardymcgee/mime
+ya pack -a redbeardymcgee/yazi-plugins:mime
 ```
 </details>
 
@@ -612,7 +612,7 @@ ya pack -a Rolv-Apneseth/tfm.nvim
 </summary>
   
 ```bash
-ya pack -a chriszarate/yazi.vim
+Plug 'chriszarate/yazi.vim'
 ```
 </details>
 
