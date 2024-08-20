@@ -666,7 +666,7 @@ ya pack -a lpnh/icons-brew
 
 <details>
 <summary>
-<a href="./catppuccin-frappe.yazi">catppuccin-frappe.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-frappe.yazi">catppuccin-frappe.yazi</a>
 </summary>
   
 ```bash
@@ -676,7 +676,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 
 <details>
 <summary>
-<a href="./catppuccin-latte.yazi">catppuccin-latte.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-latte.yazi">catppuccin-latte.yazi</a>
 </summary>
   
 ```bash
@@ -686,7 +686,7 @@ ya pack -a yazi-rs/flavors:catppuccin-latte
 
 <details>
 <summary>
-<a href="./catppuccin-macchiato.yazi">catppuccin-macchiato.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-macchaito.yazi">catppuccin-macchiato.yazi</a>
 </summary>
   
 ```bash
@@ -696,7 +696,7 @@ ya pack -a yazi-rs/flavors:catppuccin-macchiato
 
 <details>
 <summary>
-<a href="./catppuccin-mocha.yazi">catppuccin-mocha.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-mocha.yazi">catppuccin-mocha.yazi</a>
 </summary>
   
 ```bash
