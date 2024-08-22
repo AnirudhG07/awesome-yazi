@@ -581,8 +581,9 @@ ya pack -a redbeardymcgee/yazi-plugins:mime
 <a href="https://github.com/Eric-Song-Nop/fm-nvim">fm-nvim</a> - Neovim plugin that lets you use your favorite terminal file managers.
 </summary>
   
-```bash
-ya pack -a Eric-Song-Nop/fm-nvim
+```
+# packer.nvim
+use {'is0n/fm-nvim'}
 ```
 </details>
 
@@ -591,8 +592,46 @@ ya pack -a Eric-Song-Nop/fm-nvim
 <a href="https://github.com/mikavilpas/yazi.nvim">mikavilpas/yazi.nvim</a> - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
 </summary>
   
-```bash
-ya pack -a mikavilpas/yazi.nvim
+```lua
+-- Using lazy.nvim
+
+---@type LazySpec
+{
+  "mikavilpas/yazi.nvim",
+  event = "VeryLazy",
+  keys = {
+    -- 👇 in this section, choose your own keymappings!
+    {
+      "<leader>-",
+      "<cmd>Yazi<cr>",
+      desc = "Open yazi at the current file",
+    },
+    {
+      -- Open in the current working directory
+      "<leader>cw",
+      "<cmd>Yazi cwd<cr>",
+      desc = "Open the file manager in nvim's working directory" ,
+    },
+    {
+      -- NOTE: this requires a version of yazi that includes
+      -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
+      '<c-up>',
+      "<cmd>Yazi toggle<cr>",
+      desc = "Resume the last yazi session",
+    },
+  },
+  ---@type YaziConfig
+  opts = {
+    -- if you want to open yazi instead of netrw, see below for more info
+    open_for_directories = false,
+    keymaps = {
+      show_help = '<f1>',
+    },
+  },
+}
+
+-- For more information, check the repository.
+
 ```
 </details>
 
@@ -600,10 +639,22 @@ ya pack -a mikavilpas/yazi.nvim
 <summary>
 <a href="https://github.com/Rolv-Apneseth/tfm.nvim">tfm.nvim</a> - Neovim plugin for terminal file manager integration.
 </summary>
-  
-```bash
-ya pack -a Rolv-Apneseth/tfm.nvim
-```
+
+```lua
+-- Using lazy.nvim
+{
+    "rolv-apneseth/tfm.nvim",
+    config = function()
+        -- Set keymap so you can open the default terminal file manager (yazi)
+        vim.api.nvim_set_keymap("n", "<leader>e", "", {
+            noremap = true,
+            callback = require("tfm").open,
+        })
+    end,
+}
+-- For more information, check the repository.
+````
+
 </details>
 
 #### Vim
@@ -742,8 +793,8 @@ ya pack -a BennyOe/tokyo-night
 <a href="https://github.com/catppuccin/yazi">Catppuccin</a>
 </summary>
   
-```bash
-ya pack -a catppuccin/yazi
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -752,8 +803,8 @@ ya pack -a catppuccin/yazi
 <a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a>
 </summary>
   
-```bash
-ya pack -a sachinsenal0x64/crystal-theme
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -762,8 +813,8 @@ ya pack -a sachinsenal0x64/crystal-theme
 <a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a>
 </summary>
   
-```bash
-ya pack -a poperigby/gruvbox-dark
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -772,8 +823,8 @@ ya pack -a poperigby/gruvbox-dark
 <a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a>
 </summary>
   
-```bash
-ya pack -a Reledia/flexoki
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -782,8 +833,8 @@ ya pack -a Reledia/flexoki
 <a href="https://github.com/Mellbourn/ls-colors.yazi">LS_COLORS</a> - Adds over 300 different colors for filetypes (converted from <a href="https://github.com/trapd00r/LS_COLORS">the LS_COLORS collection</a> using <a href="https://github.com/Mellbourn/lsColorsToToml">lsColorsToToml</a>)
 </summary>
   
-```bash
-ya pack -a Mellbourn/ls-colors
+```
+Manual Installation Required.
 ```
 </details>
 
@@ -792,8 +843,8 @@ ya pack -a Mellbourn/ls-colors
 <a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a>
 </summary>
   
-```bash
-ya pack -a Msouza91/rose-pine
+```
+Manual Installation Required.
 ```
 </details>
 
