@@ -53,19 +53,26 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file</a>.
 </summary>
   
 ```bash
-ya pack -a sharklasers996/eza-preview
-```
+# Linux
+git clone https://github.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
+
+# Windows, with Powershell
+
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/epub.yazi.git $env:APPDATA\yazi\config\plugins\epub.yazi
+
+````
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Sonico98/exifaudio.yazi">exifaudio.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Sonico98/exifaudio
 ```
@@ -73,9 +80,20 @@ ya pack -a Sonico98/exifaudio
 
 <details>
 <summary>
+<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+</summary>
+
+```bash
+ya pack -a sharklasers996/eza-preview
+```
+</details>
+
+
+<details>
+<summary>
 <a href="https://github.com/Reledia/glow.yazi">glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/glow
 ```
@@ -85,7 +103,7 @@ ya pack -a Reledia/glow
 <summary>
 <a href="https://github.com/Reledia/hexyl.yazi">hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/hexyl
 ```
@@ -95,7 +113,7 @@ ya pack -a Reledia/hexyl
 <summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">lsar.yazi</a> - Previewing archive contents with lsar.
 </summary>
-  
+
 ```bash
 ya pack -a yazi-rs/plugins:lsar
 ```
@@ -105,7 +123,7 @@ ya pack -a yazi-rs/plugins:lsar
 <summary>
 <a href="https://github.com/Ape/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
 </summary>
-  
+
 ```bash
 ya pack -a Ape/mediainfo
 ```
@@ -115,7 +133,7 @@ ya pack -a Ape/mediainfo
 <summary>
 <a href="https://github.com/Reledia/miller.yazi">miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/miller
 ```
@@ -125,7 +143,7 @@ ya pack -a Reledia/miller
 <summary>
 <a href="https://github.com/AnirudhG07/nbpreview.yazi">nbpreview.yazi</a> - Preview jupyter notebooks (\*.ipynb) files using <a href="https://github.com/paw-lu/nbpreview">nbpreview</a>.
 </summary>
-  
+
 ```bash
 ya pack -a AnirudhG07/nbpreview
 ```
@@ -135,7 +153,7 @@ ya pack -a AnirudhG07/nbpreview
 <summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
 </summary>
-  
+
 ```bash
 ya pack -a ndtoan96/ouch
 ```
@@ -145,7 +163,7 @@ ya pack -a ndtoan96/ouch
 <summary>
 <a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
-  
+
 ```bash
 ya pack -a AnirudhG07/rich-preview
 ```
@@ -155,7 +173,7 @@ ya pack -a AnirudhG07/rich-preview
 <summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
-  
+
 ```bash
 ya pack -a kirasok/torrent-preview
 ```
@@ -165,12 +183,43 @@ ya pack -a kirasok/torrent-preview
 
 <details>
 <summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+<a href="https://gitee.com/DreamMaoMao/easyjump.yazi">easyjump.yazi</a> - Jump to files with a press of one or two keys for Yazi.
 </summary>
-  
+
 ```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git ~/.config/yazi/plugins/easyjump.yazi
+
+# Windows, with Powershell
+
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\config\plugins\easyjump.yazi
+
+````
+
+</details>
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/fg.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+</summary>
+
+```bash
+# Linux
+git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.yazi
+
+# Windows, with Powershell
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/fg.yazi.git $env:APPDATA\yazi\config\plugins\fg.yazi
+```
+
+Note, you can also download this plugin through older version, by same author, which works for yazi version >=0.3.0, with:
+
+```bash
+# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi
 ya pack -a redbeardymcgee/yazi-plugins:fg
 ```
+
 </details>
 
 <details>
@@ -206,24 +255,54 @@ ya pack -a dedukun/relative-motions
 
 <details>
 <summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi">searchjump.yazi</a> - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin which the behavior consistent with flash.nvim in Neovim, allow search str to generate lable to jump.support chinese pinyin search,regular expression search.
 </summary>
   
 ```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git ~/.config/yazi/plugins/searchjump.yazi
+
+# Windows, with Powershell
+
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\config\plugins\searchjump.yazi
+
+````
+Note, the older version for this plugin, by same author, which works for yazi version >=0.3.0, can be installed with:
+```bash
+# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi
 ya pack -a redbeardymcgee/yazi-plugins:searchjump
-```
+````
+
 </details>
 
 #### Bookmarks
 
 <details>
 <summary>
-<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+<a href="https://gitee.com/DreamMaoMao/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
 </summary>
   
 ```bash
+# Linux/macOS
+git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git ~/.config/yazi/plugins/bookmarks.yazi
+
+# Windows
+
+git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\config\plugins\bookmarks.yazi
+
+````
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+</summary>
+
+```bash
 ya pack -a dedukun/bookmarks
-```
+````
+
 </details>
 
 <details>
@@ -534,11 +613,12 @@ ya pack -a llanosrocas/yaziline
 </summary>
   
 ```bash
-## By DreamMaoMao
 # For Linux
 git clone https://gitee.com/DreamMaoMao/git.yazi.git ~/.config/yazi/plugins/git.yazi
 
-# For Windows - Manual Installation Required.
+# For Windows
+
+git clone https://gitee.com/DreamMaoMao/git.yazi $env:APPDATA\yazi\config\plugins\git.yazi
 
 ````
 </details>
