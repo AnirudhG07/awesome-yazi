@@ -26,8 +26,10 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
     - [Enter Enhancements](#enter-enhancements)
     - [General command enhancements](#general-command-enhancements)
   - [UI enhancements:](#ui-enhancements)
+  - [Git Utils](#git-utils)
   - [Preloaders](#preloaders)
     - [Images](#images)
+    - [Mime Types](#mime-types)
   - [Fetchers](#fetchers)
   - [NeoVim](#neovim)
     - [Nvim](#nvim)
@@ -52,124 +54,173 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file</a>.
 </summary>
   
 ```bash
-ya pack -a sharklasers996/eza-preview
-```
+# Linux
+git clone https://github.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
+````
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Sonico98/exifaudio.yazi">exifaudio.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Sonico98/exifaudio
 ```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+</summary>
+
+```bash
+ya pack -a sharklasers996/eza-preview
+```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Reledia/glow.yazi">glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/glow
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Reledia/hexyl.yazi">hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/hexyl
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">lsar.yazi</a> - Previewing archive contents with lsar.
 </summary>
-  
+
 ```bash
 ya pack -a yazi-rs/plugins:lsar
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Ape/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
 </summary>
-  
+
 ```bash
 ya pack -a Ape/mediainfo
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/Reledia/miller.yazi">miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
 </summary>
-  
+
 ```bash
 ya pack -a Reledia/miller
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/AnirudhG07/nbpreview.yazi">nbpreview.yazi</a> - Preview jupyter notebooks (\*.ipynb) files using <a href="https://github.com/paw-lu/nbpreview">nbpreview</a>.
 </summary>
-  
+
 ```bash
 ya pack -a AnirudhG07/nbpreview
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
 </summary>
-  
+
 ```bash
 ya pack -a ndtoan96/ouch
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
-  
+
 ```bash
 ya pack -a AnirudhG07/rich-preview
 ```
+
 </details>
 
 <details>
 <summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
-  
+
 ```bash
 ya pack -a kirasok/torrent-preview
 ```
+
 </details>
 
 #### Jumping
 
 <details>
 <summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+<a href="https://gitee.com/DreamMaoMao/easyjump.yazi">easyjump.yazi</a> - Jump to files with a press of one or two keys for Yazi.
 </summary>
-  
+
 ```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git ~/.config/yazi/plugins/easyjump.yazi
+
+# Windows, with Powershell
+
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\config\plugins\easyjump.yazi
+
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/fg.yazi">fg.yazi</a> - A Yazi plugin that supports file searching with an fzf preview.
+</summary>
+
+```bash
+# Linux
+git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.yazi
+```
+
+Note, you can also download this plugin through older version, by same author, which works for yazi version >=0.3.0, with:
+
+```bash
+# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi
 ya pack -a redbeardymcgee/yazi-plugins:fg
 ```
+
 </details>
 
 <details>
@@ -205,24 +256,54 @@ ya pack -a dedukun/relative-motions
 
 <details>
 <summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi">searchjump.yazi</a> - Yazi plugin that navigates your file with search labels, consistent with flash.nvim.
+<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin which the behavior consistent with flash.nvim in Neovim, allow search str to generate lable to jump.support chinese pinyin search,regular expression search.
 </summary>
   
 ```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git ~/.config/yazi/plugins/searchjump.yazi
+
+# Windows, with Powershell
+
+if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
+git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\config\plugins\searchjump.yazi
+
+````
+Note, the older version for this plugin, by same author, which works for yazi version >=0.3.0, can be installed with:
+```bash
+# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi
 ya pack -a redbeardymcgee/yazi-plugins:searchjump
-```
+````
+
 </details>
 
 #### Bookmarks
 
 <details>
 <summary>
-<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+<a href="https://gitee.com/DreamMaoMao/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
 </summary>
   
 ```bash
+# Linux/macOS
+git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git ~/.config/yazi/plugins/bookmarks.yazi
+
+# Windows
+
+git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\config\plugins\bookmarks.yazi
+
+````
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+</summary>
+
+```bash
 ya pack -a dedukun/bookmarks
-```
+````
+
 </details>
 
 <details>
@@ -437,33 +518,22 @@ ya pack -a orhnk/system-clipboard
 
 <details>
 <summary>
+<a href="https://gitee.com/DreamMaoMao/current-size.yazi">full-border.yazi</a> - Get current path size in header bar for yazi plugin/
+</summary>
+  
+```bash
+git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plugins/current-size.yazi
+```
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
   
 ```bash
 ya pack -a yazi-rs/plugins:full-border
-```
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/llanosrocas/githead.yazi">githead.yazi</a> - git status header inspired by powerlevel10k.
-</summary>
-  
-```bash
-ya pack -a llanosrocas/githead
-```
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi">git-status.yazi</a> - git prompt plugin for Yazi.
-</summary>
-  
-```bash
-ya pack -a redbeardymcgee/yazi-plugins:git-status
-# Only for Yazi v0.2.5 or lesser
-```
+```/UI
 </details>
 
 <details>
@@ -546,6 +616,47 @@ ya pack -a llanosrocas/yaziline
 ```
 </details>
 
+### Git Utils
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/git.yazi">git.yazi</a> - git extension and message prompt plugin for Yazi.
+</summary>
+  
+```bash
+# For Linux
+git clone https://gitee.com/DreamMaoMao/git.yazi.git ~/.config/yazi/plugins/git.yazi
+
+# For Windows
+
+git clone https://gitee.com/DreamMaoMao/git.yazi $env:APPDATA\yazi\config\plugins\git.yazi
+
+````
+</details>
+
+
+<details>
+<summary>
+<a href="https://github.com/llanosrocas/githead.yazi">githead.yazi</a> - git status header inspired by powerlevel10k.
+</summary>
+
+```bash
+ya pack -a llanosrocas/githead
+````
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi">git-status.yazi</a> - git prompt plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/yazi-plugins:git-status
+# Only for Yazi v0.2.5 or lesser, replacemenet is git.yazi
+```
+</details>
+
 ### Preloaders
 
 #### Images
@@ -559,6 +670,32 @@ ya pack -a llanosrocas/yaziline
 ya pack -a Sonico98/allmytoes
 ```
 </details>
+
+#### Mime Types
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/mime-ext.yazi">DreamMaoMao/mime-ext.yazi</a> - A Yazi plugin that quickly get mimetype to improved theme rendering speed.</summary>
+  
+```bash
+# Linux/macOS
+git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git ~/.config/yazi/plugins/mime-ext.yazi
+
+# Windows
+
+git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\plugins\mime-ext.yazi
+
+````
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/mime-preview.yazi">mime-preview.yazi</a> - Enables the preview folder on the right pane of yazi to render theme colors. very quickly with almost no performance loss.
+</summary>
+
+```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plugins/mime-preview.yazi
+````
 
 ### Fetchers
 
@@ -597,42 +734,42 @@ use {'is0n/fm-nvim'}
 
 ---@type LazySpec
 {
-  "mikavilpas/yazi.nvim",
-  event = "VeryLazy",
-  keys = {
-    -- 👇 in this section, choose your own keymappings!
-    {
-      "<leader>-",
-      "<cmd>Yazi<cr>",
-      desc = "Open yazi at the current file",
-    },
-    {
-      -- Open in the current working directory
-      "<leader>cw",
-      "<cmd>Yazi cwd<cr>",
-      desc = "Open the file manager in nvim's working directory" ,
-    },
-    {
-      -- NOTE: this requires a version of yazi that includes
-      -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-      '<c-up>',
-      "<cmd>Yazi toggle<cr>",
-      desc = "Resume the last yazi session",
-    },
-  },
-  ---@type YaziConfig
-  opts = {
-    -- if you want to open yazi instead of netrw, see below for more info
-    open_for_directories = false,
-    keymaps = {
-      show_help = '<f1>',
-    },
-  },
+"mikavilpas/yazi.nvim",
+event = "VeryLazy",
+keys = {
+-- 👇 in this section, choose your own keymappings!
+{
+"<leader>-",
+"<cmd>Yazi<cr>",
+desc = "Open yazi at the current file",
+},
+{
+-- Open in the current working directory
+"<leader>cw",
+"<cmd>Yazi cwd<cr>",
+desc = "Open the file manager in nvim's working directory" ,
+},
+{
+-- NOTE: this requires a version of yazi that includes
+-- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
+'<c-up>',
+"<cmd>Yazi toggle<cr>",
+desc = "Resume the last yazi session",
+},
+},
+---@type YaziConfig
+opts = {
+-- if you want to open yazi instead of netrw, see below for more info
+open_for_directories = false,
+keymaps = {
+show_help = '<f1>',
+},
+},
 }
 
 -- For more information, check the repository.
 
-```
+````
 </details>
 
 <details>
