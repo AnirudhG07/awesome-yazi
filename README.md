@@ -686,6 +686,7 @@ git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git ~/.config/yazi/plugins
 git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\plugins\mime-ext.yazi
 
 ````
+</details>
 
 <details>
 <summary>
@@ -696,6 +697,8 @@ git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\
 # Linux
 git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plugins/mime-preview.yazi
 ````
+
+</details>
 
 ### Fetchers
 
