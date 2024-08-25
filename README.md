@@ -10,7 +10,7 @@
 
 Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
-Each plugin info contains the installation instruction using `ya pack`. Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
+Each plugin info contains the installation instruction preferably using `ya pack` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
 ## Contents
 
@@ -281,7 +281,7 @@ ya pack -a redbeardymcgee/yazi-plugins:searchjump
 
 <details>
 <summary>
-<a href="https://gitee.com/DreamMaoMao/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
+<a href="https://gitee.com/DreamMaoMao/bookmarks.yazi">DreamMaoMao/bookmarks.yazi</a> - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
 </summary>
   
 ```bash
@@ -297,7 +297,7 @@ git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\con
 
 <details>
 <summary>
-<a href="https://github.com/dedukun/bookmarks.yazi">bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
+<a href="https://github.com/dedukun/bookmarks.yazi">dedukun/bookmarks.yazi</a> - A Yazi plugin that adds the basic functionality of Vi-like marks.
 </summary>
 
 ```bash

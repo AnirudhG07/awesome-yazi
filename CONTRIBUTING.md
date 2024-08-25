@@ -16,6 +16,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Make sure each list item is useful before adding it.
 - Create individual pull requests/issues for each suggestion.
 - Use [title-casing](http://titlecapitalization.com) (AP style) in the following format mentioned here [PR Format](https://github.com/AnirudhG07/awesome-yazi/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
+- If a similar named plugin exists, ONLY THEN you are allowed to add your name in the plugin name. Refer [bookmarks](https://github.com/AnirudhG07/awesome-yazi?tab=readme-ov-file#bookmarks) section.
 - Link additions should be added in _alphabetical order_ in the relevant category.
 - New categories or changes to the existing categorization are welcome.
 - Check your spelling and grammar.
