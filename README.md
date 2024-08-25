@@ -60,12 +60,6 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
 ```bash
 # Linux
 git clone https://github.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
-
-# Windows, with Powershell
-
-if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
-git clone https://gitee.com/DreamMaoMao/epub.yazi.git $env:APPDATA\yazi\config\plugins\epub.yazi
-
 ````
 </details>
 
@@ -77,6 +71,7 @@ git clone https://gitee.com/DreamMaoMao/epub.yazi.git $env:APPDATA\yazi\config\p
 ```bash
 ya pack -a Sonico98/exifaudio
 ```
+
 </details>
 
 <details>
@@ -87,8 +82,8 @@ ya pack -a Sonico98/exifaudio
 ```bash
 ya pack -a sharklasers996/eza-preview
 ```
-</details>
 
+</details>
 
 <details>
 <summary>
@@ -98,6 +93,7 @@ ya pack -a sharklasers996/eza-preview
 ```bash
 ya pack -a Reledia/glow
 ```
+
 </details>
 
 <details>
@@ -108,6 +104,7 @@ ya pack -a Reledia/glow
 ```bash
 ya pack -a Reledia/hexyl
 ```
+
 </details>
 
 <details>
@@ -118,6 +115,7 @@ ya pack -a Reledia/hexyl
 ```bash
 ya pack -a yazi-rs/plugins:lsar
 ```
+
 </details>
 
 <details>
@@ -128,6 +126,7 @@ ya pack -a yazi-rs/plugins:lsar
 ```bash
 ya pack -a Ape/mediainfo
 ```
+
 </details>
 
 <details>
@@ -138,6 +137,7 @@ ya pack -a Ape/mediainfo
 ```bash
 ya pack -a Reledia/miller
 ```
+
 </details>
 
 <details>
@@ -148,6 +148,7 @@ ya pack -a Reledia/miller
 ```bash
 ya pack -a AnirudhG07/nbpreview
 ```
+
 </details>
 
 <details>
@@ -158,6 +159,7 @@ ya pack -a AnirudhG07/nbpreview
 ```bash
 ya pack -a ndtoan96/ouch
 ```
+
 </details>
 
 <details>
@@ -168,6 +170,7 @@ ya pack -a ndtoan96/ouch
 ```bash
 ya pack -a AnirudhG07/rich-preview
 ```
+
 </details>
 
 <details>
@@ -178,6 +181,7 @@ ya pack -a AnirudhG07/rich-preview
 ```bash
 ya pack -a kirasok/torrent-preview
 ```
+
 </details>
 
 #### Jumping
@@ -196,7 +200,7 @@ git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git ~/.config/yazi/plugins
 if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
 git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\config\plugins\easyjump.yazi
 
-````
+```
 
 </details>
 
@@ -208,10 +212,6 @@ git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\conf
 ```bash
 # Linux
 git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.yazi
-
-# Windows, with Powershell
-if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
-git clone https://gitee.com/DreamMaoMao/fg.yazi.git $env:APPDATA\yazi\config\plugins\fg.yazi
 ```
 
 Note, you can also download this plugin through older version, by same author, which works for yazi version >=0.3.0, with:
