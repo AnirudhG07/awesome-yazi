@@ -29,6 +29,7 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
   - [Git Utils](#git-utils)
   - [Preloaders](#preloaders)
     - [Images](#images)
+    - [Mime Types](#mime-types)
   - [Fetchers](#fetchers)
   - [NeoVim](#neovim)
     - [Nvim](#nvim)
@@ -517,6 +518,16 @@ ya pack -a orhnk/system-clipboard
 
 <details>
 <summary>
+<a href="https://gitee.com/DreamMaoMao/current-size.yazi">full-border.yazi</a> - Get current path size in header bar for yazi plugin/
+</summary>
+  
+```bash
+git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plugins/current-size.yazi
+```
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
   
@@ -659,6 +670,32 @@ ya pack -a redbeardymcgee/yazi-plugins:git-status
 ya pack -a Sonico98/allmytoes
 ```
 </details>
+
+#### Mime Types
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/mime-ext.yazi">DreamMaoMao/mime-ext.yazi</a> - A Yazi plugin that quickly get mimetype to improved theme rendering speed.</summary>
+  
+```bash
+# Linux/macOS
+git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git ~/.config/yazi/plugins/mime-ext.yazi
+
+# Windows
+
+git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\plugins\mime-ext.yazi
+
+````
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/mime-preview.yazi">mime-preview.yazi</a> - Enables the preview folder on the right pane of yazi to render theme colors. very quickly with almost no performance loss.
+</summary>
+
+```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plugins/mime-preview.yazi
+````
 
 ### Fetchers
 
