@@ -26,6 +26,7 @@ Each plugin info contains the installation instruction using `ya pack`. Check ou
     - [Enter Enhancements](#enter-enhancements)
     - [General command enhancements](#general-command-enhancements)
   - [UI enhancements:](#ui-enhancements)
+  - [Git Utils](#git-utils)
   - [Preloaders](#preloaders)
     - [Images](#images)
   - [Fetchers](#fetchers)
@@ -442,28 +443,7 @@ ya pack -a orhnk/system-clipboard
   
 ```bash
 ya pack -a yazi-rs/plugins:full-border
-```
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/llanosrocas/githead.yazi">githead.yazi</a> - git status header inspired by powerlevel10k.
-</summary>
-  
-```bash
-ya pack -a llanosrocas/githead
-```
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi">git-status.yazi</a> - git prompt plugin for Yazi.
-</summary>
-  
-```bash
-ya pack -a redbeardymcgee/yazi-plugins:git-status
-# Only for Yazi v0.2.5 or lesser
-```
+```/UI
 </details>
 
 <details>
@@ -546,6 +526,46 @@ ya pack -a llanosrocas/yaziline
 ```
 </details>
 
+### Git Utils
+
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/git.yazi">git.yazi</a> - git extension and message prompt plugin for Yazi.
+</summary>
+  
+```bash
+## By DreamMaoMao
+# For Linux
+git clone https://gitee.com/DreamMaoMao/git.yazi.git ~/.config/yazi/plugins/git.yazi
+
+# For Windows - Manual Installation Required.
+
+````
+</details>
+
+
+<details>
+<summary>
+<a href="https://github.com/llanosrocas/githead.yazi">githead.yazi</a> - git status header inspired by powerlevel10k.
+</summary>
+
+```bash
+ya pack -a llanosrocas/githead
+````
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/git-status.yazi">git-status.yazi</a> - git prompt plugin for Yazi.
+</summary>
+  
+```bash
+ya pack -a redbeardymcgee/yazi-plugins:git-status
+# Only for Yazi v0.2.5 or lesser, replacemenet is git.yazi
+```
+</details>
+
 ### Preloaders
 
 #### Images
@@ -597,42 +617,42 @@ use {'is0n/fm-nvim'}
 
 ---@type LazySpec
 {
-  "mikavilpas/yazi.nvim",
-  event = "VeryLazy",
-  keys = {
-    -- 👇 in this section, choose your own keymappings!
-    {
-      "<leader>-",
-      "<cmd>Yazi<cr>",
-      desc = "Open yazi at the current file",
-    },
-    {
-      -- Open in the current working directory
-      "<leader>cw",
-      "<cmd>Yazi cwd<cr>",
-      desc = "Open the file manager in nvim's working directory" ,
-    },
-    {
-      -- NOTE: this requires a version of yazi that includes
-      -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-      '<c-up>',
-      "<cmd>Yazi toggle<cr>",
-      desc = "Resume the last yazi session",
-    },
-  },
-  ---@type YaziConfig
-  opts = {
-    -- if you want to open yazi instead of netrw, see below for more info
-    open_for_directories = false,
-    keymaps = {
-      show_help = '<f1>',
-    },
-  },
+"mikavilpas/yazi.nvim",
+event = "VeryLazy",
+keys = {
+-- 👇 in this section, choose your own keymappings!
+{
+"<leader>-",
+"<cmd>Yazi<cr>",
+desc = "Open yazi at the current file",
+},
+{
+-- Open in the current working directory
+"<leader>cw",
+"<cmd>Yazi cwd<cr>",
+desc = "Open the file manager in nvim's working directory" ,
+},
+{
+-- NOTE: this requires a version of yazi that includes
+-- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
+'<c-up>',
+"<cmd>Yazi toggle<cr>",
+desc = "Resume the last yazi session",
+},
+},
+---@type YaziConfig
+opts = {
+-- if you want to open yazi instead of netrw, see below for more info
+open_for_directories = false,
+keymaps = {
+show_help = '<f1>',
+},
+},
 }
 
 -- For more information, check the repository.
 
-```
+````
 </details>
 
 <details>
