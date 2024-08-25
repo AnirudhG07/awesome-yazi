@@ -29,7 +29,6 @@ Each plugin info contains the installation instruction preferably using `ya pack
   - [Git Utils](#git-utils)
   - [Preloaders](#preloaders)
     - [Images](#images)
-    - [Mime Types](#mime-types)
   - [Fetchers](#fetchers)
   - [NeoVim](#neovim)
     - [Nvim](#nvim)
@@ -671,7 +670,18 @@ ya pack -a Sonico98/allmytoes
 ```
 </details>
 
-#### Mime Types
+### Fetchers
+
+<details>
+<summary>
+<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">mime.yazi</a> - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
+</summary>
+  
+```bash
+# This is not needed for yazi v0.3.0 or later
+ya pack -a redbeardymcgee/yazi-plugins:mime
+```
+</details>
 
 <details>
 <summary>
@@ -696,19 +706,6 @@ git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\
 ```bash
 # Linux
 git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plugins/mime-preview.yazi
-````
-
-</details>
-
-### Fetchers
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">mime.yazi</a> - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
-</summary>
-  
-```bash
-ya pack -a redbeardymcgee/yazi-plugins:mime
 ```
 </details>
 
@@ -720,7 +717,7 @@ ya pack -a redbeardymcgee/yazi-plugins:mime
 <summary>
 <a href="https://github.com/Eric-Song-Nop/fm-nvim">fm-nvim</a> - Neovim plugin that lets you use your favorite terminal file managers.
 </summary>
-  
+
 ```
 # packer.nvim
 use {'is0n/fm-nvim'}
@@ -731,7 +728,7 @@ use {'is0n/fm-nvim'}
 <summary>
 <a href="https://github.com/mikavilpas/yazi.nvim">mikavilpas/yazi.nvim</a> - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
 </summary>
-  
+
 ```lua
 -- Using lazy.nvim
 
@@ -773,6 +770,7 @@ show_help = '<f1>',
 -- For more information, check the repository.
 
 ````
+
 </details>
 
 <details>
@@ -793,7 +791,7 @@ show_help = '<f1>',
     end,
 }
 -- For more information, check the repository.
-````
+```
 
 </details>
 
