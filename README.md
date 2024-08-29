@@ -1,20 +1,17 @@
-# awesome-yazi
+# Awesome Yazi [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <div align="center">
   <img src="assets/logo.png" alt="Yazi logo" width="20%">
 </div>
 
-## Yazi - ⚡️ Blazing Fast Terminal File Manager
+> A curated list of amazing plugins, flavors and themes of Yazi.
 
-> A curated list of amazing plugins, flavors and themes of [Yazi](https://github.com/sxyazi/yazi).
-
-Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+Yazi (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
 Each plugin info contains the installation instruction preferably using `ya pack` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
 ## Contents
 
-- [Contents](#contents)
 - [Official](#official)
 - [Plugins](#plugins)
   - [Functional Enhancements](#functional-enhancements)
@@ -25,7 +22,7 @@ Each plugin info contains the installation instruction preferably using `ya pack
     - [Filter Enhancements](#filter-enhancements)
     - [Enter Enhancements](#enter-enhancements)
     - [General command enhancements](#general-command-enhancements)
-  - [UI enhancements:](#ui-enhancements)
+  - [UI enhancements](#ui-enhancements)
   - [Git Utils](#git-utils)
   - [Preloaders](#preloaders)
     - [Images](#images)
@@ -513,7 +510,7 @@ ya pack -a orhnk/system-clipboard
 ```
 </details>
 
-### UI enhancements:
+### UI enhancements
 
 <details>
 <summary>
