@@ -1,4 +1,4 @@
-# Awesome Yazi [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
   <img src="assets/logo.png" alt="Yazi logo" width="20%">
@@ -14,22 +14,18 @@ Each plugin info contains the installation instruction preferably using `ya pack
 
 - [Official](#official)
 - [Plugins](#plugins)
-  - [Functional Enhancements](#functional-enhancements)
-    - [Previewers](#previewers)
-    - [Jumping](#jumping)
-    - [Bookmarks](#bookmarks)
-    - [File Actions](#file-actions)
-    - [Filter Enhancements](#filter-enhancements)
-    - [Enter Enhancements](#enter-enhancements)
-    - [General command enhancements](#general-command-enhancements)
+  - [Previewers](#previewers)
+  - [Jumping](#jumping)
+  - [Bookmarks](#bookmarks)
+  - [File Actions](#file-actions)
+  - [Filter Enhancements](#filter-enhancements)
+  - [Enter Enhancements](#enter-enhancements)
+  - [General command enhancements](#general-command-enhancements)
   - [UI enhancements](#ui-enhancements)
   - [Git Utils](#git-utils)
-  - [Preloaders](#preloaders)
-    - [Images](#images)
+  - [Preloader Images](#preloader-images)
   - [Fetchers](#fetchers)
-  - [NeoVim](#neovim)
-    - [Nvim](#nvim)
-    - [Vim](#vim)
+  - [Neovim & Vim](#neovim--vim)
   - [Shell plugins](#shell-plugins)
   - [Utilities](#utilities)
 - [Flavors](#flavors)
@@ -44,9 +40,7 @@ Each plugin info contains the installation instruction preferably using `ya pack
 
 ## Plugins
 
-### Functional Enhancements
-
-#### Previewers
+### Previewers
 
 <details>
 <summary>
@@ -180,7 +174,7 @@ ya pack -a kirasok/torrent-preview
 
 </details>
 
-#### Jumping
+### Jumping
 
 <details>
 <summary>
@@ -273,7 +267,7 @@ ya pack -a redbeardymcgee/yazi-plugins:searchjump
 
 </details>
 
-#### Bookmarks
+### Bookmarks
 
 <details>
 <summary>
@@ -332,7 +326,7 @@ ya pack -a h-hg/yamb
 ```
 </details>
 
-#### File Actions
+### File Actions
 
 <details>
 <summary>
@@ -444,7 +438,7 @@ ya pack -a pirafrank/what-size
 ```
 </details>
 
-#### Filter Enhancements
+### Filter Enhancements
 
 <details>
 <summary>
@@ -456,7 +450,7 @@ ya pack -a yazi-rs/plugins:smart-filter
 ```
 </details>
 
-#### Enter Enhancements
+### Enter Enhancements
 
 <details>
 <summary>
@@ -478,7 +472,7 @@ ya pack -a ourongxing/fast-enter
 ```
 </details>
 
-#### General command enhancements
+### General command enhancements
 
 <details>
 <summary>
@@ -653,9 +647,7 @@ ya pack -a redbeardymcgee/yazi-plugins:git-status
 ```
 </details>
 
-### Preloaders
-
-#### Images
+### Preloader Images
 
 <details>
 <summary>
@@ -706,9 +698,7 @@ git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plu
 ```
 </details>
 
-### NeoVim
-
-#### Nvim
+### Neovim & Vim
 
 <details>
 <summary>
@@ -791,8 +781,6 @@ show_help = '<f1>',
 ```
 
 </details>
-
-#### Vim
 
 <details>
 <summary>
