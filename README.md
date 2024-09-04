@@ -749,6 +749,17 @@ git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\
 
 <details>
 <summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/mime-ext.yazi">yazi-rs/mime-ext.yazi</a> - A common file type MIME-type library specifically designed for Yazi.
+</summary>
+
+```bash
+ya pack -a yazi-rs/plugins:mime-ext
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/mime-preview.yazi">mime-preview.yazi</a> - Enables the preview folder on the right pane of yazi to render theme colors. very quickly with almost no performance loss.
 </summary>
 
