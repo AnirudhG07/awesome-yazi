@@ -549,9 +549,10 @@ git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plu
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
 
-````bash
+```bash
 ya pack -a yazi-rs/plugins:full-border
-```/UI
+```
+
 </details>
 
 <details>
@@ -561,7 +562,7 @@ ya pack -a yazi-rs/plugins:full-border
 
 ```bash
 ya pack -a yazi-rs/plugins:hide-preview
-````
+```
 
 </details>
 
