@@ -7,6 +7,8 @@ Link: https://discord.com/channels/1136203602898194542/1162359681147207822/12807
 > ! Note
 > This note assumes you have rofi installed and working on your system, and know how to configure it.
 
+## Screenshots
+
 ## Installation
 
 Add this to yazi `keymap.toml`:

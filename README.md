@@ -975,3 +975,7 @@ Manual Installation Required.
 
 - [discord(English mainly)](https://discord.gg/qfADduSdJu)
 - [Telegram(Chinese mainly)](https://t.me/yazi_rs)
+
+## Footnotes
+
+Check out the `checkout_more` section for more cool stuff and plugins. If you want to add something cool you made, which is not a plugin, flavor or theme, you can definitely add it to the `checkout_more` section for others to see.
