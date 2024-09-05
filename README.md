@@ -1065,7 +1065,7 @@ Manual Installation Required.
 
 - [Discord (English mainly)](https://discord.gg/qfADduSdJu)
 - [Telegram (Chinese mainly)](https://t.me/yazi_rs)
-  
-## Check Out More
-Check out the `checkout_more` section for more cool stuff and plugins. If you want to add something cool you made, which is not a plugin, flavor or theme, you can definitely add it to the `checkout_more` section for others to see.
 
+## Check Out More
+
+Check out the [`checkout_more` section](https://github.com/AnirudhG07/awesome-yazi/tree/main/checkout_more) for more cool stuff and plugins. If you want to add something cool you made, which is not a plugin, flavor or theme, you can definitely add it to the `checkout_more` section for others to see.
