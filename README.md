@@ -205,13 +205,6 @@ git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\conf
 git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.yazi
 ```
 
-Note, you can also download this plugin through older version, by same author, which works for yazi version >=0.3.0, with:
-
-```bash
-# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/fg.yazi
-ya pack -a redbeardymcgee/yazi-plugins:fg
-```
-
 </details>
 
 <details>
@@ -221,18 +214,6 @@ ya pack -a redbeardymcgee/yazi-plugins:fg
 
 ```bash
 ya pack -a yazi-rs/plugins:jump-to-char
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/keyjump.yazi">keyjump.yazi</a> - A Yazi plugin that jumps to a file by typing a hint character, much like hop.nvim.
-</summary>
-
-```bash
-ya pack -a redbeardymcgee/yazi-plugins:keyjump
-# Only for Yazi v0.2.5 or lesser
 ```
 
 </details>
@@ -264,13 +245,6 @@ git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\co
 
 ```
 
-Note, the older version for this plugin, by same author, which works for yazi version >=0.3.0, can be installed with:
-
-```bash
-# Visit: https://github.com/redbeardymcgee/yazi-plugins/tree/main/searchjump.yazi
-ya pack -a redbeardymcgee/yazi-plugins:searchjump
-```
-
 </details>
 
 ### Bookmarks
@@ -299,17 +273,6 @@ git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\con
 
 ```bash
 ya pack -a dedukun/bookmarks
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/bookmarks-persistence.yazi">bookmarks-persistence.yazi</a> - A Yazi plugin that supports persistent bookmark management. No bookmarks are lost after you close yazi.
-</summary>
-
-```
-Manual Installation Required.
 ```
 
 </details>
@@ -718,18 +681,6 @@ ya pack -a Sonico98/allmytoes
 </details>
 
 ### Fetchers
-
-<details>
-<summary>
-<a href="https://github.com/redbeardymcgee/yazi-plugins/tree/main/mime.yazi">mime.yazi</a> - Replace the builtin `mime` plugin to speed up the identification of large files by using file extensions instead of file content to obtain the mime-types.
-</summary>
-
-```bash
-# This is not needed for yazi v0.3.0 or later
-ya pack -a redbeardymcgee/yazi-plugins:mime
-```
-
-</details>
 
 <details>
 <summary>
