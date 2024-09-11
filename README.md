@@ -436,7 +436,7 @@ ya pack -a pirafrank/what-size
 
 <details>
 <summary>
-<a href="https://github.com/Tyarel8/whide.yazi">whide.yazi</a> - Hide/unhide files in windows.
+<a href="https://github.com/Tyarel8/whide.yazi">whide.yazi</a> - Hide/unhide files in Windows.
 </summary>
 
 ```bash
