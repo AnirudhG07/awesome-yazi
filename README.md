@@ -175,6 +175,18 @@ ya pack -a kirasok/torrent-preview
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/Tyarel8/video-ffmpeg.yazi">video-ffmpeg.yazi</a> - Preview video files using <a href="https://ffmpeg.org/">ffmpeg</a> directly instead of 
+<a href="https://github.com/dirkvdb/ffmpegthumbnailer">ffmpegthumbnailer</a>.
+</summary>
+
+```bash
+ya pack -a 'Tyarel8/video-ffmpeg'
+```
+
+</details>
+
 ### Jumping
 
 <details>
