@@ -182,7 +182,7 @@ ya pack -a kirasok/torrent-preview
 </summary>
 
 ```bash
-ya pack -a 'Tyarel8/video-ffmpeg'
+ya pack -a Tyarel8/video-ffmpeg
 ```
 
 </details>
