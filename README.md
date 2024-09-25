@@ -497,6 +497,17 @@ ya pack -a hankertrix/augment-command
 
 <details>
 <summary>
+<a href="https://github.com/AnirudhG07/plugins-yazi/tree/main/copy-file-contents.yazi">copy-file-contents.yazi</a> - A simple plugin to copy the contents of a file to the clipboard directly from yazi.
+</summary>
+
+```bash
+ya pack -a AnirudhG07/plugins-yazi:copy-file-contents
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/TD-Sky/sudo.yazi">sudo.yazi</a> - Call `sudo` in yazi.
 </summary>
 
