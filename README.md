@@ -115,7 +115,7 @@ ya pack -a yazi-rs/plugins:lsar
 </summary>
 
 ```bash
-ya pack --add GrzegorzKozub/mdcat
+ya pack -a GrzegorzKozub/mdcat
 ```
 
 </details>
