@@ -111,6 +111,17 @@ ya pack -a yazi-rs/plugins:lsar
 
 <details>
 <summary>
+<a href="https://github.com/GrzegorzKozub/mdcat.yazi">mdcat.yazi</a> - Preview markdown files using <a href="https://github.com/swsnr/mdcat">mdcat</a>.
+</summary>
+
+```bash
+ya pack -a GrzegorzKozub/mdcat
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Ape/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
 </summary>
 
