@@ -232,6 +232,17 @@ git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.y
 
 <details>
 <summary>
+<a href="https://github.com/lpanebr/yazi-plugins/tree/main/first-non-directory.yazi">first-non-directory.yazi</a> - Allows easy jumping to the first file ignoring directories.
+</summary>
+
+```bash
+ya pack -a lpanebr/yazi-plugins:first-non-directory
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi">jump-to-char.yazi</a> - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
 </summary>
 
