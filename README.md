@@ -31,6 +31,7 @@ Each plugin info contains the installation instruction preferably using `ya pack
 - [Flavors](#flavors)
 - [Themes](#themes)
 - [Community](#community)
+- [Check Out More](#check-out-more)
 
 ## Official
 
