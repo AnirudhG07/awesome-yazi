@@ -551,6 +551,21 @@ ya pack -a orhnk/system-clipboard
 
 </details>
 
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/clipboard.yazi">win-clipboard.yazi</a> - Yazi plugin for copy file to clipboard,support linux and windows.
+</summary>
+
+```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git ~/.config/yazi/plugins/clipboard.yazi
+
+# Windows
+git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\config\plugins\clipboard.yazi
+```
+
+</details>
+
 ### UI enhancements
 
 <details>
