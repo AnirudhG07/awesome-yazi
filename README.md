@@ -393,6 +393,17 @@ ya pack -a BBOOXX/file-actions
 
 <details>
 <summary>
+<a href="https://github.com/dawsers/fuse-archive.yazi">fuse-archive.yazi</a> - Transparently mount and unmount archives in read-only mode while navigating in Yazi.
+</summary>
+
+```bash
+ya pack -a dawsers/fuse-archive
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
 </summary>
 
@@ -581,6 +592,17 @@ git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plu
 
 <details>
 <summary>
+<a href="https://github.com/dawsers/dual-pane.yazi">dual-pane.yazi</a> - Dual pane navigation like Total Commander.
+</summary>
+
+```bash
+ya pack -a dawsers/dual-pane
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
 
@@ -674,6 +696,17 @@ ya pack -a Ape/simple-status
 
 ```bash
 ya pack -a Rolv-Apneseth/starship
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
+</summary>
+
+```bash
+ya pack -a dawsers/toggle-view
 ```
 
 </details>
