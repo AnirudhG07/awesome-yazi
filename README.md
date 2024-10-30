@@ -1,12 +1,16 @@
 # Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<br>
+
 <div align="center">
   <img src="assets/logo.png" alt="Yazi logo" width="20%">
 </div>
 
+<br>
+
 > A curated list of amazing plugins, flavors and themes of Yazi.
 
-Yazi (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+[Yazi](https://github.com/sxyazi/yazi) (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
 Each plugin info contains the installation instruction preferably using `ya pack` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
@@ -974,7 +978,7 @@ ya pack -a lpnh/icons-brew
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-frappe.yazi">catppuccin-frappe.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-frappe.yazi">catppuccin-frappe.yazi</a> - Add flavor to yazi with Catppuccin Frappe theme.
 </summary>
 
 ```bash
@@ -985,7 +989,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-latte.yazi">catppuccin-latte.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-latte.yazi">catppuccin-latte.yazi</a> - Add flavor to yazi with Catppuccin Latte theme.
 </summary>
 
 ```bash
@@ -996,7 +1000,7 @@ ya pack -a yazi-rs/flavors:catppuccin-latte
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-macchaito.yazi">catppuccin-macchiato.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-macchaito.yazi">catppuccin-macchiato.yazi</a> - Add flavor to yazi with Catppuccin Macchiato theme.
 </summary>
 
 ```bash
@@ -1007,7 +1011,7 @@ ya pack -a yazi-rs/flavors:catppuccin-macchiato
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-mocha.yazi">catppuccin-mocha.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-mocha.yazi">catppuccin-mocha.yazi</a> - Add flavor to yazi with Catppuccin Mocha theme.
 </summary>
 
 ```bash
@@ -1018,7 +1022,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 
 <details>
 <summary>
-<a href="https://github.com/dangooddd/kanagawa.yazi">kanagawa.yazi</a>
+<a href="https://github.com/dangooddd/kanagawa.yazi">kanagawa.yazi</a> - Kanagawa flavors for Yazi.
 </summary>
 
 ```bash
@@ -1029,7 +1033,7 @@ ya pack -a dangooddd/kanagawa
 
 <details>
 <summary>
-<a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a>
+<a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a> - One Dark flavor for Yazi.
 </summary>
 
 ```bash
@@ -1040,7 +1044,7 @@ ya pack -a BennyOe/onedark
 
 <details>
 <summary>
-<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a>
+<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a> - Tokyo Night flavor for Yazi.
 </summary>
 
 ```bash
@@ -1053,7 +1057,7 @@ ya pack -a BennyOe/tokyo-night
 
 <details>
 <summary>
-<a href="https://github.com/catppuccin/yazi">Catppuccin</a>
+<a href="https://github.com/catppuccin/yazi">Catppuccin</a> - Capuccino-inspired theme for Yazi.
 </summary>
 
 ```
@@ -1064,7 +1068,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a>
+<a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a> - Crystal theme for Yazi.
 </summary>
 
 ```
@@ -1075,7 +1079,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a>
+<a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a> - Gruvbox Dark theme for Yazi.
 </summary>
 
 ```
@@ -1086,7 +1090,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a>
+<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a> - Flexoki theme for Yazi. 
 </summary>
 
 ```
@@ -1108,7 +1112,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a>
+<a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a> - Rosé Pine theme for Yazi.
 </summary>
 
 ```
