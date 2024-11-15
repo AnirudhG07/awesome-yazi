@@ -24,13 +24,13 @@ Each plugin info contains the installation instruction preferably using `ya pack
   - [File Actions](#file-actions)
   - [Filter Enhancements](#filter-enhancements)
   - [Enter Enhancements](#enter-enhancements)
-  - [General command enhancements](#general-command-enhancements)
+  - [General Command Enhancements](#general-command-enhancements)
   - [UI enhancements](#ui-enhancements)
   - [Git Utils](#git-utils)
   - [Preloader Images](#preloader-images)
   - [Fetchers](#fetchers)
   - [Neovim & Vim](#neovim--vim)
-  - [Shell plugins](#shell-plugins)
+  - [Shell Plugins](#shell-plugins)
   - [Utilities](#utilities)
 - [Flavors](#flavors)
 - [Themes](#themes)
@@ -520,7 +520,7 @@ ya pack -a ourongxing/fast-enter
 
 </details>
 
-### General command enhancements
+### General Command Enhancements
 
 <details>
 <summary>
@@ -926,7 +926,7 @@ Plug 'chriszarate/yazi.vim'
 
 </details>
 
-### Shell plugins
+### Shell Plugins
 
 <details>
 <summary>
