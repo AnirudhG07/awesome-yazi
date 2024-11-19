@@ -49,12 +49,12 @@ Each plugin info contains the installation instruction preferably using `ya pack
 
 <details>
 <summary>
-<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file</a>.
+<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file.
 </summary>
 
 ```bash
 # Linux
-git clone https://github.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
+git clone https://gitee.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
 ```
 
 </details>
@@ -72,7 +72,7 @@ ya pack -a Sonico98/exifaudio
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview directories using <a href="https://github.com/eza-community/eza">eza</a>.
 </summary>
 
 ```bash
