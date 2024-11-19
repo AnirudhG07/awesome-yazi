@@ -270,7 +270,7 @@ ya pack -a dedukun/relative-motions
 
 <details>
 <summary>
-<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin which the behavior consistent with flash.nvim in Neovim, allow search str to generate lable to jump.support chinese pinyin search,regular expression search.
+<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin similar to flash.nvim in Neovim, using a search string to generate labels for jumping to. Supports searching by chinese pinyin or regular expressions.
 </summary>
 
 ```bash
@@ -282,6 +282,17 @@ git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git ~/.config/yazi/plugi
 if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
 git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\config\plugins\searchjump.yazi
 
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/iynaix/time-travel.yazi">time-travel.yazi</a> - Browse forwards and backwards in time via BTRFS / ZFS snapshots.
+</summary>
+
+```bash
+ya pack -a iynaix/time-travel
 ```
 
 </details>
