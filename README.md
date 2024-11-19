@@ -483,6 +483,16 @@ ya pack -a Tyarel8/whide
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/restore.yazi">restore.yazi</a> - Undo/Recover trashed files/folders in Linux/MacOS.
+</summary>
+```bash
+# Requirements: trash-cli, yazi >= 0.4
+ya pack -a boydaihungst/restore
+```
+</details>
+
 ### Filter Enhancements
 
 <details>
