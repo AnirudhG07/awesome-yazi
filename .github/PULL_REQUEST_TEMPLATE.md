@@ -15,6 +15,6 @@ ya pack -a author_name/package
 
 <br>
 
-- [ ] I have read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+- [ ] I have read the [CONTRIBUTING.md](https://github.com/AnirudhG07/awesome-yazi/blob/main/CONTRIBUTING.md) file.
 - [ ] I have added my package in ascending order in the sub-section of chosen category.
 - [ ] I have added in the format mentioned above.

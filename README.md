@@ -419,17 +419,6 @@ ya pack -a dawsers/fuse-archive
 
 <details>
 <summary>
-<a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
-</summary>
-
-```bash
-ya pack -a Lil-Dank/lazygit
-```
-
-</details>
-
-<details>
-<summary>
 <a href="https://github.com/Sonico98/mkdir.yazi">mkdir.yazi</a> - Create directories without typing a trailing slash.
 </summary>
 
@@ -819,6 +808,17 @@ ya pack -a yazi-rs/plugins:git
 
 ```bash
 ya pack -a llanosrocas/githead
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
+</summary>
+
+```bash
+ya pack -a Lil-Dank/lazygit
 ```
 
 </details>
