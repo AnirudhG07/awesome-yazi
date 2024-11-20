@@ -495,6 +495,18 @@ ya pack -a boydaihungst/restore
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/thunar-bulk-rename.yazi">thunar-bulk-rename.yazi</a> - Bulk rename using thunar -B in Linux.
+</summary>
+
+```bash
+# Requirements: thunar file manager
+ya pack -a boydaihungst/thunar-bulk-rename
+```
+
+</details>
+
 ### Filter Enhancements
 
 <details>
@@ -749,6 +761,18 @@ ya pack -a llanosrocas/yaziline
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/file-extra-metadata.yazi">file-extra-metadata.yazi</a> - Replaces the default file previewer plugin with extra information. Mimics Midnight Commander's file info for Linux.
+</summary>
+
+```bash
+# Requirements: yazi >= 0.4
+ya pack -a boydaihungst/file-extra-metadata
+```
+
+</details>
+
 ### Git Utils
 
 <details>
@@ -982,6 +1006,18 @@ ya pack -a Sonico98/yazi-prompt
 
 ```bash
 ya pack -a lpnh/icons-brew
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/simple-mtpfs.yazi">simple-mtpfs.yazi</a> - Mounting MTP devices (Android, Camera, etc) in Linux.
+</summary>
+
+```bash
+# Requirements: simple-mtpfs, yazi >= 0.4
+ya pack -a boydaihungst/simple-mtpfs
 ```
 
 </details>
