@@ -79,6 +79,9 @@ ya pack -a Sonico98/exifaudio
 ya pack -a ahkohd/eza-preview
 ```
 
+> Note:
+> The [original repo](https://github.com/sharklasers996/eza-preview.yazi) is currently unmaintained and does not work for Yazi v>=0.3.3.
+
 </details>
 
 <details>
