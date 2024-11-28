@@ -72,11 +72,11 @@ ya pack -a Sonico98/exifaudio
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview directories using <a href="https://github.com/eza-community/eza">eza</a>.
+<a href="https://github.com/ahkohd/eza-preview.yazi">eza-preview.yazi</a> - Preview directories using <a href="https://github.com/eza-community/eza">eza</a>.
 </summary>
 
 ```bash
-ya pack -a sharklasers996/eza-preview
+ya pack -a ahkohd/eza-preview
 ```
 
 </details>
