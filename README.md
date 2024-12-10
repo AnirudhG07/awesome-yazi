@@ -29,7 +29,7 @@ Each plugin info contains the installation instruction preferably using `ya pack
   - [Git Utils](#git-utils)
   - [Preloader Images](#preloader-images)
   - [Fetchers](#fetchers)
-  - [Neovim & Vim](#neovim--vim)
+  - [Text Editor](#text-editor)
   - [Shell Plugins](#shell-plugins)
   - [Utilities](#utilities)
 - [Flavors](#flavors)
@@ -872,7 +872,7 @@ git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plu
 
 </details>
 
-### Neovim & Vim
+### Text Editor
 
 <details>
 <summary>
@@ -891,47 +891,7 @@ use {'is0n/fm-nvim'}
 <a href="https://github.com/mikavilpas/yazi.nvim">mikavilpas/yazi.nvim</a> - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
 </summary>
 
-```lua
--- Using lazy.nvim
-
----@type LazySpec
-{
-"mikavilpas/yazi.nvim",
-event = "VeryLazy",
-keys = {
--- 👇 in this section, choose your own keymappings!
-{
-"<leader>-",
-"<cmd>Yazi<cr>",
-desc = "Open yazi at the current file",
-},
-{
--- Open in the current working directory
-"<leader>cw",
-"<cmd>Yazi cwd<cr>",
-desc = "Open the file manager in nvim's working directory" ,
-},
-{
--- NOTE: this requires a version of yazi that includes
--- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-'<c-up>',
-"<cmd>Yazi toggle<cr>",
-desc = "Resume the last yazi session",
-},
-},
----@type YaziConfig
-opts = {
--- if you want to open yazi instead of netrw, see below for more info
-open_for_directories = false,
-keymaps = {
-show_help = '<f1>',
-},
-},
-}
-
--- For more information, check the repository.
-
-```
+> Check the repository for more information.
 
 </details>
 
@@ -954,6 +914,15 @@ show_help = '<f1>',
 }
 -- For more information, check the repository.
 ```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/luccahuguet/yazelix">yazelix</a> - Zellij, Yazi and nushell adding a File Tree to Helix & helix-friendly keybindigs for zellij.
+</summary>
+
+> Check the repository for more information.
 
 </details>
 
