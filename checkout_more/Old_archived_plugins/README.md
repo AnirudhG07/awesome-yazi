@@ -1,10 +1,10 @@
 # Old DreamMaoMao Plugin
 
-These are the list of plugins that @DreamMaoMao had made in past, before switching to gitee. The new plugins made by the author are mentioned in the main `README.md` file. These plugins are saved [here](https://github.com/redbeardymcgee/yazi-plugins), and it is archived and not maintained anymore. Please use the new plugins mentioned in the main `README.md` file.
+These are the list of plugins that various community developers for yazi had made in past, before switching to gitee, or yazi update came with their support as default, etc. The new plugins made by the author are mentioned in the main `README.md` file. These plugins are saved [here](https://github.com/redbeardymcgee/yazi-plugins), and it is archived and not maintained anymore. Please use the new plugins mentioned in the main `README.md` file.
 
 > [!Note]
 > The plugins made here are not maintained anymore.
-> The plugins were made for Yazi v<= 0.2.5, so it may not work with the latest version of Yazi.
+> The plugins were made for older versions of yazi, so it may not work with the latest versions.
 
 ## List of Plugins
 
@@ -13,8 +13,6 @@ These are the list of plugins that @DreamMaoMao had made in past, before switchi
 ```bash
 ya pack -a redbeardymcgee/yazi-plugins:fg
 ```
-
-Note, this plugin may work for higher versions of Yazi, as well. It has been tested on Yazi v0.3.3 and works fine.
 
 > [!Tip]
 > You can download latest version of fg.yazi, as mentioned in main `README.md`.
@@ -53,3 +51,11 @@ ya pack -a redbeardymcgee/yazi-plugins:mime
 ```
 
 Note: This is not needed anymore for Yazi v0.3.0 or higher.
+
+- [video-ffmpeg.yazi](https://github.com/Tyarel8/video-ffmpeg.yazi) - Preview video files using <a href="https://ffmpeg.org/">ffmpeg</a> directly instead of <a href="https://github.com/dirkvdb/ffmpegthumbnailer">ffmpegthumbnailer</a>.
+
+```bash
+ya pack -a Tyarel8/video-ffmpeg
+```
+
+> From yazi v0.4, yazi uses ffmpeg to preview video files by default.

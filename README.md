@@ -194,18 +194,6 @@ ya pack -a kirasok/torrent-preview
 
 </details>
 
-<details>
-<summary>
-<a href="https://github.com/Tyarel8/video-ffmpeg.yazi">video-ffmpeg.yazi</a> - Preview video files using <a href="https://ffmpeg.org/">ffmpeg</a> directly instead of 
-<a href="https://github.com/dirkvdb/ffmpegthumbnailer">ffmpegthumbnailer</a>.
-</summary>
-
-```bash
-ya pack -a Tyarel8/video-ffmpeg
-```
-
-</details>
-
 ### Jumping
 
 <details>
@@ -356,12 +344,14 @@ ya pack -a h-hg/yamb
 
 <details>
 <summary>
-<a href="https://github.com/KKV9/archive.yazi">archive.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
+<a href="https://github.com/KKV9/compress.yazi">compress.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 </summary>
 
 ```bash
 ya pack -a KKV9/archive
 ```
+
+> It was previously named `archive.yazi`.
 
 </details>
 
@@ -684,6 +674,8 @@ ya pack -a yazi-rs/plugins:max-preview
 ```bash
 ya pack -a yazi-rs/plugins:no-status
 ```
+
+> Check out [no-header.yazi](https://github.com/sxyazi/yazi/discussions/1996) in this discussion.
 
 </details>
 
