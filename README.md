@@ -725,6 +725,18 @@ ya pack -a Rolv-Apneseth/starship
 
 <details>
 <summary>
+<a href="https://github.com/lpanebr/yazi-plugins/tree/main/yatline-symlink.yazi">yatline-symlink.yazi</a> - Shows a symlink's target in your header or status line.
+
+</summary>
+
+```bash
+ya pack -a lpanebr/yazi-plugins:yatline-symlink
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
 </summary>
 
@@ -1113,7 +1125,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a> - Flexoki theme for Yazi. 
+<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a> - Flexoki theme for Yazi.
 </summary>
 
 ```
