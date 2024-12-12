@@ -1,12 +1,16 @@
 # Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<br>
+
 <div align="center">
   <img src="assets/logo.png" alt="Yazi logo" width="20%">
 </div>
 
+<br>
+
 > A curated list of amazing plugins, flavors and themes of Yazi.
 
-Yazi (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+[Yazi](https://github.com/sxyazi/yazi) (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
 Each plugin info contains the installation instruction preferably using `ya pack` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
@@ -20,17 +24,18 @@ Each plugin info contains the installation instruction preferably using `ya pack
   - [File Actions](#file-actions)
   - [Filter Enhancements](#filter-enhancements)
   - [Enter Enhancements](#enter-enhancements)
-  - [General command enhancements](#general-command-enhancements)
+  - [General Command Enhancements](#general-command-enhancements)
   - [UI enhancements](#ui-enhancements)
   - [Git Utils](#git-utils)
   - [Preloader Images](#preloader-images)
   - [Fetchers](#fetchers)
-  - [Neovim & Vim](#neovim--vim)
-  - [Shell plugins](#shell-plugins)
+  - [Text Editor](#text-editor)
+  - [Shell Plugins](#shell-plugins)
   - [Utilities](#utilities)
 - [Flavors](#flavors)
 - [Themes](#themes)
 - [Community](#community)
+- [Check Out More](#check-out-more)
 
 ## Official
 
@@ -44,12 +49,12 @@ Each plugin info contains the installation instruction preferably using `ya pack
 
 <details>
 <summary>
-<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file</a>.
+<a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file.
 </summary>
 
 ```bash
 # Linux
-git clone https://github.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
+git clone https://gitee.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epub.yazi
 ```
 
 </details>
@@ -67,12 +72,15 @@ ya pack -a Sonico98/exifaudio
 
 <details>
 <summary>
-<a href="https://github.com/sharklasers996/eza-preview.yazi">eza-preview.yazi</a> - Preview audio metadata and cover using <a href="https://exiftool.org/">exiftool</a>.
+<a href="https://github.com/ahkohd/eza-preview.yazi">eza-preview.yazi</a> - Preview directories using <a href="https://github.com/eza-community/eza">eza</a>.
 </summary>
 
 ```bash
-ya pack -a sharklasers996/eza-preview
+ya pack -a ahkohd/eza-preview
 ```
+
+> Note:
+> The [original repo](https://github.com/sharklasers996/eza-preview.yazi) is currently unmaintained and does not work for Yazi v>=0.3.3.
 
 </details>
 
@@ -186,18 +194,6 @@ ya pack -a kirasok/torrent-preview
 
 </details>
 
-<details>
-<summary>
-<a href="https://github.com/Tyarel8/video-ffmpeg.yazi">video-ffmpeg.yazi</a> - Preview video files using <a href="https://ffmpeg.org/">ffmpeg</a> directly instead of 
-<a href="https://github.com/dirkvdb/ffmpegthumbnailer">ffmpegthumbnailer</a>.
-</summary>
-
-```bash
-ya pack -a Tyarel8/video-ffmpeg
-```
-
-</details>
-
 ### Jumping
 
 <details>
@@ -265,7 +261,7 @@ ya pack -a dedukun/relative-motions
 
 <details>
 <summary>
-<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin which the behavior consistent with flash.nvim in Neovim, allow search str to generate lable to jump.support chinese pinyin search,regular expression search.
+<a href="https://gitee.com/DreamMaoMao/searchjump.yazi">searchjump.yazi</a> - A Yazi plugin similar to flash.nvim in Neovim, using a search string to generate labels for jumping to. Supports searching by chinese pinyin or regular expressions.
 </summary>
 
 ```bash
@@ -277,6 +273,17 @@ git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git ~/.config/yazi/plugi
 if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
 git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\config\plugins\searchjump.yazi
 
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/iynaix/time-travel.yazi">time-travel.yazi</a> - Browse forwards and backwards in time via BTRFS / ZFS snapshots.
+</summary>
+
+```bash
+ya pack -a iynaix/time-travel
 ```
 
 </details>
@@ -337,12 +344,14 @@ ya pack -a h-hg/yamb
 
 <details>
 <summary>
-<a href="https://github.com/KKV9/archive.yazi">archive.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
+<a href="https://github.com/KKV9/compress.yazi">compress.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 </summary>
 
 ```bash
 ya pack -a KKV9/archive
 ```
+
+> It was previously named `archive.yazi`.
 
 </details>
 
@@ -392,11 +401,11 @@ ya pack -a BBOOXX/file-actions
 
 <details>
 <summary>
-<a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
+<a href="https://github.com/dawsers/fuse-archive.yazi">fuse-archive.yazi</a> - Transparently mount and unmount archives in read-only mode while navigating in Yazi.
 </summary>
 
 ```bash
-ya pack -a Lil-Dank/lazygit
+ya pack -a dawsers/fuse-archive
 ```
 
 </details>
@@ -467,6 +476,30 @@ ya pack -a Tyarel8/whide
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/restore.yazi">restore.yazi</a> - Undo/Recover trashed files/folders in Linux/MacOS.
+</summary>
+
+```bash
+# Requirements: trash-cli, yazi >= 0.4
+ya pack -a boydaihungst/restore
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/thunar-bulk-rename.yazi">thunar-bulk-rename.yazi</a> - Bulk rename using thunar -B in Linux.
+</summary>
+
+```bash
+# Requirements: thunar file manager
+ya pack -a boydaihungst/thunar-bulk-rename
+```
+
+</details>
+
 ### Filter Enhancements
 
 <details>
@@ -504,7 +537,7 @@ ya pack -a ourongxing/fast-enter
 
 </details>
 
-### General command enhancements
+### General Command Enhancements
 
 <details>
 <summary>
@@ -550,6 +583,21 @@ ya pack -a orhnk/system-clipboard
 
 </details>
 
+<details>
+<summary>
+<a href="https://gitee.com/DreamMaoMao/clipboard.yazi">win-clipboard.yazi</a> - Yazi plugin for copy file to clipboard,support linux and windows.
+</summary>
+
+```bash
+# Linux
+git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git ~/.config/yazi/plugins/clipboard.yazi
+
+# Windows
+git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\config\plugins\clipboard.yazi
+```
+
+</details>
+
 ### UI enhancements
 
 <details>
@@ -559,6 +607,17 @@ ya pack -a orhnk/system-clipboard
 
 ```bash
 git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plugins/current-size.yazi
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/dawsers/dual-pane.yazi">dual-pane.yazi</a> - Dual pane navigation like Total Commander.
+</summary>
+
+```bash
+ya pack -a dawsers/dual-pane
 ```
 
 </details>
@@ -616,6 +675,8 @@ ya pack -a yazi-rs/plugins:max-preview
 ya pack -a yazi-rs/plugins:no-status
 ```
 
+> Check out [no-header.yazi](https://github.com/sxyazi/yazi/discussions/1996) in this discussion.
+
 </details>
 
 <details>
@@ -664,6 +725,17 @@ ya pack -a Rolv-Apneseth/starship
 
 <details>
 <summary>
+<a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
+</summary>
+
+```bash
+ya pack -a dawsers/toggle-view
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/imsi32/yatline.yazi">yatline.yazi</a> - Plugin for customizing both header-line and status-line.
 </summary>
 
@@ -680,6 +752,18 @@ ya pack -a imsi32/yatline
 
 ```bash
 ya pack -a llanosrocas/yaziline
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/file-extra-metadata.yazi">file-extra-metadata.yazi</a> - Replaces the default file previewer plugin with extra information. Mimics Midnight Commander's file info for Linux.
+</summary>
+
+```bash
+# Requirements: yazi >= 0.4
+ya pack -a boydaihungst/file-extra-metadata
 ```
 
 </details>
@@ -719,6 +803,17 @@ ya pack -a yazi-rs/plugins:git
 
 ```bash
 ya pack -a llanosrocas/githead
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
+</summary>
+
+```bash
+ya pack -a Lil-Dank/lazygit
 ```
 
 </details>
@@ -777,7 +872,7 @@ git clone https://gitee.com/DreamMaoMao/mime-preview.yazi.git ~/.config/yazi/plu
 
 </details>
 
-### Neovim & Vim
+### Text Editor
 
 <details>
 <summary>
@@ -796,47 +891,7 @@ use {'is0n/fm-nvim'}
 <a href="https://github.com/mikavilpas/yazi.nvim">mikavilpas/yazi.nvim</a> - A fork of DreamMaoMao/yazi.nvim with a bunch of additional features.
 </summary>
 
-```lua
--- Using lazy.nvim
-
----@type LazySpec
-{
-"mikavilpas/yazi.nvim",
-event = "VeryLazy",
-keys = {
--- 👇 in this section, choose your own keymappings!
-{
-"<leader>-",
-"<cmd>Yazi<cr>",
-desc = "Open yazi at the current file",
-},
-{
--- Open in the current working directory
-"<leader>cw",
-"<cmd>Yazi cwd<cr>",
-desc = "Open the file manager in nvim's working directory" ,
-},
-{
--- NOTE: this requires a version of yazi that includes
--- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-'<c-up>',
-"<cmd>Yazi toggle<cr>",
-desc = "Resume the last yazi session",
-},
-},
----@type YaziConfig
-opts = {
--- if you want to open yazi instead of netrw, see below for more info
-open_for_directories = false,
-keymaps = {
-show_help = '<f1>',
-},
-},
-}
-
--- For more information, check the repository.
-
-```
+> Check the repository for more information.
 
 </details>
 
@@ -864,6 +919,15 @@ show_help = '<f1>',
 
 <details>
 <summary>
+<a href="https://github.com/luccahuguet/yazelix">yazelix</a> - Zellij, Yazi and nushell adding a File Tree to Helix & helix-friendly keybindigs for zellij.
+</summary>
+
+> Check the repository for more information.
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/chriszarate/yazi.vim">yazi.vim</a> - Vim plugin for Yazi.
 </summary>
 
@@ -873,7 +937,7 @@ Plug 'chriszarate/yazi.vim'
 
 </details>
 
-### Shell plugins
+### Shell Plugins
 
 <details>
 <summary>
@@ -921,11 +985,23 @@ ya pack -a lpnh/icons-brew
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/simple-mtpfs.yazi">simple-mtpfs.yazi</a> - Mounting MTP devices (Android, Camera, etc) in Linux.
+</summary>
+
+```bash
+# Requirements: simple-mtpfs, yazi >= 0.4
+ya pack -a boydaihungst/simple-mtpfs
+```
+
+</details>
+
 ## Flavors
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-frappe.yazi">catppuccin-frappe.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-frappe.yazi">catppuccin-frappe.yazi</a> - Add flavor to yazi with Catppuccin Frappe theme.
 </summary>
 
 ```bash
@@ -936,7 +1012,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-latte.yazi">catppuccin-latte.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-latte.yazi">catppuccin-latte.yazi</a> - Add flavor to yazi with Catppuccin Latte theme.
 </summary>
 
 ```bash
@@ -947,7 +1023,7 @@ ya pack -a yazi-rs/flavors:catppuccin-latte
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-macchaito.yazi">catppuccin-macchiato.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-macchaito.yazi">catppuccin-macchiato.yazi</a> - Add flavor to yazi with Catppuccin Macchiato theme.
 </summary>
 
 ```bash
@@ -958,7 +1034,7 @@ ya pack -a yazi-rs/flavors:catppuccin-macchiato
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-mocha.yazi">catppuccin-mocha.yazi</a>
+<a href="https://github.com/yazi-rs/flavors/tree/main/catppuccin-mocha.yazi">catppuccin-mocha.yazi</a> - Add flavor to yazi with Catppuccin Mocha theme.
 </summary>
 
 ```bash
@@ -969,7 +1045,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 
 <details>
 <summary>
-<a href="https://github.com/dangooddd/kanagawa.yazi">kanagawa.yazi</a>
+<a href="https://github.com/dangooddd/kanagawa.yazi">kanagawa.yazi</a> - Kanagawa flavors for Yazi.
 </summary>
 
 ```bash
@@ -980,7 +1056,7 @@ ya pack -a dangooddd/kanagawa
 
 <details>
 <summary>
-<a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a>
+<a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a> - One Dark flavor for Yazi.
 </summary>
 
 ```bash
@@ -991,7 +1067,7 @@ ya pack -a BennyOe/onedark
 
 <details>
 <summary>
-<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a>
+<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a> - Tokyo Night flavor for Yazi.
 </summary>
 
 ```bash
@@ -1004,7 +1080,7 @@ ya pack -a BennyOe/tokyo-night
 
 <details>
 <summary>
-<a href="https://github.com/catppuccin/yazi">Catppuccin</a>
+<a href="https://github.com/catppuccin/yazi">Catppuccin</a> - Capuccino-inspired theme for Yazi.
 </summary>
 
 ```
@@ -1015,7 +1091,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a>
+<a href="https://github.com/sachinsenal0x64/crystal-theme.yazi">Crystal</a> - Crystal theme for Yazi.
 </summary>
 
 ```
@@ -1026,7 +1102,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a>
+<a href="https://github.com/poperigby/gruvbox-dark-yazi">Gruvbox Dark</a> - Gruvbox Dark theme for Yazi.
 </summary>
 
 ```
@@ -1037,7 +1113,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a>
+<a href="https://github.com/Reledia/flexoki.yazi">Flexoki</a> - Flexoki theme for Yazi. 
 </summary>
 
 ```
@@ -1059,7 +1135,7 @@ Manual Installation Required.
 
 <details>
 <summary>
-<a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a>
+<a href="https://github.com/Msouza91/rose-pine.yazi">Rosé Pine</a> - Rosé Pine theme for Yazi.
 </summary>
 
 ```
