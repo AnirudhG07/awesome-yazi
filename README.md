@@ -1086,6 +1086,16 @@ ya pack -a BennyOe/onedark
 ya pack -a BennyOe/tokyo-night
 ```
 
+<details>
+<summary>
+<a href="https://github.com/956MB/vscode.yazi">vscode.yazi</a> - VSCode theme for Yazi.
+</summary>
+
+```bash
+# See detailed info in the repository.
+git clone https://github.com/956MB/vscode.yazi.git ~/.config/yazi/flavors/vscode.yazi
+```
+
 </details>
 
 ## Themes
