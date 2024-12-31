@@ -1009,6 +1009,19 @@ ya pack -a boydaihungst/simple-mtpfs
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/SL-RU/mount.yazi">mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
+</summary>
+You need to install mmtui binary first, check repository for additional information.
+
+```bash
+# Requirements: mmtui, udisks2, yazi >= 0.4
+ya pack -a SL-RU/mount
+```
+
+</details>
+
 ## Flavors
 
 <details>
