@@ -379,6 +379,18 @@ ya pack -a yazi-rs/plugins:chmod
 
 <details>
 <summary>
+<a href="https://github.com/atareao/convert.yazi">convert.yazi</a> - Convert between image formats using `magick`.
+</summary>
+
+```bash
+ya pack -a atareao/convert
+```
+
+</details>
+
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/diff.yazi">diff.yazi</a> - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
 </summary>
 
