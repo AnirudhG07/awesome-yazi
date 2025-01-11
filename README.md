@@ -421,6 +421,20 @@ ya pack -a Sonico98/mkdir
 
 </details>
 
+
+<details>
+<summary>
+<a href="https://github.com/SL-RU/mount.yazi">mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
+</summary>
+You need to install mmtui binary first, check repository for additional information.
+
+```bash
+# Requirements: mmtui, udisks2, yazi >= 0.4
+ya pack -a SL-RU/mount
+```
+
+</details>
+
 <details>
 <summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An <a href="https://github.com/ouch-org/ouch">ouch</a> plugin for Yazi, supporting preview and compression.
@@ -445,11 +459,47 @@ ya pack -a Ape/reflink
 
 <details>
 <summary>
+<a href="https://github.com/boydaihungst/restore.yazi">restore.yazi</a> - Undo/Recover trashed files/folders in Linux/MacOS.
+</summary>
+
+```bash
+# Requirements: trash-cli, yazi >= 0.4
+ya pack -a boydaihungst/restore
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/GianniBYoung/rsync.yazi">rsync.yazi</a> - Simple rsyncing locally and remotely.
 </summary>
 
 ```bash
 ya pack -a GianniBYoung/rsync
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/simple-mtpfs.yazi">simple-mtpfs.yazi</a> - Mounting MTP devices (Android, Camera, etc) in Linux.
+</summary>
+
+```bash
+# Requirements: simple-mtpfs, yazi >= 0.4
+ya pack -a boydaihungst/simple-mtpfs
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/thunar-bulk-rename.yazi">thunar-bulk-rename.yazi</a> - Bulk rename using thunar -B in Linux.
+</summary>
+
+```bash
+# Requirements: thunar file manager
+ya pack -a boydaihungst/thunar-bulk-rename
 ```
 
 </details>
@@ -472,30 +522,6 @@ ya pack -a pirafrank/what-size
 
 ```bash
 ya pack -a Tyarel8/whide
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/restore.yazi">restore.yazi</a> - Undo/Recover trashed files/folders in Linux/MacOS.
-</summary>
-
-```bash
-# Requirements: trash-cli, yazi >= 0.4
-ya pack -a boydaihungst/restore
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/thunar-bulk-rename.yazi">thunar-bulk-rename.yazi</a> - Bulk rename using thunar -B in Linux.
-</summary>
-
-```bash
-# Requirements: thunar file manager
-ya pack -a boydaihungst/thunar-bulk-rename
 ```
 
 </details>
@@ -997,34 +1023,7 @@ ya pack -a lpnh/icons-brew
 
 </details>
 
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/simple-mtpfs.yazi">simple-mtpfs.yazi</a> - Mounting MTP devices (Android, Camera, etc) in Linux.
-</summary>
-
-```bash
-# Requirements: simple-mtpfs, yazi >= 0.4
-ya pack -a boydaihungst/simple-mtpfs
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/SL-RU/mount.yazi">mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
-</summary>
-You need to install mmtui binary first, check repository for additional information.
-
-```bash
-# Requirements: mmtui, udisks2, yazi >= 0.4
-ya pack -a SL-RU/mount
-```
-
-</details>
-
-## Developer Utilities
-
-[yazi_types.lua](https://github.com/hankertrix/augment-command.yazi/blob/main/yazi_types.lua) - A type file containing most of Yazi's Lua API.
+- [yazi_types.lua](https://github.com/hankertrix/augment-command.yazi/blob/main/yazi_types.lua) - A type file containing most of Yazi's Lua API.
 
 ## Flavors
 
