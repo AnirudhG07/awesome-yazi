@@ -388,7 +388,6 @@ ya pack -a atareao/convert
 
 </details>
 
-
 <details>
 <summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/diff.yazi">diff.yazi</a> - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
@@ -433,10 +432,21 @@ ya pack -a Sonico98/mkdir
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/mount.yazi">yazi-rs/mount.yazi</a> - A mount manager for Yazi, providing disk mount, unmount, and eject functionality.
+
+</summary>
+
+```bash
+ya pack -a yazi-rs/plugins:mount
+```
+
+</details>
 
 <details>
 <summary>
-<a href="https://github.com/SL-RU/mount.yazi">mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
+<a href="https://github.com/SL-RU/mount.yazi">SL-RU/mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
 </summary>
 You need to install mmtui binary first, check repository for additional information.
 
