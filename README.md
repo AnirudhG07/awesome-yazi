@@ -1117,7 +1117,51 @@ ya pack -a BennyOe/onedark
 
 <details>
 <summary>
-<a href="https://github.com/BennyOe/tokyo-night.yazi">tokyo-night.yazi</a> - Tokyo Night flavor for Yazi.
+<a href="https://github.com/kalidyasin/yazi-flavors/tree/main/tokyonight-day.yazi">tokyonight-day.yazi</a> - TokyoNight Day flavor for Yazi.
+</summary>
+
+```bash
+ya pack -a kalidyasin/yazi-flavors:tokyonight-day
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/kalidyasin/yazi-flavors/tree/main/tokyonight-moon.yazi">tokyonight-moon.yazi</a> - TokyoNight Moon flavor for Yazi.
+</summary>
+
+```bash
+ya pack -a kalidyasin/yazi-flavors:tokyonight-moon
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/kalidyasin/yazi-flavors/tree/main/tokyonight-night.yazi">tokyonight-night.yazi</a> - TokyoNight Night flavor for Yazi.
+</summary>
+
+```bash
+ya pack -a kalidyasin/yazi-flavors:tokyonight-night
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/kalidyasin/yazi-flavors/tree/main/tokyonight-storm.yazi">tokyonight-storm.yazi</a> - TokyoNight Storm flavor for Yazi.
+</summary>
+
+```bash
+ya pack -a kalidyasin/yazi-flavors:tokyonight-storm
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/BennyOe/tokyo-night.yazi">BennyOe/tokyo-night.yazi</a> - Tokyo Night flavor for Yazi.
 </summary>
 
 ```bash
