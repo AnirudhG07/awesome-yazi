@@ -423,17 +423,6 @@ ya pack -a dawsers/fuse-archive
 
 <details>
 <summary>
-<a href="https://github.com/Sonico98/mkdir.yazi">mkdir.yazi</a> - Create directories without typing a trailing slash.
-</summary>
-
-```bash
-ya pack -a Sonico98/mkdir
-```
-
-</details>
-
-<details>
-<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/mount.yazi">yazi-rs/mount.yazi</a> - A mount manager for Yazi, providing disk mount, unmount, and eject functionality.
 
 </summary>
