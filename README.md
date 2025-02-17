@@ -163,6 +163,17 @@ ya pack -a AnirudhG07/nbpreview
 
 <details>
 <summary>
+<a href="https://github.com/macydnah/office.yazi">office.yazi</a> - Office documents previewer plugin for Yazi, using <a href="https://www.libreoffice.org/about-us/who-are-we/">libreoffice</a> (compatible with .docx, .xlsx, .pptx, .odt, .ods, .odp; and other file formats supported by the Office Open XML and OpenDocument standards).
+</summary>
+
+```bash
+ya pack -a macydnah/office
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
 </summary>
 
