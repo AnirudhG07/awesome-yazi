@@ -134,8 +134,10 @@ ya pack -a GrzegorzKozub/mdcat
 </summary>
 
 ```bash
-ya pack -a Ape/mediainfo
+ya pack -a boydaihungst/mediainfo
 ```
+
+> Note: [Ape/mediainfo.yazi](https://github.com/Ape/mediainfo.yazi) is archived and not maintained anymore.
 
 </details>
 
