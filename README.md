@@ -130,12 +130,14 @@ ya pack -a GrzegorzKozub/mdcat
 
 <details>
 <summary>
-<a href="https://github.com/Ape/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, and subtitle files using `ffmpegthumbnailer` and `mediainfo`.
+<a href="https://github.com/boydaihungst/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, subtitle and many more media types using `ffmpeg` and `mediainfo`.
 </summary>
 
 ```bash
-ya pack -a Ape/mediainfo
+ya pack -a boydaihungst/mediainfo
 ```
+
+> Note: [Ape/mediainfo.yazi](https://github.com/Ape/mediainfo.yazi) is archived and not maintained anymore.
 
 </details>
 
@@ -705,6 +707,17 @@ ya pack -a yazi-rs/plugins:mactag
 
 <details>
 <summary>
+<a href="https://github.com/boydaihungst/simple-tag.yazi">simple-tag.yazi</a> - Bring tagging feature for linux/windows/macos! The plugin isn't use mactag.
+</summary>
+
+```bash
+ya pack -a boydaihungst/simple-tag
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi">max-preview.yazi</a> - Maximize or restore the preview pane.
 </summary>
 
@@ -822,8 +835,16 @@ ya pack -a llanosrocas/yaziline
 </summary>
 
 ```bash
-# Requirements: yazi >= 0.4
 ya pack -a boydaihungst/file-extra-metadata
+```
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/pref-by-location.yazi">pref-by-location.yazi</a> - Save/Load linemode, sort, show_hidden preferences based on location/folder. Replace [Folder-specific rules](https://yazi-rs.github.io/docs/tips#folder-rules)
+</summary>
+
+```bash
+ya pack -a boydaihungst/pref-by-location
 ```
 
 </details>
