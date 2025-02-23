@@ -838,6 +838,8 @@ ya pack -a llanosrocas/yaziline
 ya pack -a boydaihungst/file-extra-metadata
 ```
 
+</details>
+
 <details>
 <summary>
 <a href="https://github.com/boydaihungst/pref-by-location.yazi">pref-by-location.yazi</a> - Save/Load linemode, sort, show_hidden preferences based on location/folder. Replace [Folder-specific rules](https://yazi-rs.github.io/docs/tips#folder-rules)
