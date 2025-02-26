@@ -652,6 +652,27 @@ git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\con
 
 <details>
 <summary>
+<a href="https://github.com/josephschmitt/auto-layout.yazi">auto-layout.yazi</a> - Automatically change number of columns based on available width.
+</summary>
+
+```bash
+ya pack -a josephschmitt/auto-layout
+```
+
+```lua
+-- In your init.lua for yazi
+require("auto-layout")
+
+-- If you wish to customize the breakpoints
+require("auto-layout").setup({
+  breakpoint_large = 110,
+  breakpoint_medium = 60,
+})
+```
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/current-size.yazi">current-size.yazi</a> - Get current path size in header bar for yazi plugin/
 </summary>
 
