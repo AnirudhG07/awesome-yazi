@@ -659,16 +659,6 @@ git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\con
 ya pack -a josephschmitt/auto-layout
 ```
 
-```lua
--- In your init.lua for yazi
-require("auto-layout")
-
--- If you wish to customize the breakpoints
-require("auto-layout").setup({
-  breakpoint_large = 110,
-  breakpoint_medium = 60,
-})
-```
 </details>
 
 <details>
