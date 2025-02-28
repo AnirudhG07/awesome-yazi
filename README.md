@@ -49,6 +49,17 @@ Each plugin info contains the installation instruction preferably using `ya pack
 
 <details>
 <summary>
+<a href="https://github.com/gesellkammer/audio-preview.yazi">audio-preview.yazi</a> - Preview soundfiles as a spectrogram using <a href="https://github.com/chirlu/sox">sox</a>.
+</summary>
+
+```bash
+ya pack -a gesellkammer/audio-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file.
 </summary>
 
