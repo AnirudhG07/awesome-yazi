@@ -1086,6 +1086,17 @@ Plug 'chriszarate/yazi.vim'
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/josephschmitt/zide">zide</a> - Group of configuration files and scripts to create an IDE-like experience in zellij.
+</summary>
+
+```bash
+# Check the repository itself for more information.
+```
+
+</details>
+
 ### Shell Plugins
 
 <details>
