@@ -967,6 +967,17 @@ ya pack -a yazi-rs/plugins:vcs-files
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/aresler/path-from-root.yazi">path-from-root.yazi</a> - Copy file path relative to Git root.
+</summary>
+
+```bash
+ya pack -a aresler/path-from-root
+```
+
+</details>
+
 ### Preloader Images
 
 <details>
