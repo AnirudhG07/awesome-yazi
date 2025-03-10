@@ -263,6 +263,17 @@ ya pack -a lpanebr/yazi-plugins:first-non-directory
 
 <details>
 <summary>
+<a href="https://github.com/Tyarel8/goto-drives.yazi">goto-drives.yazi</a> - A plugin for yazi to cd to the available windows drives from an fzf menu.
+</summary>
+
+```bash
+ya pack -a 'Tyarel8/goto-drives'
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi">jump-to-char.yazi</a> - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
 </summary>
 
