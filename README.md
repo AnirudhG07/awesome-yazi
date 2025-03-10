@@ -934,6 +934,17 @@ ya pack -a Lil-Dank/lazygit
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/vcs-files.yazi">vcs-files.yazi</a> - Show Git file changes in Yazi.
+</summary>
+
+```bash
+ya pack -a yazi-rs/plugins:vcs-files
+```
+
+</details>
+
 ### Preloader Images
 
 <details>
