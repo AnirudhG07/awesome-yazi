@@ -222,6 +222,17 @@ ya pack -a kirasok/torrent-preview
 
 <details>
 <summary>
+<a href="https://github.com/stelcodes/bunny.yazi">bunny.yazi</a> - Simple bookmarks plugin for yazi with fuzzy search and directory marking. 
+</summary>
+
+```bash
+ya pack -a stelcodes/bunny
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/easyjump.yazi">easyjump.yazi</a> - Jump to files with a press of one or two keys for Yazi.
 </summary>
 
