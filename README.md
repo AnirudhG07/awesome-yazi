@@ -681,6 +681,17 @@ git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\con
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/grappas/wl-clipboard.yazi">wl-clipboard.yazi</a> - Wayland implementation of a simple system clipboard for yazi file manager.
+</summary>
+
+```bash
+ya pack -a grappas/wl-clipboard
+```
+
+</details>
+
 ### UI enhancements
 
 <details>
