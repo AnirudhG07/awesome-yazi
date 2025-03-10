@@ -635,6 +635,17 @@ ya pack -a hankertrix/augment-command
 
 <details>
 <summary>
+<a href="https://github.com/MasouShizuka/close-and-restore-tab.yazi">close-and-restore-tab.yazi</a> - A Yazi plugin that adds the functionality to close and restore tab.
+</summary>
+
+```bash
+ya pack -a MasouShizuka/close-and-restore-tab
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/plugins-yazi/tree/main/copy-file-contents.yazi">copy-file-contents.yazi</a> - A simple plugin to copy the contents of a file to the clipboard directly from yazi.
 </summary>
 
