@@ -59,3 +59,15 @@ ya pack -a Tyarel8/video-ffmpeg
 ```
 
 > From yazi v0.4, yazi uses ffmpeg to preview video files by default.
+
+- [max-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi) - Maximize or restore the preview pane. This is now deprecated in favour of `toggle-pane.yazi`.``
+
+```bash
+ya pack -a yazi-rs/plugins:max-preview
+```
+
+- [hide-preview.yazi](https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi) - Switch the preview pane between hidden and shown. This is now deprecated in favour of `toggle-pane.yazi`.
+
+```bash
+ya pack -a yazi-rs/plugins:hide-preview
+```

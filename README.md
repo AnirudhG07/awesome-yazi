@@ -751,17 +751,6 @@ ya pack -a yazi-rs/plugins:full-border
 
 <details>
 <summary>
-<a href="https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi">hide-preview.yazi</a> - Switch the preview pane between hidden and shown.
-</summary>
-
-```bash
-ya pack -a yazi-rs/plugins:hide-preview
-```
-
-</details>
-
-<details>
-<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/mactag.yazi">mactag.yazi</a> - Bring macOS's awesome tagging feature to Yazi! The plugin it's only available for macOS just like the name says.
 </summary>
 
@@ -778,17 +767,6 @@ ya pack -a yazi-rs/plugins:mactag
 
 ```bash
 ya pack -a boydaihungst/simple-tag
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi">max-preview.yazi</a> - Maximize or restore the preview pane.
-</summary>
-
-```bash
-ya pack -a yazi-rs/plugins:max-preview
 ```
 
 </details>
@@ -850,6 +828,17 @@ ya pack -a Rolv-Apneseth/starship
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/toggle-pane.yazi">toggle-pane.yazi</a> - Toggle the show, hide, and maximize states for different panes: parent, current, and preview.
+</summary>
+
+```bash
+ya pack -a yazi-rs/plugins:toggle-pane
+```
+
+</details>
+ 
 <details>
 <summary>
 <a href="https://github.com/lpanebr/yazi-plugins/tree/main/yatline-symlink.yazi">yatline-symlink.yazi</a> - Shows a symlink's target in your header or status line.
