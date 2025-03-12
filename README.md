@@ -285,6 +285,17 @@ ya pack -a lpanebr/yazi-plugins:first-non-directory
 
 <details>
 <summary>
+<a href="https://gitee.com/lpnh/fr.yazi">fg.yazi</a> - a Yazi plugin that integrates `fzf` with `bat` preview for `rg` search and `rga` preview for `rga` search.
+</summary>
+
+```bash
+ya pack -a lpnh/fr
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Tyarel8/goto-drives.yazi">goto-drives.yazi</a> - A plugin for yazi to cd to the available windows drives from an fzf menu.
 </summary>
 
