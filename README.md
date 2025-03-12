@@ -390,6 +390,17 @@ ya pack -a h-hg/yamb
 
 <details>
 <summary>
+<a href="https://github.com/AnirudhG07/archivemount.yazi">archivemount.yazi</a> - Mounting and unmounting archives in yazi using <a href="https://github.com/cybernoid/archivemount">archivemount</a>.
+</summary>
+
+```bash
+ya pack -a AnirudhG07/archivemount
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/KKV9/compress.yazi">compress.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 </summary>
 
@@ -398,17 +409,6 @@ ya pack -a KKV9/archive
 ```
 
 > It was previously named `archive.yazi`.
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/AnirudhG07/archivemount.yazi">archivemount.yazi</a> - Mounting and unmounting archives in yazi using <a href="https://github.com/cybernoid/archivemount">archivemount</a>.
-</summary>
-
-```bash
-ya pack -a AnirudhG07/archivemount
-```
 
 </details>
 
@@ -740,6 +740,17 @@ ya pack -a dawsers/dual-pane
 
 <details>
 <summary>
+<a href="https://github.com/boydaihungst/file-extra-metadata.yazi">file-extra-metadata.yazi</a> - Replaces the default file previewer plugin with extra information. Mimics Midnight Commander's file info for Linux.
+</summary>
+
+```bash
+ya pack -a boydaihungst/file-extra-metadata
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
 
@@ -758,19 +769,6 @@ ya pack -a yazi-rs/plugins:full-border
 ya pack -a yazi-rs/plugins:mactag
 ```
 
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/simple-tag.yazi">simple-tag.yazi</a> - Bring tagging feature for linux/windows/macos! The plugin isn't use mactag.
-</summary>
-
-```bash
-ya pack -a boydaihungst/simple-tag
-```
-
-</details>
-
 <details>
 <summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/no-status.yazi">no-status.yazi</a> - Remove the status bar.
@@ -781,6 +779,8 @@ ya pack -a yazi-rs/plugins:no-status
 ```
 
 > Check out [no-header.yazi](https://github.com/sxyazi/yazi/discussions/1996) in this discussion.
+
+</details>
 
 </details>
 
@@ -802,6 +802,28 @@ ya pack -a saumyajyoti/omp
 
 ```bash
 ya pack -a Ape/open-with-cmd
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/pref-by-location.yazi">pref-by-location.yazi</a> - Save/Load linemode, sort, show_hidden preferences based on location/folder. Replace [Folder-specific rules](https://yazi-rs.github.io/docs/tips#folder-rules)
+</summary>
+
+```bash
+ya pack -a boydaihungst/pref-by-location
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/simple-tag.yazi">simple-tag.yazi</a> - Bring tagging feature for linux/windows/macos! The plugin isn't use mactag.
+</summary>
+
+```bash
+ya pack -a boydaihungst/simple-tag
 ```
 
 </details>
@@ -841,23 +863,23 @@ ya pack -a yazi-rs/plugins:toggle-pane
  
 <details>
 <summary>
-<a href="https://github.com/lpanebr/yazi-plugins/tree/main/yatline-symlink.yazi">yatline-symlink.yazi</a> - Shows a symlink's target in your header or status line.
-
+<a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
 </summary>
 
 ```bash
-ya pack -a lpanebr/yazi-plugins:yatline-symlink
+ya pack -a dawsers/toggle-view
 ```
 
 </details>
 
 <details>
 <summary>
-<a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
+<a href="https://github.com/lpanebr/yazi-plugins/tree/main/yatline-symlink.yazi">yatline-symlink.yazi</a> - Shows a symlink's target in your header or status line.
+
 </summary>
 
 ```bash
-ya pack -a dawsers/toggle-view
+ya pack -a lpanebr/yazi-plugins:yatline-symlink
 ```
 
 </details>
@@ -880,28 +902,6 @@ ya pack -a imsi32/yatline
 
 ```bash
 ya pack -a llanosrocas/yaziline
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/file-extra-metadata.yazi">file-extra-metadata.yazi</a> - Replaces the default file previewer plugin with extra information. Mimics Midnight Commander's file info for Linux.
-</summary>
-
-```bash
-ya pack -a boydaihungst/file-extra-metadata
-```
-
-</details>
-
-<details>
-<summary>
-<a href="https://github.com/boydaihungst/pref-by-location.yazi">pref-by-location.yazi</a> - Save/Load linemode, sort, show_hidden preferences based on location/folder. Replace [Folder-specific rules](https://yazi-rs.github.io/docs/tips#folder-rules)
-</summary>
-
-```bash
-ya pack -a boydaihungst/pref-by-location
 ```
 
 </details>
