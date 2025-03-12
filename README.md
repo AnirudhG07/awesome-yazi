@@ -218,6 +218,17 @@ ya pack -a kirasok/torrent-preview
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/figgis/yuv.yazi">yuv.yazi</a> - Preview YCbCr 4:2:0 "\*.yuv" files using <a href="https://www.ffmpeg.org/">ffmpeg</a>.
+</summary>
+
+```bash
+ya pack -a figgis/yuv
+```
+
+</details>
+
 ### Jumping
 
 <details>
