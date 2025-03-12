@@ -244,6 +244,17 @@ ya pack -a stelcodes/bunny
 
 <details>
 <summary>
+<a href="https://github.com/bulletmark/cdhist.yazi">cdhist.yazi</a> - A plugin for [cdhist](https://github.com/bulletmark/cdhist) to fuzzy select and navigate within Yazi from your directory history. 
+</summary>
+
+```bash
+ya pack -a bulletmark/cdhist
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/easyjump.yazi">easyjump.yazi</a> - Jump to files with a press of one or two keys for Yazi.
 </summary>
 
