@@ -60,6 +60,18 @@ ya pack -a gesellkammer/audio-preview
 
 <details>
 <summary>
+<a href="https://github.com/wylie102/duckdb.yazi">duckdb.yazi</a> - Preview csv, tsv, json, and Parquet files using <a href="duckdb](https://github.com/duckdb/duckdb">duckdb</a>. View the raw data, or a compact summarized view of columns.
+</summary>
+
+```bash
+ya pack -a wylie102/duckdb
+```
+
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file.
 </summary>
 
