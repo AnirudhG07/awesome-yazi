@@ -596,6 +596,18 @@ ya pack -a boydaihungst/simple-mtpfs
 
 <details>
 <summary>
+<a href="https://github.com/pareix/telegram-send.yazi">telegram-send.yazi</a> - Send files via telegram-send directly inside Yazi
+</summary>
+
+```bash
+# Requirements: telegram-send python library
+ya pack -a pareix/telegram-send
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/boydaihungst/thunar-bulk-rename.yazi">thunar-bulk-rename.yazi</a> - Bulk rename using thunar -B in Linux.
 </summary>
 
