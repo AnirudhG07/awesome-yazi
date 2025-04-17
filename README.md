@@ -67,7 +67,6 @@ ya pack -a gesellkammer/audio-preview
 ya pack -a wylie102/duckdb
 ```
 
-
 </details>
 
 <details>
@@ -708,6 +707,17 @@ ya pack -a MasouShizuka/close-and-restore-tab
 
 ```bash
 ya pack -a AnirudhG07/plugins-yazi:copy-file-contents
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/boydaihungst/save-clipboard-to-file.yazi">save-clipboard-to-file.yazi</a> - Yazi plugin to paste clipboard content to file.
+</summary>
+
+```bash
+ya pack -a boydaihungst/save-clipboard-to-file
 ```
 
 </details>
