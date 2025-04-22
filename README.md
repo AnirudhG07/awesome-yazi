@@ -1212,6 +1212,17 @@ ya pack -a AnirudhG07/custom-shell
 
 <details>
 <summary>
+<a href="https://github.com/Tyarel8/nu.yazi">nu.yazi</a> - A plugin for yazi to execute `nu` code.
+</summary>
+
+```bash
+ya pack -a Tyarel8/nu
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Sonico98/yazi-prompt.sh">yazi-prompt.sh</a> - Display an indicator in your prompt when running inside a yazi subshell.
 </summary>
 
