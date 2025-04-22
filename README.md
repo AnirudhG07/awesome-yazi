@@ -1069,6 +1069,17 @@ ya pack -a Sonico98/allmytoes
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/NoponyAsked/sxiv.yazi">sxiv</a> - Preview images using <a href="https://github.com/nsxiv/nsxiv">nsxiv</a> integration.
+</summary>
+
+```bash
+ya pack -a NoponyAsked/sxiv
+```
+
+</details>
+
 ### Fetchers
 
 <details>
