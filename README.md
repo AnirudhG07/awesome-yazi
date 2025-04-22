@@ -209,6 +209,17 @@ ya pack -a ndtoan96/ouch
 
 <details>
 <summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/piper.yazi">piper.yazi</a> - Pipe any shell command as a previewer.
+</summary>
+
+```bash
+ya pack -a yazi-rs/plugins:piper
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
 
