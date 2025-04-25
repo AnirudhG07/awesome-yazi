@@ -1317,6 +1317,17 @@ ya pack -a dangooddd/kanagawa
 
 <details>
 <summary>
+<a href="https://github.com/AdithyanA2005/nord.yazi">nord.yazi</a> - Nord flavor for Yazi.
+</summary>
+
+```bash
+ya pack -a AdithyanA2005/nord
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/BennyOe/onedark.yazi">onedark.yazi</a> - One Dark flavor for Yazi.
 </summary>
 
