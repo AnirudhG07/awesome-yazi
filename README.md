@@ -594,6 +594,18 @@ ya pkg add GianniBYoung/rsync
 
 <details>
 <summary>
+<a href="https://github.com/boydaihungst/gvfs.yazi">gvfs.yazi</a> - Mount and manage MTP, GPhoto2 (PTP) devices (Android, Cameras, etc), SMB, SFTP, NFS, FTP, Google Drive, DNS-SD, DAV (WebDAV), AFP, AFC (Linux only). List of <a href="https://wiki.gnome.org/Projects(2f)gvfs(2f)schemes.html">supported protocals</a>.
+</summary>
+
+```bash
+# Requirements: glib2, GVFS, and its protocol packages, yazi >= 25.5.28
+ya pkg add boydaihungst/gvfs
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/boydaihungst/simple-mtpfs.yazi">simple-mtpfs.yazi</a> - Mounting MTP devices (Android, Camera, etc) in Linux.
 </summary>
 
@@ -601,6 +613,9 @@ ya pkg add GianniBYoung/rsync
 # Requirements: simple-mtpfs, yazi >= 0.4
 ya pkg add boydaihungst/simple-mtpfs
 ```
+
+> Note: [boydaihungst/simple-mtpfs.yazi](https://github.com/boydaihungst/simple-mtpfs.yazi) is archived and not maintained anymore.
+> You can use [boydaihungst/gvfs.yazi](https://github.com/boydaihungst/gvfs.yazi) instead.
 
 </details>
 
