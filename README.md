@@ -12,7 +12,7 @@
 
 Yazi (means "duck") is a ⚡️ Blazing Fast Terminal file manager, written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
-Each plugin info contains the installation instruction preferably using `ya pack` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
+Each plugin info contains the installation instruction preferably using `ya pkg` . Check out [Tips](https://yazi-rs.github.io/docs/tips) for some useful plugins and configurations as well.
 
 ## Contents
 
@@ -53,7 +53,7 @@ Each plugin info contains the installation instruction preferably using `ya pack
 </summary>
 
 ```bash
-ya pack -a gesellkammer/audio-preview
+ya pkg add gesellkammer/audio-preview
 ```
 
 </details>
@@ -64,7 +64,7 @@ ya pack -a gesellkammer/audio-preview
 </summary>
 
 ```bash
-ya pack -a wylie102/duckdb
+ya pkg add wylie102/duckdb
 ```
 
 </details>
@@ -87,7 +87,7 @@ git clone https://gitee.com/DreamMaoMao/epub.yazi.git ~/.config/yazi/plugins/epu
 </summary>
 
 ```bash
-ya pack -a Sonico98/exifaudio
+ya pkg add Sonico98/exifaudio
 ```
 
 </details>
@@ -98,7 +98,7 @@ ya pack -a Sonico98/exifaudio
 </summary>
 
 ```bash
-ya pack -a ahkohd/eza-preview
+ya pkg add ahkohd/eza-preview
 ```
 
 > Note:
@@ -112,7 +112,7 @@ ya pack -a ahkohd/eza-preview
 </summary>
 
 ```bash
-ya pack -a Reledia/glow
+ya pkg add Reledia/glow
 ```
 
 </details>
@@ -123,7 +123,7 @@ ya pack -a Reledia/glow
 </summary>
 
 ```bash
-ya pack -a Reledia/hexyl
+ya pkg add Reledia/hexyl
 ```
 
 </details>
@@ -134,7 +134,7 @@ ya pack -a Reledia/hexyl
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:lsar
+ya pkg add yazi-rs/plugins:lsar
 ```
 
 </details>
@@ -145,7 +145,7 @@ ya pack -a yazi-rs/plugins:lsar
 </summary>
 
 ```bash
-ya pack -a GrzegorzKozub/mdcat
+ya pkg add GrzegorzKozub/mdcat
 ```
 
 </details>
@@ -156,7 +156,7 @@ ya pack -a GrzegorzKozub/mdcat
 </summary>
 
 ```bash
-ya pack -a boydaihungst/mediainfo
+ya pkg add boydaihungst/mediainfo
 ```
 
 > Note: [Ape/mediainfo.yazi](https://github.com/Ape/mediainfo.yazi) is archived and not maintained anymore.
@@ -169,7 +169,7 @@ ya pack -a boydaihungst/mediainfo
 </summary>
 
 ```bash
-ya pack -a Reledia/miller
+ya pkg add Reledia/miller
 ```
 
 </details>
@@ -180,7 +180,7 @@ ya pack -a Reledia/miller
 </summary>
 
 ```bash
-ya pack -a AnirudhG07/nbpreview
+ya pkg add AnirudhG07/nbpreview
 ```
 
 </details>
@@ -191,7 +191,7 @@ ya pack -a AnirudhG07/nbpreview
 </summary>
 
 ```bash
-ya pack -a macydnah/office
+ya pkg add macydnah/office
 ```
 
 </details>
@@ -202,7 +202,7 @@ ya pack -a macydnah/office
 </summary>
 
 ```bash
-ya pack -a ndtoan96/ouch
+ya pkg add ndtoan96/ouch
 ```
 
 </details>
@@ -213,7 +213,7 @@ ya pack -a ndtoan96/ouch
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:piper
+ya pkg add yazi-rs/plugins:piper
 ```
 
 </details>
@@ -224,7 +224,7 @@ ya pack -a yazi-rs/plugins:piper
 </summary>
 
 ```bash
-ya pack -a AnirudhG07/rich-preview
+ya pkg add AnirudhG07/rich-preview
 ```
 
 </details>
@@ -235,7 +235,7 @@ ya pack -a AnirudhG07/rich-preview
 </summary>
 
 ```bash
-ya pack -a kirasok/torrent-preview
+ya pkg add kirasok/torrent-preview
 ```
 
 </details>
@@ -246,7 +246,7 @@ ya pack -a kirasok/torrent-preview
 </summary>
 
 ```bash
-ya pack -a figgis/yuv
+ya pkg add figgis/yuv
 ```
 
 </details>
@@ -259,7 +259,7 @@ ya pack -a figgis/yuv
 </summary>
 
 ```bash
-ya pack -a stelcodes/bunny
+ya pkg add stelcodes/bunny
 ```
 
 </details>
@@ -270,7 +270,7 @@ ya pack -a stelcodes/bunny
 </summary>
 
 ```bash
-ya pack -a bulletmark/cdhist
+ya pkg add bulletmark/cdhist
 ```
 
 </details>
@@ -311,7 +311,7 @@ git clone https://github.com/DreamMaoMao/fg.yazi.git ~/.config/yazi/plugins/fg.y
 </summary>
 
 ```bash
-ya pack -a lpanebr/yazi-plugins:first-non-directory
+ya pkg add lpanebr/yazi-plugins:first-non-directory
 ```
 
 </details>
@@ -322,7 +322,7 @@ ya pack -a lpanebr/yazi-plugins:first-non-directory
 </summary>
 
 ```bash
-ya pack -a lpnh/fr
+ya pkg add lpnh/fr
 ```
 
 </details>
@@ -333,7 +333,7 @@ ya pack -a lpnh/fr
 </summary>
 
 ```bash
-ya pack -a 'Tyarel8/goto-drives'
+ya pkg add 'Tyarel8/goto-drives'
 ```
 
 </details>
@@ -344,7 +344,7 @@ ya pack -a 'Tyarel8/goto-drives'
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:jump-to-char
+ya pkg add yazi-rs/plugins:jump-to-char
 ```
 
 </details>
@@ -355,7 +355,7 @@ ya pack -a yazi-rs/plugins:jump-to-char
 </summary>
 
 ```bash
-ya pack -a dedukun/relative-motions
+ya pkg add dedukun/relative-motions
 ```
 
 </details>
@@ -384,7 +384,7 @@ git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\co
 </summary>
 
 ```bash
-ya pack -a iynaix/time-travel
+ya pkg add iynaix/time-travel
 ```
 
 </details>
@@ -414,7 +414,7 @@ git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\con
 </summary>
 
 ```bash
-ya pack -a dedukun/bookmarks
+ya pkg add dedukun/bookmarks
 ```
 
 </details>
@@ -425,7 +425,7 @@ ya pack -a dedukun/bookmarks
 </summary>
 
 ```bash
-ya pack -a MasouShizuka/projects
+ya pkg add MasouShizuka/projects
 ```
 
 </details>
@@ -436,7 +436,7 @@ ya pack -a MasouShizuka/projects
 </summary>
 
 ```bash
-ya pack -a h-hg/yamb
+ya pkg add h-hg/yamb
 ```
 
 </details>
@@ -449,7 +449,7 @@ ya pack -a h-hg/yamb
 </summary>
 
 ```bash
-ya pack -a AnirudhG07/archivemount
+ya pkg add AnirudhG07/archivemount
 ```
 
 </details>
@@ -460,7 +460,7 @@ ya pack -a AnirudhG07/archivemount
 </summary>
 
 ```bash
-ya pack -a KKV9/archive
+ya pkg add KKV9/archive
 ```
 
 > It was previously named `archive.yazi`.
@@ -473,7 +473,7 @@ ya pack -a KKV9/archive
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:chmod
+ya pkg add yazi-rs/plugins:chmod
 ```
 
 </details>
@@ -484,7 +484,7 @@ ya pack -a yazi-rs/plugins:chmod
 </summary>
 
 ```bash
-ya pack -a atareao/convert
+ya pkg add atareao/convert
 ```
 
 </details>
@@ -495,7 +495,7 @@ ya pack -a atareao/convert
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:diff
+ya pkg add yazi-rs/plugins:diff
 ```
 
 </details>
@@ -506,7 +506,7 @@ ya pack -a yazi-rs/plugins:diff
 </summary>
 
 ```bash
-ya pack -a BBOOXX/file-actions
+ya pkg add BBOOXX/file-actions
 ```
 
 </details>
@@ -517,7 +517,7 @@ ya pack -a BBOOXX/file-actions
 </summary>
 
 ```bash
-ya pack -a dawsers/fuse-archive
+ya pkg add dawsers/fuse-archive
 ```
 
 </details>
@@ -529,7 +529,7 @@ ya pack -a dawsers/fuse-archive
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:mount
+ya pkg add yazi-rs/plugins:mount
 ```
 
 </details>
@@ -542,7 +542,7 @@ You need to install mmtui binary first, check repository for additional informat
 
 ```bash
 # Requirements: mmtui, udisks2, yazi >= 0.4
-ya pack -a SL-RU/mount
+ya pkg add SL-RU/mount
 ```
 
 </details>
@@ -553,7 +553,7 @@ ya pack -a SL-RU/mount
 </summary>
 
 ```bash
-ya pack -a ndtoan96/ouch
+ya pkg add ndtoan96/ouch
 ```
 
 </details>
@@ -564,7 +564,7 @@ ya pack -a ndtoan96/ouch
 </summary>
 
 ```bash
-ya pack -a Ape/reflink
+ya pkg add Ape/reflink
 ```
 
 </details>
@@ -576,7 +576,7 @@ ya pack -a Ape/reflink
 
 ```bash
 # Requirements: trash-cli, yazi >= 0.4
-ya pack -a boydaihungst/restore
+ya pkg add boydaihungst/restore
 ```
 
 </details>
@@ -587,7 +587,7 @@ ya pack -a boydaihungst/restore
 </summary>
 
 ```bash
-ya pack -a GianniBYoung/rsync
+ya pkg add GianniBYoung/rsync
 ```
 
 </details>
@@ -599,7 +599,7 @@ ya pack -a GianniBYoung/rsync
 
 ```bash
 # Requirements: simple-mtpfs, yazi >= 0.4
-ya pack -a boydaihungst/simple-mtpfs
+ya pkg add boydaihungst/simple-mtpfs
 ```
 
 </details>
@@ -611,7 +611,7 @@ ya pack -a boydaihungst/simple-mtpfs
 
 ```bash
 # Requirements: telegram-send python library
-ya pack -a pareix/telegram-send
+ya pkg add pareix/telegram-send
 ```
 
 </details>
@@ -623,7 +623,7 @@ ya pack -a pareix/telegram-send
 
 ```bash
 # Requirements: thunar file manager
-ya pack -a boydaihungst/thunar-bulk-rename
+ya pkg add boydaihungst/thunar-bulk-rename
 ```
 
 </details>
@@ -634,7 +634,7 @@ ya pack -a boydaihungst/thunar-bulk-rename
 </summary>
 
 ```bash
-ya pack -a pirafrank/what-size
+ya pkg add pirafrank/what-size
 ```
 
 </details>
@@ -645,7 +645,7 @@ ya pack -a pirafrank/what-size
 </summary>
 
 ```bash
-ya pack -a Tyarel8/whide
+ya pkg add Tyarel8/whide
 ```
 
 </details>
@@ -658,7 +658,7 @@ ya pack -a Tyarel8/whide
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:smart-filter
+ya pkg add yazi-rs/plugins:smart-filter
 ```
 
 </details>
@@ -671,7 +671,7 @@ ya pack -a yazi-rs/plugins:smart-filter
 </summary>
 
 ```bash
-ya pack -a Rolv-Apneseth/bypass
+ya pkg add Rolv-Apneseth/bypass
 ```
 
 </details>
@@ -682,7 +682,7 @@ ya pack -a Rolv-Apneseth/bypass
 </summary>
 
 ```bash
-ya pack -a ourongxing/fast-enter
+ya pkg add ourongxing/fast-enter
 ```
 
 </details>
@@ -695,7 +695,7 @@ ya pack -a ourongxing/fast-enter
 </summary>
 
 ```bash
-ya pack -a hankertrix/augment-command
+ya pkg add hankertrix/augment-command
 ```
 
 </details>
@@ -706,7 +706,7 @@ ya pack -a hankertrix/augment-command
 </summary>
 
 ```bash
-ya pack -a MasouShizuka/close-and-restore-tab
+ya pkg add MasouShizuka/close-and-restore-tab
 ```
 
 </details>
@@ -717,7 +717,7 @@ ya pack -a MasouShizuka/close-and-restore-tab
 </summary>
 
 ```bash
-ya pack -a AnirudhG07/plugins-yazi:copy-file-contents
+ya pkg add AnirudhG07/plugins-yazi:copy-file-contents
 ```
 
 </details>
@@ -728,7 +728,7 @@ ya pack -a AnirudhG07/plugins-yazi:copy-file-contents
 </summary>
 
 ```bash
-ya pack -a boydaihungst/save-clipboard-to-file
+ya pkg add boydaihungst/save-clipboard-to-file
 ```
 
 </details>
@@ -739,7 +739,7 @@ ya pack -a boydaihungst/save-clipboard-to-file
 </summary>
 
 ```bash
-ya pack -a TD-Sky/sudo
+ya pkg add TD-Sky/sudo
 ```
 
 </details>
@@ -750,7 +750,7 @@ ya pack -a TD-Sky/sudo
 </summary>
 
 ```bash
-ya pack -a orhnk/system-clipboard
+ya pkg add orhnk/system-clipboard
 ```
 
 </details>
@@ -776,7 +776,7 @@ git clone https://gitee.com/DreamMaoMao/clipboard.yazi.git $env:APPDATA\yazi\con
 </summary>
 
 ```bash
-ya pack -a grappas/wl-clipboard
+ya pkg add grappas/wl-clipboard
 ```
 
 </details>
@@ -789,7 +789,7 @@ ya pack -a grappas/wl-clipboard
 </summary>
 
 ```bash
-ya pack -a josephschmitt/auto-layout
+ya pkg add josephschmitt/auto-layout
 ```
 
 </details>
@@ -811,7 +811,7 @@ git clone https://gitee.com/DreamMaoMao/current-size.yazi.git ~/.config/yazi/plu
 </summary>
 
 ```bash
-ya pack -a dawsers/dual-pane
+ya pkg add dawsers/dual-pane
 ```
 
 </details>
@@ -822,7 +822,7 @@ ya pack -a dawsers/dual-pane
 </summary>
 
 ```bash
-ya pack -a boydaihungst/file-extra-metadata
+ya pkg add boydaihungst/file-extra-metadata
 ```
 
 </details>
@@ -833,7 +833,7 @@ ya pack -a boydaihungst/file-extra-metadata
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:full-border
+ya pkg add yazi-rs/plugins:full-border
 ```
 
 </details>
@@ -844,7 +844,7 @@ ya pack -a yazi-rs/plugins:full-border
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:mactag
+ya pkg add yazi-rs/plugins:mactag
 ```
 
 <details>
@@ -853,7 +853,7 @@ ya pack -a yazi-rs/plugins:mactag
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:no-status
+ya pkg add yazi-rs/plugins:no-status
 ```
 
 > Check out [no-header.yazi](https://github.com/sxyazi/yazi/discussions/1996) in this discussion.
@@ -868,7 +868,7 @@ ya pack -a yazi-rs/plugins:no-status
 </summary>
 
 ```bash
-ya pack -a saumyajyoti/omp
+ya pkg add saumyajyoti/omp
 ```
 
 </details>
@@ -879,7 +879,7 @@ ya pack -a saumyajyoti/omp
 </summary>
 
 ```bash
-ya pack -a Ape/open-with-cmd
+ya pkg add Ape/open-with-cmd
 ```
 
 </details>
@@ -890,7 +890,7 @@ ya pack -a Ape/open-with-cmd
 </summary>
 
 ```bash
-ya pack -a boydaihungst/pref-by-location
+ya pkg add boydaihungst/pref-by-location
 ```
 
 </details>
@@ -901,7 +901,7 @@ ya pack -a boydaihungst/pref-by-location
 </summary>
 
 ```bash
-ya pack -a boydaihungst/simple-tag
+ya pkg add boydaihungst/simple-tag
 ```
 
 </details>
@@ -912,7 +912,7 @@ ya pack -a boydaihungst/simple-tag
 </summary>
 
 ```bash
-ya pack -a Ape/simple-status
+ya pkg add Ape/simple-status
 ```
 
 </details>
@@ -923,7 +923,7 @@ ya pack -a Ape/simple-status
 </summary>
 
 ```bash
-ya pack -a Rolv-Apneseth/starship
+ya pkg add Rolv-Apneseth/starship
 ```
 
 </details>
@@ -934,7 +934,7 @@ ya pack -a Rolv-Apneseth/starship
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:toggle-pane
+ya pkg add yazi-rs/plugins:toggle-pane
 ```
 
 </details>
@@ -945,7 +945,7 @@ ya pack -a yazi-rs/plugins:toggle-pane
 </summary>
 
 ```bash
-ya pack -a dawsers/toggle-view
+ya pkg add dawsers/toggle-view
 ```
 
 </details>
@@ -957,7 +957,7 @@ ya pack -a dawsers/toggle-view
 </summary>
 
 ```bash
-ya pack -a lpanebr/yazi-plugins:yatline-symlink
+ya pkg add lpanebr/yazi-plugins:yatline-symlink
 ```
 
 </details>
@@ -968,7 +968,7 @@ ya pack -a lpanebr/yazi-plugins:yatline-symlink
 </summary>
 
 ```bash
-ya pack -a imsi32/yatline
+ya pkg add imsi32/yatline
 ```
 
 </details>
@@ -979,7 +979,7 @@ ya pack -a imsi32/yatline
 </summary>
 
 ```bash
-ya pack -a llanosrocas/yaziline
+ya pkg add llanosrocas/yaziline
 ```
 
 </details>
@@ -1007,7 +1007,7 @@ git clone https://gitee.com/DreamMaoMao/git.yazi $env:APPDATA\yazi\config\plugin
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:git
+ya pkg add yazi-rs/plugins:git
 ```
 
 </details>
@@ -1018,7 +1018,7 @@ ya pack -a yazi-rs/plugins:git
 </summary>
 
 ```bash
-ya pack -a llanosrocas/githead
+ya pkg add llanosrocas/githead
 ```
 
 </details>
@@ -1029,7 +1029,7 @@ ya pack -a llanosrocas/githead
 </summary>
 
 ```bash
-ya pack -a Lil-Dank/lazygit
+ya pkg add Lil-Dank/lazygit
 ```
 
 </details>
@@ -1040,7 +1040,7 @@ ya pack -a Lil-Dank/lazygit
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:vcs-files
+ya pkg add yazi-rs/plugins:vcs-files
 ```
 
 </details>
@@ -1051,7 +1051,7 @@ ya pack -a yazi-rs/plugins:vcs-files
 </summary>
 
 ```bash
-ya pack -a aresler/path-from-root
+ya pkg add aresler/path-from-root
 ```
 
 </details>
@@ -1064,7 +1064,7 @@ ya pack -a aresler/path-from-root
 </summary>
 
 ```bash
-ya pack -a Sonico98/allmytoes
+ya pkg add Sonico98/allmytoes
 ```
 
 </details>
@@ -1075,7 +1075,7 @@ ya pack -a Sonico98/allmytoes
 </summary>
 
 ```bash
-ya pack -a NoponyAsked/sxiv
+ya pkg add NoponyAsked/sxiv
 ```
 
 </details>
@@ -1104,7 +1104,7 @@ git clone https://gitee.com/DreamMaoMao/mime-ext.yazi.git %AppData%\yazi\config\
 </summary>
 
 ```bash
-ya pack -a yazi-rs/plugins:mime-ext
+ya pkg add yazi-rs/plugins:mime-ext
 ```
 
 </details>
@@ -1205,7 +1205,7 @@ Plug 'chriszarate/yazi.vim'
 </summary>
 
 ```bash
-ya pack -a KKV9/command
+ya pkg add KKV9/command
 ```
 
 </details>
@@ -1216,7 +1216,7 @@ ya pack -a KKV9/command
 </summary>
 
 ```bash
-ya pack -a AnirudhG07/custom-shell
+ya pkg add AnirudhG07/custom-shell
 ```
 
 </details>
@@ -1227,7 +1227,7 @@ ya pack -a AnirudhG07/custom-shell
 </summary>
 
 ```bash
-ya pack -a Tyarel8/nu
+ya pkg add Tyarel8/nu
 ```
 
 </details>
@@ -1238,7 +1238,7 @@ ya pack -a Tyarel8/nu
 </summary>
 
 ```bash
-ya pack -a Sonico98/yazi-prompt
+ya pkg add Sonico98/yazi-prompt
 ```
 
 </details>
@@ -1251,7 +1251,7 @@ ya pack -a Sonico98/yazi-prompt
 </summary>
 
 ```bash
-ya pack -a lpnh/icons-brew
+ya pkg add lpnh/icons-brew
 ```
 
 </details>
@@ -1266,7 +1266,7 @@ ya pack -a lpnh/icons-brew
 </summary>
 
 ```bash
-ya pack -a yazi-rs/flavors:catppuccin-mocha
+ya pkg add yazi-rs/flavors:catppuccin-mocha
 ```
 
 </details>
@@ -1277,7 +1277,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 </summary>
 
 ```bash
-ya pack -a yazi-rs/flavors:catppuccin-latte
+ya pkg add yazi-rs/flavors:catppuccin-latte
 ```
 
 </details>
@@ -1288,7 +1288,7 @@ ya pack -a yazi-rs/flavors:catppuccin-latte
 </summary>
 
 ```bash
-ya pack -a yazi-rs/flavors:catppuccin-macchiato
+ya pkg add yazi-rs/flavors:catppuccin-macchiato
 ```
 
 </details>
@@ -1299,7 +1299,7 @@ ya pack -a yazi-rs/flavors:catppuccin-macchiato
 </summary>
 
 ```bash
-ya pack -a yazi-rs/flavors:catppuccin-mocha
+ya pkg add yazi-rs/flavors:catppuccin-mocha
 ```
 
 </details>
@@ -1310,7 +1310,7 @@ ya pack -a yazi-rs/flavors:catppuccin-mocha
 </summary>
 
 ```bash
-ya pack -a dangooddd/kanagawa
+ya pkg add dangooddd/kanagawa
 ```
 
 </details>
@@ -1321,7 +1321,7 @@ ya pack -a dangooddd/kanagawa
 </summary>
 
 ```bash
-ya pack -a AdithyanA2005/nord
+ya pkg add AdithyanA2005/nord
 ```
 
 </details>
@@ -1332,7 +1332,7 @@ ya pack -a AdithyanA2005/nord
 </summary>
 
 ```bash
-ya pack -a BennyOe/onedark
+ya pkg add BennyOe/onedark
 ```
 
 </details>
@@ -1343,7 +1343,7 @@ ya pack -a BennyOe/onedark
 </summary>
 
 ```bash
-ya pack -a kalidyasin/yazi-flavors:tokyonight-day
+ya pkg add kalidyasin/yazi-flavors:tokyonight-day
 ```
 
 </details>
@@ -1354,7 +1354,7 @@ ya pack -a kalidyasin/yazi-flavors:tokyonight-day
 </summary>
 
 ```bash
-ya pack -a kalidyasin/yazi-flavors:tokyonight-moon
+ya pkg add kalidyasin/yazi-flavors:tokyonight-moon
 ```
 
 </details>
@@ -1365,7 +1365,7 @@ ya pack -a kalidyasin/yazi-flavors:tokyonight-moon
 </summary>
 
 ```bash
-ya pack -a kalidyasin/yazi-flavors:tokyonight-night
+ya pkg add kalidyasin/yazi-flavors:tokyonight-night
 ```
 
 </details>
@@ -1376,7 +1376,7 @@ ya pack -a kalidyasin/yazi-flavors:tokyonight-night
 </summary>
 
 ```bash
-ya pack -a kalidyasin/yazi-flavors:tokyonight-storm
+ya pkg add kalidyasin/yazi-flavors:tokyonight-storm
 ```
 
 </details>
@@ -1387,7 +1387,7 @@ ya pack -a kalidyasin/yazi-flavors:tokyonight-storm
 </summary>
 
 ```bash
-ya pack -a BennyOe/tokyo-night
+ya pkg add BennyOe/tokyo-night
 ```
 
 </details>
