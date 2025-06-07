@@ -1271,6 +1271,18 @@ ya pkg add lpnh/icons-brew
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/tree/main/types.yazi">types.yazi</a> - Type definitions for Yazi's Lua API, empowering an efficient plugin development experience.
+
+</summary>
+
+```bash
+ya pkg add yazi-rs/plugins:types
+```
+
+</details>
+
 - [yazi_types.lua](https://github.com/hankertrix/augment-command.yazi/blob/main/yazi_types.lua) - A type file containing most of Yazi's Lua API.
 
 ## Flavors
