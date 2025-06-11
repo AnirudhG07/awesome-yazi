@@ -1040,6 +1040,17 @@ ya pkg add llanosrocas/githead
 
 <details>
 <summary>
+<a href="https://github.com/ktunprasert/git-files.yazi">git-files.yazi</a> - Same as <code>vcs-files</code> but include untracked files
+</summary>
+
+```bash
+ya pkg add ktunprasert/git-files
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Lil-Dank/lazygit.yazi">lazygit.yazi</a> - Manage Git directories with <a href="https://github.com/jesseduffield/lazygit">lazygit</a> through a quick shortcut.
 </summary>
 
@@ -1060,17 +1071,6 @@ ya pkg add yazi-rs/plugins:vcs-files
 
 </details>
 
-
-<details>
-<summary>
-<a href="https://github.com/ktunprasert/git-files.yazi">git-files.yazi</a> - Same as <code>vcs-files</code> but include untracked files
-</summary>
-
-```bash
-ya pkg add ktunprasert/git-files
-```
-
-</details>
 
 <details>
 <summary>
