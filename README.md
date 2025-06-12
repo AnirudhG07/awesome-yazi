@@ -251,6 +251,18 @@ ya pkg add figgis/yuv
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/yazi-rs/plugins/blob/main/zoom.yazi">zoom.yazi</a> - Enlarge or shrink the preview image of a file, which is useful for magnifying small files for viewing.
+
+</summary>
+
+```bash
+ya pkg add yazi-rs/plugins:zoom
+```
+
+</details>
+
 ### Jumping
 
 <details>
