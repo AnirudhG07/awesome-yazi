@@ -595,6 +595,18 @@ ya pkg add boydaihungst/restore
 
 <details>
 <summary>
+<a href="https://github.com/tasnimAlam/rotate-image.yazi">rotate-image.yazi</a> Rotate hovered/selected image(s)
+</summary>
+
+```bash
+# Requirements: imagemagic
+ya pkg add tasnimAlam/rotate-image
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/GianniBYoung/rsync.yazi">rsync.yazi</a> - Simple rsyncing locally and remotely.
 </summary>
 
