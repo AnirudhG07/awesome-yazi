@@ -231,6 +231,18 @@ ya pkg add AnirudhG07/rich-preview
 
 <details>
 <summary>
+<a href="https://github.com/tasnimAlam/rotate-image.yazi">rotate-image.yazi</a> Rotate hovered/selected image(s)
+</summary>
+
+```bash
+# Requirements: imagemagic
+ya pkg add tasnimAlam/rotate-image
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
 
