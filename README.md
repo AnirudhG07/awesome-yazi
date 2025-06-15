@@ -243,6 +243,18 @@ ya pkg add tasnimAlam/rotate-image
 
 <details>
 <summary>
+<a href="https://github.com/tasnimAlam/thumbnail.yazi">thumbnail.yazi</a> Display image thumbnail
+</summary>
+
+```bash
+# Requirements: swayimg
+ya pkg add tasnimAlam/thumbnail
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
 
