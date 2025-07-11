@@ -764,6 +764,17 @@ ya pkg add MasouShizuka/close-and-restore-tab
 
 <details>
 <summary>
+<a href="https://github.com/Mr-Ples/command-palette.yazi">command-palette.yazi</a> - Fuzzy search and execute keybinds from your keymap(s). Never forget a keybind again.
+</summary>
+
+```bash
+ya pkg add Mr-Ples/command-palette
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/plugins-yazi/tree/main/copy-file-contents.yazi">copy-file-contents.yazi</a> - A simple plugin to copy the contents of a file to the clipboard directly from yazi.
 </summary>
 
