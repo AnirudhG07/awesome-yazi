@@ -891,6 +891,17 @@ ya pkg add boydaihungst/file-extra-metadata
 
 <details>
 <summary>
+<a href="https://github.com/walldmtd/fs-usage.yazi">fs-usage.yazi</a> - Show the current partition's used space in the header or status.
+</summary>
+
+```bash
+ya pkg add walldmtd/fs-usage
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/full-border.yazi">full-border.yazi</a> - Add a full border to Yazi to make it look fancier.
 </summary>
 
