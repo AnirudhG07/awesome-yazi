@@ -468,6 +468,15 @@ ya pkg add MasouShizuka/projects
 
 <details>
 <summary>
+<a href="https://github.com/WhoSowSee/whoosh.yazi">whoosh.yazi</a> - Advanced bookmark manager for Yazi file manager with persistent/temporary bookmarks, directory history, fuzzy search integration, and intelligent path truncation. Jump between your favorite locations instantly across all platforms.
+</summary>
+
+```bash
+ya pkg add WhoSowSee/whoosh
+```
+
+<details>
+<summary>
 <a href="https://github.com/h-hg/yamb.yazi">yamb.yazi</a> - Yet another bookmarks plugin. It supports persistence, jumping by a key, and jumping by <a href="https://github.com/junegunn/fzf">fzf</a>.
 </summary>
 
