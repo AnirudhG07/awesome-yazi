@@ -277,6 +277,18 @@ ya pkg add figgis/yuv
 
 <details>
 <summary>
+<a href="https://github.com/vmikk/zless-preview.yazi">zless-preview.yazi</a> - Preview compressed text files using `zless`.
+
+</summary>
+
+```bash
+ya pkg add vmikk/zless-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/blob/main/zoom.yazi">zoom.yazi</a> - Enlarge or shrink the preview image of a file, which is useful for magnifying small files for viewing.
 
 </summary>
