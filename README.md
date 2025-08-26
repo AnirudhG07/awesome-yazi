@@ -474,6 +474,7 @@ ya pkg add MasouShizuka/projects
 ```bash
 ya pkg add WhoSowSee/whoosh
 ```
+
 </details>
 
 <details>
@@ -1139,7 +1140,6 @@ ya pkg add yazi-rs/plugins:vcs-files
 
 </details>
 
-
 <details>
 <summary>
 <a href="https://github.com/aresler/path-from-root.yazi">path-from-root.yazi</a> - Copy file path relative to Git root.
@@ -1257,6 +1257,17 @@ use {'is0n/fm-nvim'}
     end,
 }
 -- For more information, check the repository.
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/yukimura1227/vim-yazi">vim-yazi</a> - Vim plugin integrating Yazi for seamless in-editor file browsing and navigation.
+</summary>
+
+```bash
+Plug 'yukimura1227/vim-yazi'
 ```
 
 </details>
