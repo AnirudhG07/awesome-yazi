@@ -282,7 +282,7 @@ ya pkg add figgis/yuv
 </summary>
 
 ```bash
-ya pkg add vmikk/zless-preview.yazi
+ya pkg add vmikk/zless-preview
 ```
 
 </details>
