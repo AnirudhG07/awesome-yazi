@@ -474,6 +474,7 @@ ya pkg add MasouShizuka/projects
 ```bash
 ya pkg add WhoSowSee/whoosh
 ```
+</details>
 
 <details>
 <summary>
