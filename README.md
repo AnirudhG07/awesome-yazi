@@ -60,6 +60,17 @@ ya pkg add gesellkammer/audio-preview
 
 <details>
 <summary>
+<a href="https://github.com/Shallow-Seek/djvu-view.yazi">djvu-view.yazi</a> - Preview djvu files using ddjvu from  <a href="https://github.com/DjVuLibre/djvulibre">DjVuLibre</a>.
+</summary>
+
+```bash
+ya pkg add Shallow-Seek/djvu-view
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/wylie102/duckdb.yazi">duckdb.yazi</a> - Preview csv, tsv, json, and Parquet files using <a href="duckdb](https://github.com/duckdb/duckdb">duckdb</a>. View the raw data, or a compact summarized view of columns.
 </summary>
 
