@@ -691,6 +691,18 @@ ya pkg add boydaihungst/simple-mtpfs
 
 <details>
 <summary>
+<a href="https://github.com/uhs-robert/sshfs.yazi">sshfs.yazi</a> - Mount and manage remote directories over SSH using SSHFS. Supports hosts from ~/.ssh/config or custom-defined connections. Includes key/password auth.
+</summary>
+
+```bash
+# Requirements: ssh and sshfs
+ya pkg add uhs-robert/sshfs.yazi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/pareix/telegram-send.yazi">telegram-send.yazi</a> - Send files via telegram-send directly inside Yazi
 </summary>
 
