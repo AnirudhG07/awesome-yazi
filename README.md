@@ -630,6 +630,18 @@ ya pkg add ndtoan96/ouch
 
 <details>
 <summary>
+<a href="https://github.com/uhs-robert/recycle-bin.yazi">recycle-bin.yazi</a> - Manage your Trash from Yazi: browse contents, restore or delete selected items, empty by age, or empty completely using trash-cli.
+</summary>
+
+```bash
+# Requirements: trash-cli
+ya pkg add uhs-robert/recycle-bin.yazi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Ape/reflink.yazi">reflink.yazi</a> - Create reflinks to files.
 </summary>
 
