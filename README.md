@@ -594,6 +594,16 @@ ya pkg add dawsers/fuse-archive
 
 <details>
 <summary>
+<a href="https://github.com/Deepak22903/kdeconnect-send.yazi">kdeconnect-send.yazi</a> - Send selected files to your smartphone or other devices using KDE Connect.
+</summary>
+
+```bash
+ya pkg add Deepak22903/kdeconnect-send
+```
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/mount.yazi">yazi-rs/mount.yazi</a> - A mount manager for Yazi, providing disk mount, unmount, and eject functionality.
 
 </summary>
