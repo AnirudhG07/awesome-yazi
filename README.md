@@ -130,6 +130,17 @@ ya pkg add Reledia/glow
 
 <details>
 <summary>
+<a href="https://github.com/lihuax-me/hevi.yazi">hevi.yazi</a> - Preview Windows EXE/PE and raw BIN files using <a href="https://github.com/Arnau478/hevi">hevi</a>, a hex viewer with basic format parsing.
+</summary>
+
+```bash
+ya pkg add lihuax-me/hevi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Reledia/hexyl.yazi">hexyl.yazi</a> - Using <a href="https://github.com/sharkdp/hexyl">hexyl</a> as the fallback previewer for files.
 </summary>
 
