@@ -152,6 +152,17 @@ ya pkg add Reledia/hexyl
 
 <details>
 <summary>
+<a href="https://github.com/beskep/hwp-preview.yazi">hwp-preview.yazi</a> - HWP/HWPX file previewer for Hancom Hangul, the dominant word processor in Korea.
+</summary>
+
+```bash
+ya pkg add beskep/hwp-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">lsar.yazi</a> - Previewing archive contents with lsar.
 </summary>
 
