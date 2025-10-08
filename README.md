@@ -909,6 +909,17 @@ ya pkg add orhnk/system-clipboard
 
 <details>
 <summary>
+<a href="https://github.com/simla33/ucp.yazi">ucp.yazi</a> - Enables copy–paste functionality between Yazi and other applications. Compatible with Wayland, Xorg, and macOS.
+</summary>
+
+```bash
+ya pkg add simla33/ucp
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/clipboard.yazi">win-clipboard.yazi</a> - Yazi plugin for copy file to clipboard,support linux and windows.
 </summary>
 
