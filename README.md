@@ -119,6 +119,17 @@ ya pkg add ahkohd/eza-preview
 
 <details>
 <summary>
+<a href="https://github.com/ruudjhuu/f3d-preview.yazi">f3d-preview.yazi</a> - Preview 3d objects like stl, step, 3mf, obj, and more using f3d.
+</summary>
+
+```bash
+ya pkg add ruudjhuu/f3d-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Reledia/glow.yazi">glow.yazi</a> - Preview markdown files using <a href="https://github.com/charmbracelet/glow">glow</a>.
 </summary>
 
