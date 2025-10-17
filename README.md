@@ -605,6 +605,17 @@ ya pkg add yazi-rs/plugins:diff
 
 <details>
 <summary>
+<a href="https://github.com/mshnwq/dupes.yazi">dupes.yazi</a> - Duplicate files plugin for Yazi using `jdupes`.
+</summary>
+
+```bash
+ya pkg add mshnwq/dupes
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/BBOOXX/file-actions.yazi">file-actions.yazi</a> - A Yazi plugin that allows users to perform actions on selected files using custom scripts.
 </summary>
 
