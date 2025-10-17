@@ -7,7 +7,7 @@ Please add your package in the following format to allow users to access your pl
 </summary>
 
 ```bash
-# This contains downloading instruction, prefer `ya pack`, if not, git clone instruction will do.
+# This contains downloading instruction, prefer `ya pkg`, if not, git clone instruction will do.
 ya pkg add author_name/package
 ```
 
