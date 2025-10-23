@@ -196,6 +196,17 @@ ya pkg add GrzegorzKozub/mdcat
 
 <details>
 <summary>
+<a href="https://github.com/WhoSowSee/mdv-previewer.yazi">mdv-previewer</a> - A preview plugin for Text and Markdown files that uses <a href="https://github.com/WhoSowSee/mdv">mdv</a> to render content.
+</summary>
+
+```bash
+ya pkg add WhoSowSee/mdv-previewer
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/boydaihungst/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, subtitle and many more media types using `ffmpeg` and `mediainfo`.
 </summary>
 
