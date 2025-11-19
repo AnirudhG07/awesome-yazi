@@ -185,6 +185,17 @@ ya pkg add beskep/hwp-preview
 
 <details>
 <summary>
+<a href="https://github.com/walldmtd/krita-preview.yazi">krita-preview.yazi</a> - Preview Krita's .kra and .kra~ files.
+</summary>
+
+```bash
+ya pkg add walldmtd/krita-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/lsar.yazi">lsar.yazi</a> - Previewing archive contents with lsar.
 </summary>
 
