@@ -60,6 +60,17 @@ ya pkg add gesellkammer/audio-preview
 
 <details>
 <summary>
+<a href="https://github.com/walldmtd/blender-preview.yazi">blender-preview.yazi</a> - Preview Blender's .blend and .blend1 files.
+</summary>
+
+```bash
+ya pkg add walldmtd/blender-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Shallow-Seek/djvu-view.yazi">djvu-view.yazi</a> - Preview djvu files using ddjvu from  <a href="https://github.com/DjVuLibre/djvulibre">DjVuLibre</a>.
 </summary>
 
