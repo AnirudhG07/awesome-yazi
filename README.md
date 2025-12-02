@@ -666,6 +666,7 @@ ya pkg add dawsers/fuse-archive
 ```bash
 ya pkg add Deepak22903/kdeconnect-send
 ```
+
 </details>
 
 <details>
@@ -831,6 +832,17 @@ ya pkg add pirafrank/what-size
 
 ```bash
 ya pkg add Tyarel8/whide
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/nsavvide/duck-radar.yazi">duck-radar.yazi</a> - A Yazi plugin to fetch the most recent files and allows copy/move to the current directory.
+</summary>
+
+```bash
+ya pkg add nsavvide/duck-radar
 ```
 
 </details>
