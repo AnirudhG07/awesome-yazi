@@ -31,6 +31,7 @@ Each plugin info contains the installation instruction preferably using `ya pkg`
   - [Fetchers](#fetchers)
   - [Text Editor](#text-editor)
   - [Shell Plugins](#shell-plugins)
+  - [Spotters](#spotters)
   - [Utilities](#utilities)
 - [Flavors](#flavors)
 - [Themes](#themes)
@@ -82,7 +83,7 @@ ya pkg add Shallow-Seek/djvu-view
 
 <details>
 <summary>
-<a href="https://github.com/wylie102/duckdb.yazi">duckdb.yazi</a> - Preview csv, tsv, json, and Parquet files using <a href="duckdb](https://github.com/duckdb/duckdb">duckdb</a>. View the raw data, or a compact summarized view of columns.
+<a href="https://github.com/wylie102/duckdb.yazi">duckdb.yazi</a> - Preview csv, tsv, json, and Parquet files using <a href="https://github.com/duckdb/duckdb">duckdb</a>. View the raw data, or a compact summarized view of columns.
 </summary>
 
 ```bash
@@ -135,6 +136,18 @@ ya pkg add ahkohd/eza-preview
 
 ```bash
 ya pkg add ruudjhuu/f3d-preview
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/font-sample.yazi">font-sample.yazi</a> - Preview common font features at a glance.
+</summary>
+
+```bash
+# Requirements: imagemagick
+ya pkg add AminurAlam/yazi-plugins:font-sample
 ```
 
 </details>
@@ -286,6 +299,18 @@ ya pkg add yazi-rs/plugins:piper
 
 <details>
 <summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-audio.yazi">preview-audio.yazi</a> - Preview cover art and metadata of audio files.
+</summary>
+
+```bash
+# Requirements: ffmpeg or mediainfo
+ya pkg add AminurAlam/yazi-plugins:preview-audio
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
 
@@ -301,7 +326,7 @@ ya pkg add AnirudhG07/rich-preview
 </summary>
 
 ```bash
-# Requirements: imagemagic
+# Requirements: imagemagick
 ya pkg add tasnimAlam/rotate-image
 ```
 
@@ -369,7 +394,7 @@ ya pkg add yazi-rs/plugins:zoom
 
 <details>
 <summary>
-<a href="https://github.com/stelcodes/bunny.yazi">bunny.yazi</a> - Simple bookmarks plugin for yazi with fuzzy search and directory marking. 
+<a href="https://github.com/stelcodes/bunny.yazi">bunny.yazi</a> - Simple bookmarks plugin for yazi with fuzzy search and directory marking.
 </summary>
 
 ```bash
@@ -380,7 +405,7 @@ ya pkg add stelcodes/bunny
 
 <details>
 <summary>
-<a href="https://github.com/bulletmark/cdhist.yazi">cdhist.yazi</a> - A plugin for [cdhist](https://github.com/bulletmark/cdhist) to fuzzy select and navigate within Yazi from your directory history. 
+<a href="https://github.com/bulletmark/cdhist.yazi">cdhist.yazi</a> - A plugin for <a href="https://github.com/bulletmark/cdhist">cdhist</a> to fuzzy select and navigate within Yazi from your directory history.
 </summary>
 
 ```bash
@@ -403,6 +428,17 @@ git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git ~/.config/yazi/plugins
 if (!(Test-Path $env:APPDATA\yazi\config\plugins\)) {mkdir $env:APPDATA\yazi\config\plugins\}
 git clone https://gitee.com/DreamMaoMao/easyjump.yazi.git $env:APPDATA\yazi\config\plugins\easyjump.yazi
 
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/fchar.yazi">fchar.yazi</a> - <code>jump-to-char</code> with more features.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:fchar
 ```
 
 </details>
@@ -1168,7 +1204,7 @@ ya pkg add yazi-rs/plugins:toggle-pane
 ```
 
 </details>
- 
+
 <details>
 <summary>
 <a href="https://github.com/dawsers/toggle-view.yazi">toggle-view.yazi</a> - Toggle on/off parent, current, or preview independently.
@@ -1491,6 +1527,41 @@ ya pkg add Tyarel8/nu
 
 ```bash
 ya pkg add Sonico98/yazi-prompt
+```
+
+</details>
+
+### Spotters
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot.yazi">spot.yazi</a> - Lets you create spotters easily.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:spot
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot-audio.yazi">spot-audio.yazi</a> - Spotter for audio metadata.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-audio
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot-video.yazi">spot-video.yazi</a> - Spotter for video metadata.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-video
 ```
 
 </details>
