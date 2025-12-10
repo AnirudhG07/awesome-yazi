@@ -311,6 +311,41 @@ ya pkg add AminurAlam/yazi-plugins:preview-audio
 
 <details>
 <summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-cbz.yazi">preview-cbz.yazi</a> - Preview covers of comic books.
+</summary>
+
+```bash
+# Requirements: unzip and unrar
+ya pkg add AminurAlam/yazi-plugins:preview-cbz
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-git.yazi">preview-git.yazi</a> - Preview git info by hovering over <code>.git/</code> directory.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:preview-git
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-sqlite.yazi">preview-sqlite.yazi</a> - Preview schema of a sqlite database.
+</summary>
+
+```bash
+# Requirements: sqlite3
+ya pkg add AminurAlam/yazi-plugins:preview-sqlite
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/rich-preview.yazi">rich-preview.yazi</a> - Preview Markdown, JSON, CSV, etc. using <a href="https://github.com/textualize/rich-cli">rich-cli</a>.
 </summary>
 
@@ -1551,6 +1586,17 @@ ya pkg add AminurAlam/yazi-plugins:spot
 
 ```bash
 ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-audio
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot-cbz.yazi">spot-cbz.yazi</a> - Spot comic books that have ComicInfo.xml.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:spot-cbz
 ```
 
 </details>
