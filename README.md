@@ -1113,7 +1113,8 @@ ya pkg add dawsers/dual-pane
 </summary>
 
 ```bash
-git clone https://github.com/grimandgreedy/ffmpeg-stats.yazi ~/.config/yazi/plugins/ffmpeg-stats.yazi
+# Requirements: ffmpeg
+ya pkg add grimandgreedy/ffmpeg-stats.yazi
 ```
 
 </details>
