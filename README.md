@@ -1106,6 +1106,19 @@ ya pkg add dawsers/dual-pane
 
 </details>
 
+
+<details>
+<summary>
+<a href="https://github.com/grimandgreedy/ffmpeg-stats.yazi">ffmpeg-stats.yazi</a> - Display audio and video information in yazi's linemode.
+</summary>
+
+```bash
+# Requirements: ffmpeg
+ya pkg add grimandgreedy/ffmpeg-stats
+```
+
+</details>
+
 <details>
 <summary>
 <a href="https://github.com/boydaihungst/file-extra-metadata.yazi">file-extra-metadata.yazi</a> - Replaces the default file previewer plugin with extra information. Mimics Midnight Commander's file info for Linux.
