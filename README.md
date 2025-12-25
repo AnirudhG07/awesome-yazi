@@ -1114,7 +1114,7 @@ ya pkg add dawsers/dual-pane
 
 ```bash
 # Requirements: ffmpeg
-ya pkg add grimandgreedy/ffmpeg-stats.yazi
+ya pkg add grimandgreedy/ffmpeg-stats
 ```
 
 </details>
