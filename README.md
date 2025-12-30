@@ -1637,6 +1637,17 @@ ya pkg add yazi-rs/plugins:types
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/doclayer/yazi-doclayer">doclayer.yazi</a> - AI-powered document intelligence - upload, extract, and search documents with pre-built agents for contracts, invoices, and compliance.
+</summary>
+
+```bash
+ya pkg add doclayer/yazi-doclayer
+```
+
+</details>
+
 - [yazi_types.lua](https://github.com/hankertrix/augment-command.yazi/blob/main/yazi_types.lua) - A type file containing most of Yazi's Lua API.
 
 ## Flavors
