@@ -392,7 +392,7 @@ ya pkg add kirasok/torrent-preview
 
 <details>
 <summary>
-<a href="https://github.com/figgis/yuv.yazi">yuv.yazi</a> - Preview YCbCr 4:2:0 "\*.yuv" files using <a href="https://www.ffmpeg.org/">ffmpeg</a>.
+<a href="https://github.com/figgis/yuv.yazi">yuv.yazi</a> - Preview YCbCr 4:2:0 "\*.yuv" and "\*.y4m" files using <a href="https://www.ffmpeg.org/">ffmpeg</a>.
 </summary>
 
 ```bash
@@ -1105,7 +1105,6 @@ ya pkg add dawsers/dual-pane
 ```
 
 </details>
-
 
 <details>
 <summary>
