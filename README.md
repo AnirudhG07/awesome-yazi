@@ -299,6 +299,17 @@ ya pkg add yazi-rs/plugins:piper
 
 <details>
 <summary>
+<a href="https://github.com/dimi1357/pickle.yazi">pickle.yazi</a> - Preview Python pickle (.pkl, .pickle) files with pretty-printed contents.
+</summary>
+
+```bash
+ya pkg add dimi1357/pickle
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-audio.yazi">preview-audio.yazi</a> - Preview cover art and metadata of audio files.
 </summary>
 
