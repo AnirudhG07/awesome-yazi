@@ -299,6 +299,17 @@ ya pkg add yazi-rs/plugins:piper
 
 <details>
 <summary>
+<a href="https://github.com/alberti42/faster-piper.yazi">faster-piper.yazi</a> - Pipe any shell command as a cached previewer. Drop-in replacement for <a href="https://github.com/yazi-rs/plugins/tree/main/piper.yazi">piper.yazi</a>, optimized for speed and precision.
+</summary>
+
+```bash
+ya pkg add alberti42/faster-piper
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-audio.yazi">preview-audio.yazi</a> - Preview cover art and metadata of audio files.
 </summary>
 
