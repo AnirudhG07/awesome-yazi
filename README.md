@@ -874,6 +874,17 @@ ya pkg add uhs-robert/sshfs.yazi
 
 <details>
 <summary>
+<a href="https://github.com/vmikk/symlink-target-path.yazi">symlink-target-path.yazi</a> - Copy the resolved target path of symlinks. Configurable: disable path normalization and skip broken links.
+</summary>
+
+```bash
+ya pkg add vmikk/symlink-target-path
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/pareix/telegram-send.yazi">telegram-send.yazi</a> - Send files via telegram-send directly inside Yazi
 </summary>
 
