@@ -874,7 +874,7 @@ ya pkg add uhs-robert/sshfs.yazi
 
 <details>
 <summary>
-<a href="https://github.com/vmikk/symlink-target-path.yazi">symlink-target-path.yazi</a> - Copy the resolved target path of symlinks. Configurable: disable path normalization and skip broken links.
+<a href="https://github.com/vmikk/symlink-target-path.yazi">symlink-target-path.yazi</a> - Copy the resolved target path of symlinks.
 </summary>
 
 ```bash
