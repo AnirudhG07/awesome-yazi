@@ -589,6 +589,17 @@ ya pkg add iynaix/time-travel
 
 <details>
 <summary>
+<a href="https://github.com/barbanevosa/autosession.yazi">autosession.yazi</a> - Automatic session persistence that saves the current state on exit and restores the last saved state on startup.
+</summary>
+
+```bash
+ya pkg add barbanevosa/autosession
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/bookmarks.yazi">DreamMaoMao/bookmarks.yazi</a> - A Yazi plugin that Supports persistent bookmark management.No bookmarks are lost after you close yazi.
 </summary>
 
