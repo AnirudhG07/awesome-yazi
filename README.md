@@ -589,7 +589,7 @@ ya pkg add iynaix/time-travel
 
 <details>
 <summary>
-<a href="https://github.com/barbanevosa/autosesion.yazi">autosession.yazi</a> - Automatic session persistence that saves the current state on exit and restores the last saved state on startup.
+<a href="https://github.com/barbanevosa/autosession.yazi">autosession.yazi</a> - Automatic session persistence that saves the current state on exit and restores the last saved state on startup.
 </summary>
 
 ```bash
