@@ -879,8 +879,6 @@ ya pkg add uhs-robert/sshfs.yazi
 
 ```bash
 ya pkg add vmikk/symlink-target-path
-# To configure, add the following to your `~/.config/yazi/keymap.toml`:
-#     { on = [ "c", "t" ], run = "plugin symlink-target-path", desc = "Copy symlink target paths" }, 
 ```
 
 </details>
