@@ -576,6 +576,17 @@ git clone https://gitee.com/DreamMaoMao/searchjump.yazi.git $env:APPDATA\yazi\co
 
 <details>
 <summary>
+<a href="https://github.com/jessefarinacci/smart-arrow.yazi">smart-arrow.yazi</a> - A Yazi plugin that functions as a drop-in replacement for the internal `mgr.arrow` subcommand to wrap to top/bottom of directories.
+</summary>
+
+```bash
+ya pkg add jessefarinacci/smart-arrow
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/iynaix/time-travel.yazi">time-travel.yazi</a> - Browse forwards and backwards in time via BTRFS / ZFS snapshots.
 </summary>
 
@@ -622,6 +633,17 @@ git clone https://gitee.com/DreamMaoMao/bookmarks.yazi.git $env:APPDATA\yazi\con
 
 ```bash
 ya pkg add dedukun/bookmarks
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/jessefarinacci/favorite-files.yazi">favorite-files.yazi</a> - A Yazi plugin for automatically selecting favorite files when entering a directory.
+</summary>
+
+```bash
+ya pkg add jessefarinacci/favorite-files
 ```
 
 </details>
@@ -1025,11 +1047,33 @@ ya pkg add Mr-Ples/command-palette
 
 <details>
 <summary>
+<a href="https://github.com/jessefarinacci/confirm-quit.yazi">confirm-quit.yazi</a> - A Yazi plugin that will prevent `mgr.quit` terminating Yazi if there are multiple tabs open.
+</summary>
+
+```bash
+ya pkg add jessefarinacci/confirm-quit
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AnirudhG07/plugins-yazi/tree/main/copy-file-contents.yazi">copy-file-contents.yazi</a> - A simple plugin to copy the contents of a file to the clipboard directly from yazi.
 </summary>
 
 ```bash
 ya pkg add AnirudhG07/plugins-yazi:copy-file-contents
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/jessefarinacci/cycle-linemode.yazi">cycle-linemode.yazi</a> - A Yazi plugin for dynamically cycling through the `mgr.linemode` settings.
+</summary>
+
+```bash
+ya pkg add jessefarinacci/cycle-linemode
 ```
 
 </details>
