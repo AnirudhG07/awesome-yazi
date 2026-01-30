@@ -873,6 +873,17 @@ ya pkg add boydaihungst/simple-mtpfs
 
 <details>
 <summary>
+<a href="https://github.com/mikilio/snapshots.yazi">snapshots.yazi</a> - Visit past snapshots of your current directory. (Currently supports only btrfs)
+</summary>
+
+```bash
+# Requirements: ssh and sshfs
+ya pkg add Mikilio/snapshots.yazi
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/uhs-robert/sshfs.yazi">sshfs.yazi</a> - Mount and manage remote directories over SSH using SSHFS. Supports hosts from ~/.ssh/config or custom-defined connections. Includes key/password auth.
 </summary>
 
