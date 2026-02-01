@@ -277,6 +277,17 @@ ya pkg add macydnah/office
 
 <details>
 <summary>
+<a href="https://github.com/ettom/openscad.yazi">openscad.yazi</a> - Preview 3D geometry files like SCAD, 3MF and STL and more using <a href="https://openscad.org/">OpenSCAD</a>.
+</summary>
+
+```bash
+ya pkg add ettom/openscad
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An archive previewer plugin for Yazi, using <a href="https://github.com/ouch-org/ouch">ouch</a>.
 </summary>
 
