@@ -1,0 +1,50 @@
+name: Update Plugin Count
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Count plugins and update badge
+        run: |
+          # Count plugins between ## Plugins and ## Flavors sections
+          PLUGIN_COUNT=$(sed -n '/^## Plugins$/,/^## Flavors$/p' README.md | grep -c '<details>')
+          echo "Found $PLUGIN_COUNT plugins"
+          
+          # Update the badge in README.md
+          sed -i "s|!\[Plugins\](https://img.shields.io/badge/plugins-[0-9]*-blue)|![Plugins](https://img.shields.io/badge/plugins-${PLUGIN_COUNT}-blue)|g" README.md
+          
+          echo "PLUGIN_COUNT=$PLUGIN_COUNT" >> $GITHUB_ENV
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "chore: update plugin count to ${{ env.PLUGIN_COUNT }}"
+          git push
