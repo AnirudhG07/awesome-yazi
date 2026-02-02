@@ -5,7 +5,7 @@
 set -e
 
 # Count plugins between ## Plugins and ## Flavors sections
-PLUGIN_COUNT=$(sed -n '/^## Plugins$/,/^## Flavors$/p' README.md | grep -c '<details>')
+PLUGIN_COUNT=$(sed -n '/^## Plugins$/,/^## Flavors$/{/^## Flavors$/!p}' README.md | grep -c '<details>')
 
 echo "Found $PLUGIN_COUNT plugins"
 

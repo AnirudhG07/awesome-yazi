@@ -51,4 +51,4 @@ If you need to manually update the count, you can run:
 
 ## Note
 
-The plugin added will be reviewed before adding before any possible malicious additions in your and will also be frequently checked upon. This is to prevent any milicious plugin from reaching to the yazi community through awesome-yazi. Please cooperate with us. Thank you!
+The plugin added will be reviewed before adding before any possible malicious additions in your and will also be frequently checked upon. This is to prevent any malicious plugin from reaching to the yazi community through awesome-yazi. Please cooperate with us. Thank you!
