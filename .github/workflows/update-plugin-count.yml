@@ -19,7 +19,7 @@ jobs:
       - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -52,4 +52,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           git commit -m "Update plugin count to ${{ env.PLUGIN_COUNT }}"
-          git push origin ${{ github.head_ref }}
+          git push origin HEAD:${{ github.head_ref || github.ref }}
