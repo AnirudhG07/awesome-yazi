@@ -322,12 +322,24 @@ ya pkg add AminurAlam/yazi-plugins:preview-audio
 
 <details>
 <summary>
-<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-cbz.yazi">preview-cbz.yazi</a> - Preview covers of comic books.
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-cbz.yazi">preview-cbz.yazi</a> - Preview pages of comic books and manga.
 </summary>
 
 ```bash
 # Requirements: unzip and unrar
 ya pkg add AminurAlam/yazi-plugins:preview-cbz
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-epub.yazi">preview-epub.yazi</a> - Preview cover of <code>.epub</code> files.
+</summary>
+
+```bash
+# Requirements: gnome-epub-thumbnailer
+ya pkg add AminurAlam/yazi-plugins:preview-epub
 ```
 
 </details>
@@ -351,6 +363,18 @@ ya pkg add AminurAlam/yazi-plugins:preview-git
 ```bash
 # Requirements: sqlite3
 ya pkg add AminurAlam/yazi-plugins:preview-sqlite
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/preview-typst.yazi">preview-typst.yazi</a> - Preview shows <code>.typ</code> files after rendering.
+</summary>
+
+```bash
+# Requirements: typst
+ya pkg add AminurAlam/yazi-plugins:preview-typst
 ```
 
 </details>
@@ -541,6 +565,17 @@ ya pkg add 'Tyarel8/goto-drives'
 
 ```bash
 ya pkg add yazi-rs/plugins:jump-to-char
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/nextension.yazi">nextension.yazi</a> - jump to next file with different extension than current one.
+</summary>
+
+```bash
+ya pkg add AminurAlam/yazi-plugins:nextension
 ```
 
 </details>
@@ -1626,7 +1661,7 @@ ya pkg add Sonico98/yazi-prompt
 
 <details>
 <summary>
-<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot.yazi">spot.yazi</a> - Lets you create spotters easily.
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot.yazi">spot.yazi</a> - Framework to build your own spotter.
 </summary>
 
 ```bash
@@ -1664,6 +1699,18 @@ ya pkg add AminurAlam/yazi-plugins:spot-cbz
 
 ```bash
 ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-video
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/AminurAlam/yazi-plugins/blob/main/spot-image.yazi">spot-image.yazi</a> - Spotter for image metadata and exif.
+</summary>
+
+```bash
+# Requirements: imagemagick
+ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-image
 ```
 
 </details>
