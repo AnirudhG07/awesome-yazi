@@ -42,9 +42,14 @@ This will automatically be reflected in the PR for further checking.
 
 ## Automated Plugin Count
 
-The plugin count badge in the README is automatically updated by a GitHub Action workflow whenever the README is modified on the main branch. The workflow counts all `<details>` tags between the `## Plugins` and `## Flavors` sections.
+The plugin count badge in the README is automatically updated by a GitHub Action workflow whenever a pull request modifies the README. The workflow:
+- Counts all `<details>` tags between the `## Plugins` and `## Flavors` sections
+- Updates the badge with the current count
+- Commits the update directly to your PR branch
 
-If you need to manually update the count, you can run:
+This means when you add a plugin, the workflow will automatically update the count in your PR before it's merged, keeping the git history clean with no extra commits on main.
+
+If you need to manually update the count locally, you can run:
 ```bash
 ./update-plugin-count.sh
 ```

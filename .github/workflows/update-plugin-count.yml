@@ -1,24 +1,27 @@
 name: Update Plugin Count
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
     paths:
       - 'README.md'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update-count:
     runs-on: ubuntu-latest
+    # Only run on PRs that modify the README
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     steps:
-      - name: Checkout repository
+      - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Count plugins and update badge
         run: |
@@ -36,15 +39,17 @@ jobs:
         run: |
           if git diff --quiet README.md; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes needed - count is already up to date"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Plugin count needs to be updated"
           fi
 
-      - name: Commit and push if changed
+      - name: Commit and push to PR if changed
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git commit -m "chore: update plugin count to ${{ env.PLUGIN_COUNT }}"
-          git push
+          git commit -m "Update plugin count to ${{ env.PLUGIN_COUNT }}"
+          git push origin ${{ github.head_ref }}
