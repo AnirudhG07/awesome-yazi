@@ -1,0 +1,55 @@
+name: Update Plugin Count
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    # Only run on PRs that modify the README
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Count plugins and update badge
+        run: |
+          # Count plugins between ## Plugins and ## Flavors sections
+          PLUGIN_COUNT=$(sed -n '/^## Plugins$/,/^## Flavors$/{/^## Flavors$/!p}' README.md | grep -c '<details>')
+          echo "Found $PLUGIN_COUNT plugins"
+          
+          # Update the badge in README.md
+          sed -i "s|!\[Plugins\](https://img.shields.io/badge/plugins-[0-9]*-blue)|![Plugins](https://img.shields.io/badge/plugins-${PLUGIN_COUNT}-blue)|g" README.md
+          
+          echo "PLUGIN_COUNT=$PLUGIN_COUNT" >> $GITHUB_ENV
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes needed - count is already up to date"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Plugin count needs to be updated"
+          fi
+
+      - name: Commit and push to PR if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update plugin count to ${{ env.PLUGIN_COUNT }}"
+          git push origin HEAD:${{ github.head_ref || github.ref }}

@@ -40,6 +40,20 @@ If you would like to add a plugin, flavor, etc. of yazi to the list, here is how
 If you are asked to edit your PR due to spelling errors or because your PR didn't match the awesome-yazi list guidelines, please make suitable changes in your fork.
 This will automatically be reflected in the PR for further checking.
 
+## Automated Plugin Count
+
+The plugin count badge in the README is automatically updated by a GitHub Action workflow whenever a pull request modifies the README. The workflow:
+- Counts all `<details>` tags between the `## Plugins` and `## Flavors` sections
+- Updates the badge with the current count
+- Commits the update directly to your PR branch
+
+This means when you add a plugin, the workflow will automatically update the count in your PR before it's merged, keeping the git history clean with no extra commits on main.
+
+If you need to manually update the count locally, you can run:
+```bash
+./update-plugin-count.sh
+```
+
 ## Note
 
-The plugin added will be reviewed before adding before any possible malicious additions in your and will also be frequently checked upon. This is to prevent any milicious plugin from reaching to the yazi community through awesome-yazi. Please cooperate with us. Thank you!
+The plugin added will be reviewed before adding before any possible malicious additions in your and will also be frequently checked upon. This is to prevent any malicious plugin from reaching to the yazi community through awesome-yazi. Please cooperate with us. Thank you!
