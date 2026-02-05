@@ -299,6 +299,17 @@ ya pkg add ndtoan96/ouch
 
 <details>
 <summary>
+<a href="https://github.com/dimi1357/pickle.yazi">pickle.yazi</a> - Preview Python pickle files in the terminal.
+</summary>
+
+```bash
+ya pkg add dimi1357/pickle
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/piper.yazi">piper.yazi</a> - Pipe any shell command as a previewer.
 </summary>
 
