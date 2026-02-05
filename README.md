@@ -244,6 +244,17 @@ ya pkg add boydaihungst/mediainfo
 
 <details>
 <summary>
+<a href="https://github.com/dimi1357/mesh-preview.yazi">mesh-preview.yazi</a> - Preview 3D mesh files and point clouds in the terminal.
+</summary>
+
+```bash
+ya pkg add dimi1357/mesh-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Reledia/miller.yazi">miller.yazi</a> - Preview CSV files (and other supported formats) using <a href="https://github.com/johnkerl/miller">miller</a>.
 </summary>
 
