@@ -142,6 +142,18 @@ ya pkg add ruudjhuu/f3d-preview
 
 <details>
 <summary>
+<a href="https://github.com/cxwx/fits-preview.yazi">fits-preview.yazi</a> - Preview fits file.
+</summary>
+
+```bash
+# Requirements: astropy, fitsheader
+ya pkg add cxwx/fits-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/AminurAlam/yazi-plugins/blob/main/font-sample.yazi">font-sample.yazi</a> - Preview common font features at a glance.
 </summary>
 
