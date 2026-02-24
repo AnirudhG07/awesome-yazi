@@ -1305,6 +1305,8 @@ ya pkg add walldmtd/fs-usage
 ya pkg add yazi-rs/plugins:full-border
 ```
 
+</details>
+
 <details>
 <summary>
 <a href="https://github.com/barbanevosa/linemode-plus.yazi">linemode-plus.yazi</a> - Advanced linemode customization with configurable date format and combined size+mtime view.
@@ -1326,6 +1328,8 @@ ya pkg add barbanevosa/linemode-plus
 ya pkg add yazi-rs/plugins:mactag
 ```
 
+</details>
+
 <details>
 <summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/no-status.yazi">no-status.yazi</a> - Remove the status bar.
@@ -1335,9 +1339,7 @@ ya pkg add yazi-rs/plugins:mactag
 ya pkg add yazi-rs/plugins:no-status
 ```
 
-> Check out [no-header.yazi](https://github.com/sxyazi/yazi/discussions/1996) in this discussion.
-
-</details>
+> Check out [no-header.yazi](https://github.no-statcom/sxyazi/yazi/discussions/1996) in this discussion.
 
 </details>
 
