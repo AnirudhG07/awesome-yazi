@@ -1305,6 +1305,16 @@ ya pkg add walldmtd/fs-usage
 ya pkg add yazi-rs/plugins:full-border
 ```
 
+<details>
+<summary>
+<a href="https://github.com/barbanevosa/linemode-plus.yazi">linemode-plus.yazi</a> - Advanced linemode customization with configurable date format and combined size+mtime view.
+
+</summary>
+
+```bash
+ya pkg add barbanevosa/linemode-plus
+```
+
 </details>
 
 <details>
