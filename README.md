@@ -729,12 +729,20 @@ ya pkg add MasouShizuka/projects
 
 <details>
 <summary>
-<a href="https://github.com/WhoSowSee/whoosh.yazi">whoosh.yazi</a> - Advanced bookmark manager for Yazi file manager with persistent/temporary bookmarks, directory history, fuzzy search integration, and intelligent path truncation. Jump between your favorite locations instantly across all platforms.
+<a href="https://gitlab.com/WhoSowSee/whoosh.yazi">whoosh.yazi</a> - Advanced bookmark manager for Yazi file manager with persistent/temporary bookmarks, directory history, fuzzy search integration, and intelligent path truncation. Jump between your favorite locations instantly across all platforms. As the repo has migrated to Gitlab, currently only the manual installation command works. 
 </summary>
 
 ```bash
-ya pkg add WhoSowSee/whoosh
-```
+# Manual installation
+
+# Linux/macOS
+git clone https://gitlab.com/WhoSowSee/whoosh.yazi.git ~/.config/yazi/plugins/whoosh.yazi
+
+# Windows
+git clone https://gitlab.com/WhoSowSee/whoosh.yazi.git "C:\Users\username\AppData\Roaming\yazi\config\plugins\whoosh.yazi"
+
+``````
+
 
 </details>
 
