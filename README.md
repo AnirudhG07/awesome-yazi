@@ -1309,6 +1309,18 @@ ya pkg add yazi-rs/plugins:full-border
 
 <details>
 <summary>
+<a href="https://github.com/barbanevosa/linemode-plus.yazi">linemode-plus.yazi</a> - Advanced linemode customization with configurable date format and combined size+mtime view.
+
+</summary>
+
+```bash
+ya pkg add barbanevosa/linemode-plus
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/mactag.yazi">mactag.yazi</a> - Bring macOS's awesome tagging feature to Yazi! The plugin it's only available for macOS just like the name says.
 </summary>
 
