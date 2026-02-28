@@ -1,4 +1,4 @@
-# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-150-blue)
+# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-152-blue)
 
 <br>
 
@@ -136,6 +136,18 @@ ya pkg add ahkohd/eza-preview
 
 ```bash
 ya pkg add ruudjhuu/f3d-preview
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/cxwx/fits-preview.yazi">fits-preview.yazi</a> - Preview fits file.
+</summary>
+
+```bash
+# Requirements: astropy, fitsheader
+ya pkg add cxwx/fits-preview
 ```
 
 </details>
