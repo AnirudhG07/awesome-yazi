@@ -1,4 +1,4 @@
-# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-150-blue)
+# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-152-blue)
 
 <br>
 
