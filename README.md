@@ -1757,6 +1757,17 @@ ya pkg add Tyarel8/nu
 
 <details>
 <summary>
+<a href="https://github.com/danchamorro/tui-toggle.yazi">tui-toggle.yazi</a> - Toggle persistent tmux-backed TUIs (pi) and open a shell in the current Yazi directory.
+</summary>
+
+```bash
+ya pkg add danchamorro/tui-toggle
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Sonico98/yazi-prompt.sh">yazi-prompt.sh</a> - Display an indicator in your prompt when running inside a yazi subshell.
 </summary>
 
