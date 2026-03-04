@@ -1,4 +1,4 @@
-# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-152-blue)
+# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-153-blue)
 
 <br>
 
@@ -1751,6 +1751,17 @@ ya pkg add AnirudhG07/custom-shell
 
 ```bash
 ya pkg add Tyarel8/nu
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/danchamorro/tui-toggle.yazi">tui-toggle.yazi</a> - Toggle persistent tmux-backed TUIs (pi) and open a shell in the current Yazi directory.
+</summary>
+
+```bash
+ya pkg add danchamorro/tui-toggle
 ```
 
 </details>
