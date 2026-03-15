@@ -437,6 +437,18 @@ ya pkg add AnirudhG07/rich-preview
 
 <details>
 <summary>
+<a href="https://github.com/cxwx/root-preview.yazi">root-preview.yazi</a> ROOT(Cern) file preview in yazi
+</summary>
+
+```bash
+# Requirements: ROOT(cern): rootls
+ya pkg add cxwx/root-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/tasnimAlam/rotate-image.yazi">rotate-image.yazi</a> Rotate hovered/selected image(s)
 </summary>
 
