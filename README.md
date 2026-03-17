@@ -1,4 +1,4 @@
-# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Plugins](https://img.shields.io/badge/plugins-153-blue)
+# Awesome Yazi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <br>
 
@@ -758,7 +758,7 @@ ya pkg add MasouShizuka/projects
 
 ```bash
 # Manual installation
-## As the repo has migrated to Gitlab, currently only the manual installation command works. 
+## As the repo has migrated to Gitlab, currently only the manual installation command works.
 
 # Linux/macOS
 git clone https://gitlab.com/WhoSowSee/whoosh.yazi.git ~/.config/yazi/plugins/whoosh.yazi
@@ -998,7 +998,7 @@ ya pkg add boydaihungst/simple-mtpfs
 <a href="https://github.com/mikilio/snapshots.yazi">snapshots.yazi</a> - Visit past snapshots of your current directory. (Currently supports only btrfs)
 </summary>
 
-```bash
+````bash
 # Requirements: ssh and sshfs
 ya pkg add Mikilio/snapshots.yazi
 
@@ -1012,7 +1012,7 @@ ya pkg add Mikilio/snapshots.yazi
 ```bash
 # Requirements: ssh and sshfs
 ya pkg add uhs-robert/sshfs.yazi
-```
+````
 
 </details>
 
