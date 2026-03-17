@@ -1158,6 +1158,17 @@ ya pkg add Mr-Ples/command-palette
 
 <details>
 <summary>
+<a href="https://github.com/walldmtd/confirm-open.yazi">confirm-open.yazi</a> - A Yazi plugin to show a confirmation popup when opening a large number of files.
+</summary>
+
+```bash
+ya pkg add walldmtd/confirm-open
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/jessefarinacci/confirm-quit.yazi">confirm-quit.yazi</a> - A Yazi plugin that will prevent `mgr.quit` terminating Yazi if there are multiple tabs open.
 </summary>
 
