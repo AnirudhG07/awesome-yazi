@@ -289,6 +289,17 @@ ya pkg add AnirudhG07/nbpreview
 
 <details>
 <summary>
+<a href="https://github.com/cxwx/netcdf-preview.yazi">netcdf-preview.yazi</a> - Preview netcdf (\*.NC) files.
+</summary>
+
+```bash
+ya pkg add cxwx/netcdf-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/macydnah/office.yazi">office.yazi</a> - Office documents previewer plugin for Yazi, using <a href="https://www.libreoffice.org/about-us/who-are-we/">libreoffice</a> (compatible with .docx, .xlsx, .pptx, .odt, .ods, .odp; and other file formats supported by the Office Open XML and OpenDocument standards).
 </summary>
 
