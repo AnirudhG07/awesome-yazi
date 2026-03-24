@@ -1894,8 +1894,6 @@ ya pkg add doclayer/yazi-doclayer
 
 </details>
 
-- [yazi_types.lua](https://github.com/hankertrix/augment-command.yazi/blob/main/yazi_types.lua) - A type file containing most of Yazi's Lua API.
-
 ## Flavors
 
 <details>
