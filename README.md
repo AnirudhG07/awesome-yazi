@@ -933,6 +933,17 @@ ya pkg add ndtoan96/ouch
 
 <details>
 <summary>
+<a href="https://github.com/lmnek/pandoc.yazi">pandoc.yazi</a> - Convert the selected files to different markup files using <a href="https://github.com/jgm/pandoc">Pandoc</a>.
+</summary>
+
+```bash
+ya pkg add lmnek/pandoc
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/uhs-robert/recycle-bin.yazi">recycle-bin.yazi</a> - Manage your Trash from Yazi: browse contents, restore or delete selected items, empty by age, or empty completely using trash-cli.
 </summary>
 
