@@ -495,7 +495,7 @@ ya pkg add kirasok/torrent-preview
 
 <details>
 <summary>
-<a href="https://github.com/ryanda/video-grid.yazi">video-grid.yazi</a> - Thumbnail grid preview for video files using `ffmpeg`</a>.
+<a href="https://github.com/ryanda/video-grid.yazi">video-grid.yazi</a> - Thumbnail grid preview for video files using <a href="https://www.ffmpeg.org/">ffmpeg</a>.
 </summary>
 
 ```bash
