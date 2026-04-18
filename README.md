@@ -337,7 +337,7 @@ ya pkg add ndtoan96/ouch
 </summary>
 
 ```bash
-ya pkg add cxwx parquet-preview
+ya pkg add cxwx/parquet-preview
 ```
 
 </details>
