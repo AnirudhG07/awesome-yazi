@@ -1891,6 +1891,18 @@ ya pkg add AminurAlam/yazi-plugins:spot AminurAlam/yazi-plugins:spot-image
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/tasnimAlam/video-duration.yazi">video-duration.yazi</a> - Display total duration of selected video files.
+</summary>
+
+```bash
+# Requirements: mediainfo
+ya pkg add tasnimAlam/video-duration
+```
+
+</details>
+
 ### Utilities
 
 <details>
