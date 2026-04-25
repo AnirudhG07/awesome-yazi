@@ -484,6 +484,17 @@ ya pkg add tasnimAlam/thumbnail
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/to-pdf-preview.yazi">to-pdf-preview.yazi</a> - Preview any file type convertible to PDF (using external tools), with page counter and scrolling.
+</summary>
+
+```bash
+ya pkg add pakhromov/to-pdf-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
 
