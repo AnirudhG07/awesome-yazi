@@ -1268,6 +1268,17 @@ ya pkg add boydaihungst/save-clipboard-to-file
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/smart-tab.yazi">smart-tab.yazi</a> - Switch to the next tab, or create a new one if already on the last tab.
+</summary>
+
+```bash
+ya pkg add pakhromov/smart-tab
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/TD-Sky/sudo.yazi">sudo.yazi</a> - Call `sudo` in yazi.
 </summary>
 
