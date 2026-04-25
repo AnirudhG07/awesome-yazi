@@ -639,6 +639,17 @@ ya pkg add 'Tyarel8/goto-drives'
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/goto-file-dir.yazi">goto-file-dir.yazi</a> - Navigate to the directory of the hovered file when browsing search results.
+</summary>
+
+```bash
+ya pkg add pakhromov/goto-file-dir
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi">jump-to-char.yazi</a> - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
 </summary>
 
