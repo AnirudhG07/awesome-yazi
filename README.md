@@ -506,6 +506,17 @@ ya pkg add ryanda/video-grid
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/xcursor-preview.yazi">xcursor-preview.yazi</a> - Preview xcursor files with metadata and frame-by-frame animation scrolling.
+</summary>
+
+```bash
+ya pkg add pakhromov/xcursor-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/figgis/yuv.yazi">yuv.yazi</a> - Preview YCbCr 4:2:0 "\*.yuv" and "\*.y4m" files using <a href="https://www.ffmpeg.org/">ffmpeg</a>.
 </summary>
 
