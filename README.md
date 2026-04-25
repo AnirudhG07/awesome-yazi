@@ -714,6 +714,17 @@ ya pkg add iynaix/time-travel
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/autosave.yazi">autosave.yazi</a> - Session restore plugin that can be triggered on any action: tab switch/creation, directory change, or any other keybind, making it work even when exiting Yazi with a window manager/compositor keybind or shutting down the system without exiting Yazi.
+</summary>
+
+```bash
+ya pkg add pakhromov/autosave
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/barbanevosa/autosession.yazi">autosession.yazi</a> - Automatic session persistence that saves the current state on exit and restores the last saved state on startup.
 </summary>
 
