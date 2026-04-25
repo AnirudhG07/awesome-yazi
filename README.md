@@ -829,6 +829,17 @@ ya pkg add AnirudhG07/archivemount
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/batch-rename-gui.yazi">batch-rename-gui.yazi</a> - Batch rename selected files in a GUI editor.
+</summary>
+
+```bash
+ya pkg add pakhromov/batch-rename-gui
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/KKV9/compress.yazi">compress.yazi</a> - Compress selected or hovered files and directories to an archive. It currently supports various archive formats.
 </summary>
 
