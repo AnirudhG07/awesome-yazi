@@ -661,6 +661,17 @@ ya pkg add AminurAlam/yazi-plugins:nextension
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/paste-navigate.yazi">paste-navigate.yazi</a> - Navigate to or create files and directories by pasting a path.
+</summary>
+
+```bash
+ya pkg add pakhromov/paste-navigate
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/dedukun/relative-motions.yazi">relative-motions.yazi</a> - A Yazi plugin based on vim motions.
 </summary>
 
