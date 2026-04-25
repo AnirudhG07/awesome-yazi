@@ -908,6 +908,17 @@ ya pkg add Deepak22903/kdeconnect-send
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/localsend.yazi">localsend.yazi</a> - Send selected files over the local network using localsend-go.
+</summary>
+
+```bash
+ya pkg add pakhromov/localsend
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/mount.yazi">yazi-rs/mount.yazi</a> - A mount manager for Yazi, providing disk mount, unmount, and eject functionality.
 
 </summary>
