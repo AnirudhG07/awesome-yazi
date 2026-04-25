@@ -829,7 +829,7 @@ ya pkg add AnirudhG07/archivemount
 
 <details>
 <summary>
-<a href="https://github.com/pakhromov/batch-rename-gui.yazi">batch-rename-gui.yazi</a> - Batch rename selected files in a GUI editor.
+<a href="https://github.com/pakhromov/batch-rename-gui.yazi">batch-rename-gui.yazi</a> - Rename multiple selected files in your GUI text editor.
 </summary>
 
 ```bash
