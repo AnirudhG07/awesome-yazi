@@ -333,6 +333,17 @@ ya pkg add ndtoan96/ouch
 
 <details>
 <summary>
+<a href="https://github.com/cxwx/parquet-preview.yazi">parquet-preview.yazi</a> - parquet previewer plugin for Yazi.
+</summary>
+
+```bash
+ya pkg add cxwx/parquet-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/dimi1357/pickle.yazi">pickle.yazi</a> - Preview Python pickle files in the terminal.
 </summary>
 
