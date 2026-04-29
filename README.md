@@ -853,6 +853,17 @@ ya pkg add atareao/convert
 
 <details>
 <summary>
+<a href="https://github.com/tasnimAlam/croc-send.yazi">croc-send.yazi</a> - Send selected files using croc
+</summary>
+
+```bash
+ya pkg add tasnimAlam/croc-send
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/diff.yazi">diff.yazi</a> - Diff the selected file with the hovered file, create a living patch, and copy it to the clipboard.
 </summary>
 
