@@ -484,6 +484,17 @@ ya pkg add tasnimAlam/thumbnail
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/to-pdf-preview.yazi">to-pdf-preview.yazi</a> - Preview any file type convertible to PDF (using external tools), with page counter and scrolling.
+</summary>
+
+```bash
+ya pkg add pakhromov/to-pdf-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/kirasok/torrent-preview.yazi">torrent-preview.yazi</a> - Preview "\*.torrent" files using <a href="https://github.com/transmission/transmission">transmission-cli</a>.
 </summary>
 
@@ -714,6 +725,17 @@ ya pkg add iynaix/time-travel
 
 <details>
 <summary>
+<a href="https://github.com/pakhromov/autosave.yazi">autosave.yazi</a> - Session restore plugin that can be triggered on any action: tab switch/creation, directory change, or any other keybind, making it work even when exiting Yazi with a window manager/compositor keybind or shutting down the system without exiting Yazi.
+</summary>
+
+```bash
+ya pkg add pakhromov/autosave
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/barbanevosa/autosession.yazi">autosession.yazi</a> - Automatic session persistence that saves the current state on exit and restores the last saved state on startup.
 </summary>
 
@@ -812,6 +834,17 @@ ya pkg add h-hg/yamb
 
 ```bash
 ya pkg add AnirudhG07/archivemount
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/pakhromov/batch-rename-gui.yazi">batch-rename-gui.yazi</a> - Rename multiple selected files in your GUI text editor.
+</summary>
+
+```bash
+ya pkg add pakhromov/batch-rename-gui
 ```
 
 </details>
@@ -1240,6 +1273,17 @@ ya pkg add jessefarinacci/cycle-linemode
 
 ```bash
 ya pkg add boydaihungst/save-clipboard-to-file
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/pakhromov/smart-tab.yazi">smart-tab.yazi</a> - Switch to the next tab, or create a new one if already on the last tab.
+</summary>
+
+```bash
+ya pkg add pakhromov/smart-tab
 ```
 
 </details>
