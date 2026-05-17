@@ -242,6 +242,28 @@ ya pkg add GrzegorzKozub/mdcat
 </details>
 
 <details>
+
+<summary>
+<a href="https://github.com/WhoSowSee/mdv-previewer.yazi">mdv-previewer</a> - A preview plugin for Text and Markdown files that uses <a href="https://github.com/WhoSowSee/mdv">mdv</a> to render content.
+</summary>
+
+```bash
+ya pkg add WhoSowSee/mdv-previewer
+```
+
+```bash
+# Manual installation
+
+# Linux/macOS
+git clone https://github.com/WhoSowSee/mdv-previewer.yazi.git ~/.config/yazi/plugins/mdv-previewer.yazi
+
+# Windows
+git clone https://github.com/WhoSowSee/mdv-previewer.yazi.git "$env:APPDATA\yazi\config\plugins\mdv-previewer.yazi"
+```
+
+</details>
+
+<details>
 <summary>
 <a href="https://github.com/boydaihungst/mediainfo.yazi">mediainfo.yazi</a> - Preview image, audio, video, subtitle and many more media types using `ffmpeg` and `mediainfo`.
 </summary>
@@ -840,20 +862,23 @@ ya pkg add MasouShizuka/projects
 </details>
 
 <details>
+
 <summary>
-<a href="https://gitlab.com/WhoSowSee/whoosh.yazi">whoosh.yazi</a> - Advanced bookmark manager for Yazi file manager with persistent/temporary bookmarks, directory history, fuzzy search integration, and intelligent path truncation. Jump between your favorite locations instantly across all platforms.
+<a href="https://github.com/WhoSowSee/whoosh.yazi">whoosh.yazi</a> - Advanced bookmark manager for Yazi file manager with persistent/temporary bookmarks, directory history, fuzzy search integration, and intelligent path truncation. Jump between your favorite locations instantly across all platforms.
 </summary>
 
 ```bash
+ya pkg add WhoSowSee/whoosh
+```
+
+```bash
 # Manual installation
-## As the repo has migrated to Gitlab, currently only the manual installation command works.
 
 # Linux/macOS
-git clone https://gitlab.com/WhoSowSee/whoosh.yazi.git ~/.config/yazi/plugins/whoosh.yazi
+git clone https://github.com/WhoSowSee/whoosh.yazi.git ~/.config/yazi/plugins/whoosh.yazi
 
 # Windows
-git clone https://gitlab.com/WhoSowSee/whoosh.yazi.git "C:\Users\username\AppData\Roaming\yazi\config\plugins\whoosh.yazi"
-
+git clone https://github.com/WhoSowSee/whoosh.yazi.git $env:APPDATA\yazi\config\plugins\whoosh.yazi
 ```
 
 </details>
