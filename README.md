@@ -256,6 +256,17 @@ ya pkg add boydaihungst/mediainfo
 
 <details>
 <summary>
+<a href="https://github.com/passion0102/mermaid.yazi">mermaid.yazi</a> - Render <a href="https://mermaid.js.org/">Mermaid</a> diagrams inline in Markdown previews. Uses <a href="https://mermaid.ink">mermaid.ink</a> by default and falls back to <a href="https://github.com/mermaid-js/mermaid-cli">mermaid-cli</a> for offline rendering. Composes glow-rendered text with the mermaid image and supports a mode toggle (split / image / text) plus image-area zoom.
+</summary>
+
+```bash
+ya pkg add passion0102/mermaid
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/dimi1357/mesh-preview.yazi">mesh-preview.yazi</a> - Preview 3D mesh files and point clouds in the terminal.
 </summary>
 
