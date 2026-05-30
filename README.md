@@ -249,9 +249,7 @@ ya pkg add GrzegorzKozub/mdcat
 
 ```bash
 ya pkg add WhoSowSee/mdv-previewer
-```
 
-```bash
 # Manual installation
 
 # Linux/macOS
