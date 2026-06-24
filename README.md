@@ -1484,6 +1484,17 @@ ya pkg add dawsers/dual-pane
 
 <details>
 <summary>
+<a href="https://github.com/terrakok/split-tabs.yazi">split-tabs.yazi</a> - Provides a dual-pane view by splitting the screen between two tabs.
+</summary>
+
+```bash
+ya pkg add terrakok/split-tabs
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/grimandgreedy/ffmpeg-stats.yazi">ffmpeg-stats.yazi</a> - Display audio and video information in yazi's linemode.
 </summary>
 
