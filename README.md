@@ -1620,6 +1620,17 @@ ya pkg add Ape/simple-status
 
 <details>
 <summary>
+<a href="https://github.com/terrakok/split-tabs.yazi">split-tabs.yazi</a> - Provides a dual-pane view by splitting the screen between two tabs.
+</summary>
+
+```bash
+ya pkg add terrakok/split-tabs
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Rolv-Apneseth/starship.yazi">starship.yazi</a> - Starship prompt plugin for Yazi.
 </summary>
 
