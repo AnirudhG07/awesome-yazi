@@ -559,6 +559,17 @@ ya pkg add ryanda/video-grid
 
 <details>
 <summary>
+<a href="https://github.com/ShikherVerma/yazi-plugins/tree/main/vscode-git-gutter.yazi">vscode-git-gutter.yazi</a> - Preview text and code with syntax highlighting, line numbers, and a VS Code style git change gutter.
+</summary>
+
+```bash
+ya pkg add ShikherVerma/yazi-plugins:vscode-git-gutter
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/pakhromov/xcursor-preview.yazi">xcursor-preview.yazi</a> - Preview xcursor files with metadata and frame-by-frame animation scrolling.
 </summary>
 
@@ -1576,6 +1587,17 @@ ya pkg add yazi-rs/plugins:no-status
 
 <details>
 <summary>
+<a href="https://github.com/ShikherVerma/yazi-plugins/tree/main/mobile-auto-layout.yazi">mobile-auto-layout.yazi</a> - Adapt column widths to content and screen size, with a reading mode that widens the preview, built for phone-narrow terminals.
+</summary>
+
+```bash
+ya pkg add ShikherVerma/yazi-plugins:mobile-auto-layout
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/saumyajyoti/omp.yazi">omp.yazi</a> - oh-my-posh prompt plugin for Yazi.
 </summary>
 
@@ -1775,6 +1797,17 @@ ya pkg add Lil-Dank/lazygit
 
 ```bash
 ya pkg add yazi-rs/plugins:vcs-files
+```
+
+</details>
+
+<details>
+<summary>
+<a href="https://github.com/ShikherVerma/yazi-plugins/tree/main/vscode-git-colors.yazi">vscode-git-colors.yazi</a> - Color file names by their git status, VS Code style, with status letters for files and dot badges for directories in every column.
+</summary>
+
+```bash
+ya pkg add ShikherVerma/yazi-plugins:vscode-git-colors
 ```
 
 </details>
