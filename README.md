@@ -1451,6 +1451,17 @@ ya pkg add grappas/wl-clipboard
 
 <details>
 <summary>
+<a href="https://github.com/alchezar/age-badge.yazi">age-badge.yazi</a> - A color-coded badge showing each file's age, from red (recent) to violet (old). Inspired by OneCommander.
+</summary>
+
+```bash
+ya pkg add alchezar/age-badge
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/josephschmitt/auto-layout.yazi">auto-layout.yazi</a> - Automatically change number of columns based on available width.
 </summary>
 
