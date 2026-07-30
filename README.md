@@ -1261,6 +1261,19 @@ ya pkg add nsavvide/duck-radar
 
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/bmcszk/yazi-album-plugin">yazi-album-plugin.yazi</a> - Upload selected photos to a cloud album via <a href="https://rclone.org/">rclone</a> through a 3-step fzf wizard (provider → remote → album; existing or create-new).
+</summary>
+
+
+```bash
+ya pkg add bmcszk/yazi-album-plugin
+```
+
+
+</details>
+
 ### Filter Enhancements
 
 <details>
