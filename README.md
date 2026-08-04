@@ -694,7 +694,7 @@ ya pkg add lpanebr/yazi-plugins:first-non-directory
 
 <details>
 <summary>
-<a href="https://gitee.com/lpnh/fr.yazi">fg.yazi</a> - a Yazi plugin that integrates `fzf` with `bat` preview for `rg` search and `rga` preview for `rga` search.
+<a href="https://github.com/lpnh/fr.yazi">fr.yazi</a> - a Yazi plugin that integrates `fzf` with `bat` preview for `rg` search and `rga` preview for `rga` search.
 </summary>
 
 ```bash
