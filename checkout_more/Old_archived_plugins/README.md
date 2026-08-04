@@ -71,3 +71,9 @@ ya pack -a yazi-rs/plugins:max-preview
 ```bash
 ya pack -a yazi-rs/plugins:hide-preview
 ```
+
+- [dawsers/fuse-archive.yazi](https://github.com/dawsers/fuse-archive.yazi) - Transparently mount and unmount archives in read-only mode while navigating in Yazi.
+
+```bash
+ya pkg add dawsers/fuse-archive
+```

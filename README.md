@@ -16,27 +16,29 @@ Each plugin info contains the installation instruction preferably using `ya pkg`
 
 ## Contents
 
-- [Official](#official)
-- [Plugins](#plugins)
-  - [Previewers](#previewers)
-  - [Jumping](#jumping)
-  - [Bookmarks](#bookmarks)
-  - [File Actions](#file-actions)
-  - [Filter Enhancements](#filter-enhancements)
-  - [Enter Enhancements](#enter-enhancements)
-  - [General Command Enhancements](#general-command-enhancements)
-  - [UI enhancements](#ui-enhancements)
-  - [Git Utils](#git-utils)
-  - [Preloader Images](#preloader-images)
-  - [Fetchers](#fetchers)
-  - [Text Editor](#text-editor)
-  - [Shell Plugins](#shell-plugins)
-  - [Spotters](#spotters)
-  - [Utilities](#utilities)
-- [Flavors](#flavors)
-- [Themes](#themes)
-- [Community](#community)
-- [Check Out More](#check-out-more)
+- [Awesome Yazi ](#awesome-yazi-)
+  - [Contents](#contents)
+  - [Official](#official)
+  - [Plugins](#plugins)
+    - [Previewers](#previewers)
+    - [Jumping](#jumping)
+    - [Bookmarks](#bookmarks)
+    - [File Actions](#file-actions)
+    - [Filter Enhancements](#filter-enhancements)
+    - [Enter Enhancements](#enter-enhancements)
+    - [General Command Enhancements](#general-command-enhancements)
+    - [UI enhancements](#ui-enhancements)
+    - [Git Utils](#git-utils)
+    - [Preloader Images](#preloader-images)
+    - [Fetchers](#fetchers)
+    - [Text Editor](#text-editor)
+    - [Shell Plugins](#shell-plugins)
+    - [Spotters](#spotters)
+    - [Utilities](#utilities)
+  - [Flavors](#flavors)
+  - [Themes](#themes)
+  - [Community](#community)
+  - [Check Out More](#check-out-more)
 
 ## Official
 
@@ -1019,11 +1021,11 @@ ya pkg add BBOOXX/file-actions
 
 <details>
 <summary>
-<a href="https://github.com/dawsers/fuse-archive.yazi">fuse-archive.yazi</a> - Transparently mount and unmount archives in read-only mode while navigating in Yazi.
+<a href="https://github.com/boydaihungst/fuse-archive.yazi">fuse-archive.yazi</a> - Transparently mount and unmount archives in read-only mode while navigating in Yazi.
 </summary>
 
 ```bash
-ya pkg add dawsers/fuse-archive
+ya pkg add boydaihungst/fuse-archive
 ```
 
 </details>
