@@ -727,6 +727,21 @@ ya pkg add pakhromov/goto-file-dir
 
 <details>
 <summary>
+<a href="https://tangled.org/ivelieu.quietism.art/hxjump.yazi">hxjump.yazi</a> - Helix-like two character jump to any visible file or folder
+</summary>
+
+```bash
+# Linux/macOS
+git clone https://tangled.org/ivelieu.quietism.art/hxjump.yazi ~/.config/yazi/plugins/hxjump.yazi
+
+# Windows
+git clone https://tangled.org/ivelieu.quietism.art/hxjump.yazi %AppData%\yazi\config\plugins\hxjump.yazi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi">jump-to-char.yazi</a> - Vim-like `f<char>`, jump to the next file whose name starts with `<char>`.
 </summary>
 
