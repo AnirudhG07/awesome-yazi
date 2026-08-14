@@ -1081,6 +1081,17 @@ ya pkg add yazi-rs/plugins:mount
 
 <details>
 <summary>
+<a href="https://github.com/PHONE1X/lsblk-mount.yazi">lsblk-mount.yazi</a> - A fork of the official mount.yazi with lsblk-based device discovery, a mountpoint column, and error notifications.
+</summary>
+
+```bash
+ya pkg add PHONE1X/lsblk-mount.yazi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/SL-RU/mount.yazi">SL-RU/mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
 </summary>
 You need to install mmtui binary first, check repository for additional information.
