@@ -2012,6 +2012,17 @@ ya pkg add Tyarel8/nu
 
 <details>
 <summary>
+<a href="https://github.com/alastairsounds/yazi-plugins/tree/main/shell-peek.yazi">shell-peek.yazi</a> - Peek a shell command's output as a toast without leaving the file list.
+</summary>
+
+```bash
+ya pkg add alastairsounds/yazi-plugins:shell-peek
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/danchamorro/tui-toggle.yazi">tui-toggle.yazi</a> - Toggle persistent tmux-backed TUIs (pi) and open a shell in the current Yazi directory.
 </summary>
 
