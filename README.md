@@ -2394,6 +2394,19 @@ Manual Installation Required.
 </details>
 
 ## Community
+<details>
+<summary>
+<a href="https://github.com/PHONE1X/far-too-yazi">far-too-yazi</a> - FAR Manager / Norton Commander style dual-pane config distribution for yazi (AstroNvim-style, not a single plugin) — instant vim<->FAR mode switching, conflict-aware cross-pane transfers, KDE Connect phone browsing.
+</summary>
+
+```bash
+git clone https://github.com/PHONE1X/far-too-yazi.git
+cd far-too-yazi
+./install.sh
+```
+
+</details>
+
 
 - [Discord (English mainly)](https://discord.gg/qfADduSdJu)
 - [Telegram (Chinese mainly)](https://t.me/yazi_rs)
