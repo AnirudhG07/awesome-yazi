@@ -1081,6 +1081,17 @@ ya pkg add yazi-rs/plugins:mount
 
 <details>
 <summary>
+<a href="https://github.com/PHONE1X/lsblk-mount.yazi">lsblk-mount.yazi</a> - A fork of the official mount.yazi with lsblk-based device discovery, a mountpoint column, and error notifications.
+</summary>
+
+```bash
+ya pkg add PHONE1X/lsblk-mount.yazi
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/SL-RU/mount.yazi">SL-RU/mount.yazi</a> - User interface for convinient mounting volumes using udisks2.
 </summary>
 You need to install mmtui binary first, check repository for additional information.
@@ -2383,6 +2394,19 @@ Manual Installation Required.
 </details>
 
 ## Community
+<details>
+<summary>
+<a href="https://github.com/PHONE1X/far-too-yazi">far-too-yazi</a> - FAR Manager / Norton Commander style dual-pane config distribution for yazi (AstroNvim-style, not a single plugin) — instant vim<->FAR mode switching, conflict-aware cross-pane transfers, KDE Connect phone browsing.
+</summary>
+
+```bash
+git clone https://github.com/PHONE1X/far-too-yazi.git
+cd far-too-yazi
+./install.sh
+```
+
+</details>
+
 
 - [Discord (English mainly)](https://discord.gg/qfADduSdJu)
 - [Telegram (Chinese mainly)](https://t.me/yazi_rs)
