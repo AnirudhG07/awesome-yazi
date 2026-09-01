@@ -1139,6 +1139,18 @@ ya pkg add uhs-robert/recycle-bin.yazi
 
 <details>
 <summary>
+<a href="https://github.com/volker-schukai/red-table/tree/main/red-table.yazi">red-table.yazi</a> - Select images visually in red-table and return the confirmed selection to Yazi.
+</summary>
+
+```bash
+# Requirements: red-table, Unix, Yazi >= 26.5.6
+ya pkg add volker-schukai/red-table:red-table
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Ape/reflink.yazi">reflink.yazi</a> - Create reflinks to files.
 </summary>
 
