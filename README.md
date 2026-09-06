@@ -1025,6 +1025,17 @@ ya pkg add mshnwq/dupes
 
 <details>
 <summary>
+<a href="https://github.com/lesliek-dev/encapsulate.yazi">encapsulate.yazi</a> - Move individual selected files into their own self-named directories.
+</summary>
+
+```bash
+ya pkg add lesliek-dev/encapsulate
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/BBOOXX/file-actions.yazi">file-actions.yazi</a> - A Yazi plugin that allows users to perform actions on selected files using custom scripts.
 </summary>
 
