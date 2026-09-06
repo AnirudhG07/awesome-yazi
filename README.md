@@ -2042,6 +2042,17 @@ ya pkg add AnirudhG07/custom-shell
 
 <details>
 <summary>
+<a href="https://github.com/tr1v3r/dsh-tui.yazi">dsh-tui.yazi</a> - Launch dsh-TUI with explicitly selected Yazi files appended to an editable prompt.
+</summary>
+
+```bash
+ya pkg add tr1v3r/dsh-tui
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/Tyarel8/nu.yazi">nu.yazi</a> - A plugin for yazi to execute `nu` code.
 </summary>
 
