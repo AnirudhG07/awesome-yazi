@@ -1127,6 +1127,17 @@ ya pkg add lmnek/pandoc
 
 <details>
 <summary>
+<a href="https://github.com/nmetschke/recents.yazi">recents.yazi</a> - Recently used files using the <a href="https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec">desktop-bookmark-spec</a> (Linux only), supporting viewing, adding and removing.
+</summary>
+
+```bash
+ya pkg add nmetschke/recents
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/uhs-robert/recycle-bin.yazi">recycle-bin.yazi</a> - Manage your Trash from Yazi: browse contents, restore or delete selected items, empty by age, or empty completely using trash-cli.
 </summary>
 
