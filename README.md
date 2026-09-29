@@ -727,6 +727,18 @@ ya pkg add pakhromov/goto-file-dir
 
 <details>
 <summary>
+<a href="https://github.com/skylightlim/gridview.yazi">gridview.yazi</a> - Browse the current folder's images as a thumbnail grid drawn by <a href="https://github.com/artemsen/swayimg">swayimg</a>, then jump to the one you pick (Wayland only).
+</summary>
+
+```bash
+# Requirements: swayimg 5.5 or newer (Wayland)
+ya pkg add skylightlim/gridview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://tangled.org/ivelieu.quietism.art/hxjump.yazi">hxjump.yazi</a> - Helix-like two character jump to any visible file or folder
 </summary>
 
