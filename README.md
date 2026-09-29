@@ -1105,6 +1105,22 @@ ya pkg add SL-RU/mount
 
 <details>
 <summary>
+<a href="https://github.com/skylightlim/omniconvert.yazi">omniconvert.yazi</a> - A conversion menu that offers only the formats the hovered or selected files can actually become (images, audio, video, PDF and documents), using <a href="https://imagemagick.org/">ImageMagick</a>, <a href="https://ffmpeg.org/">FFmpeg</a> and <a href="https://www.libreoffice.org/">LibreOffice</a>.
+</summary>
+
+```bash
+ya pkg add skylightlim/omniconvert
+
+# The plugin also needs its omniconvert script on your PATH:
+mkdir -p ~/.local/bin
+curl -fsSL https://raw.githubusercontent.com/skylightlim/omniconvert.yazi/main/omniconvert \
+  -o ~/.local/bin/omniconvert && chmod +x ~/.local/bin/omniconvert
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/ndtoan96/ouch.yazi">ouch.yazi</a> - An <a href="https://github.com/ouch-org/ouch">ouch</a> plugin for Yazi, supporting preview and compression.
 </summary>
 
