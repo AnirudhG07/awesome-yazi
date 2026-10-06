@@ -96,6 +96,17 @@ ya pkg add wylie102/duckdb
 
 <details>
 <summary>
+<a href="https://github.com/tr1v3r/epub-preview.yazi">epub-preview.yazi</a> - Preview EPUB covers using PyMuPDF, so no Linux-only thumbnailer is needed and it works on macOS too.
+</summary>
+
+```bash
+ya pkg add tr1v3r/epub-preview
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/epub.yazi">epub.yazi</a> - Plugin for Yazi to preview epub file.
 </summary>
 
