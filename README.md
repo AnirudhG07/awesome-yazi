@@ -1026,6 +1026,17 @@ ya pkg add yazi-rs/plugins:diff
 
 <details>
 <summary>
+<a href="https://github.com/glassjaw/difftool.yazi">difftool.yazi</a> - Compare two selected files or directories with your configured `git difftool` (Meld, VS Code, Beyond Compare, vimdiff, …).
+</summary>
+
+```bash
+ya pkg add glassjaw/difftool
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/mshnwq/dupes.yazi">dupes.yazi</a> - Duplicate files plugin for Yazi using `jdupes`.
 </summary>
 
