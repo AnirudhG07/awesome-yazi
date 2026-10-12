@@ -1917,6 +1917,17 @@ ya pkg add Lil-Dank/lazygit
 
 <details>
 <summary>
+<a href="https://github.com/ThomasVanRiel/repo-status.yazi">repo-status.yazi</a> - Show the branch and Git status next to every repository directory in the file list.
+</summary>
+  
+```bash
+ya pkg add ThomasVanRiel/repo-status
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/vcs-files.yazi">vcs-files.yazi</a> - Show Git file changes in Yazi.
 </summary>
 
