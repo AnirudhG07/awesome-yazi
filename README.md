@@ -1800,6 +1800,17 @@ ya pkg add Rolv-Apneseth/starship
 
 <details>
 <summary>
+<a href="https://github.com/yohkuri/supaline.yazi">supaline.yazi</a> - Turn the linemode into as many columns as you like (size, timestamps, permissions, owner and more, or your own), each styled its own way, with gradients across the folder.
+</summary>
+
+```bash
+ya pkg add yohkuri/supaline
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/yazi-rs/plugins/tree/main/toggle-pane.yazi">toggle-pane.yazi</a> - Toggle the show, hide, and maximize states for different panes: parent, current, and preview.
 </summary>
 
