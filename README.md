@@ -1609,6 +1609,17 @@ ya pkg add josephschmitt/auto-layout
 
 <details>
 <summary>
+<a href="https://github.com/Geronfir/Bifold.yazi">bifold.yazi</a> - Dual-pane view by splitting the screen between two tabs, with a runtime flip between side-by-side and stacked layouts, pane resizing, and cross-pane copy/move. Fork of split-tabs.yazi with bug fixes.
+</summary>
+
+```bash
+ya pkg add Geronfir/bifold
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://gitee.com/DreamMaoMao/current-size.yazi">current-size.yazi</a> - Get current path size in header bar for yazi plugin/
 </summary>
 
