@@ -144,6 +144,17 @@ ya pkg add ahkohd/eza-preview
 
 <details>
 <summary>
+<a href="https://github.com/DervexDev/f3d.yazi">f3d.yazi</a> - 3D model previewer with orbit, zoom and model stats, powered by <a href="https://f3d.app/">f3d</a>. Supports glTF, FBX, OBJ, STL, USD, STEP and more.
+</summary>
+
+```bash
+ya pkg add DervexDev/f3d
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/ruudjhuu/f3d-preview.yazi">f3d-preview.yazi</a> - Preview 3d objects like stl, step, 3mf, obj, and more using f3d.
 </summary>
 
