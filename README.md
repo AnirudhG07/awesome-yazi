@@ -1245,6 +1245,18 @@ ya pkg add Ape/reflink
 
 <details>
 <summary>
+<a href="https://github.com/superb-striker/retarget-link.yazi">retarget-link.yazi</a> - Edit an existing symlink's target path through an inline prompt without leaving Yazi.
+</summary>
+
+```bash
+# Requirements: Unix-like system with readlink and ln
+ya pkg add superb-striker/retarget-link
+```
+
+</details>
+
+<details>
+<summary>
 <a href="https://github.com/boydaihungst/restore.yazi">restore.yazi</a> - Undo/Recover trashed files/folders in Linux/MacOS.
 </summary>
 
