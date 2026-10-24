@@ -1245,7 +1245,7 @@ ya pkg add Ape/reflink
 
 <details>
 <summary>
-<a href="https://github.com/superb-striker/retarget-link.yazi">retarget-link.yazi</a> - Edit an existing symlink's target path through an inline prompt without leaving Yazi.
+<a href="https://github.com/superb-striker/retarget-link.yazi">retarget-link.yazi</a> - Edit symlink targets inline, just like renaming files.
 </summary>
 
 ```bash
