@@ -1150,7 +1150,7 @@ ya pkg add PHONE1X/lsblk-mount.yazi
 <details>
 
 <summary>
-<a href="https://github.com/goldfix/yazi-plugin-restic">Restic Plugin</a> - Yazi plugin to browse and restore Restic snapshots without FUSE. Snapshots appear as real folders with 0-byte placeholders, loaded lazily; files are fetched only on demand. Metadata preview, multi-select restore, SFTP support.
+<a href="https://github.com/goldfix/yazi-plugin-restic">Restic Plugin</a> - Yazi plugin to browse and restore Restic snapshots without FUSE. Snapshots appear as real folders and loaded lazily; files are fetched only on demand. Metadata preview, multi-select restore, SFTP / Cloud Storage / Rclone / etc. support.
 </summary>
 
 ```bash
