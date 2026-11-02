@@ -1431,7 +1431,7 @@ ya pkg add bmcszk/yazi-album-plugin
 
 ```bash
 ya pkg add hawkff/zippity:zippity
-# Requirements: the zippity helper from a release (see the README), 7-Zip as 7zz, yazi 26.9.1
+# Requirements: the zippity helper from a release (see the README), 7-Zip as 7zz, yazi 26.9.1 or nightly
 ```
 
 </details>
